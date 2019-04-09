@@ -12,6 +12,7 @@
 using namespace std;
 //string GetSwordParts(string, fstream, string, string, string);
 string _blade;
+string _Blade
 // Sets default values for this component's properties
 UJSONReaderComponenent::UJSONReaderComponenent()
 {
@@ -65,7 +66,8 @@ void UJSONReaderComponenent::BeginPlay()
 	if (_blade== swordpart) {
 	
 		UE_LOG(LogTemp, Log, TEXT("Found blade!"));
-		
+		_Blade = _blade.erase(_blade.begin(), _blade.end()-1, _blade.end());
+
 	}
 	//ofstream swordsdata;
 	//swordsdata.open("Swordsdata.txt", ios::app); //Not sure if he wants to append or 
