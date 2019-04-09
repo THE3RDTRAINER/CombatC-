@@ -1,0 +1,11 @@
+﻿  Creating makefile for hot reloading Prototype_CombatEditor (source directory changed)
+  Compiling game modules for hot reload
+  Using Visual Studio 2017 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 3 actions with 8 processes...
+    [1/3] JSONReaderComponenent.cpp
+    [2/3] UE4Editor-Prototype_Combat-9959.lib
+       Creating library C:\Users\Snowm\Desktop\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\UE4Editor-Prototype_Combat-9959.lib and object C:\Users\Snowm\Desktop\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\UE4Editor-Prototype_Combat-9959.exp
+    [3/3] UE4Editor-Prototype_Combat-9959.dll
+       Creating library C:\Users\Snowm\Desktop\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\UE4Editor-Prototype_Combat-9959.suppressed.lib and object C:\Users\Snowm\Desktop\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\UE4Editor-Prototype_Combat-9959.suppressed.exp
+  Deploying Prototype_CombatEditor Win64 Development...
+  Total build time: 7.05 seconds (Parallel executor: 1.77 seconds)

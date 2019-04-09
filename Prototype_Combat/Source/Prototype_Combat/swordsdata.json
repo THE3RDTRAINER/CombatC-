@@ -1,0 +1,16 @@
+{
+    "swords": [
+      {
+
+"Blade":
+"Sword_Blade_01",
+"Crossguard":
+"Sword_Crossguard_01",
+"Hilt":
+"Sword_hilt_01",
+"Pommel":
+"Sword_pommel_01"
+      }
+    ],
+    "dataTitle":"swordsdata"
+}

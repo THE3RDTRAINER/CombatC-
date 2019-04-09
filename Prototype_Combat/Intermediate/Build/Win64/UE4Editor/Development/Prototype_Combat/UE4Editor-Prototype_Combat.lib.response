@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Prototype_Combat.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Snowm\OneDrive\Documents\Unreal Projects\Prototype_Combat\Intermediate\Build\Win64\Prototype_CombatEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\Snowm\OneDrive\Documents\Unreal Projects\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\Prototype_Combat.cpp.obj"
+"C:\Users\Snowm\OneDrive\Documents\Unreal Projects\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\Prototype_CombatGameModeBase.cpp.obj"
+"C:\Users\Snowm\OneDrive\Documents\Unreal Projects\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\Prototype_Combat.init.gen.cpp.obj"
+"C:\Users\Snowm\OneDrive\Documents\Unreal Projects\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\Prototype_CombatGameModeBase.gen.cpp.obj"
+"C:\Users\Snowm\OneDrive\Documents\Unreal Projects\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\PCLaunch.rc.res"
+/OUT:"C:\Users\Snowm\OneDrive\Documents\Unreal Projects\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\UE4Editor-Prototype_Combat.lib"

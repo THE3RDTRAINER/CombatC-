@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Prototype_Combat.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{C1B660E9-33A0-413B-9C66-DB53C9556F9A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Prototype_Combat.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Prototype_CombatEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{458220D5-171E-4C04-8A96-39A2786BAD26}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Prototype_Combat">
+      <UniqueIdentifier>{6FEB3771-0943-480D-8539-768D31BB109F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Prototype_Combat\JSONReaderComponenent.cpp">
+      <Filter>Source\Prototype_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Prototype_Combat\JSONReaderComponenent.h">
+      <Filter>Source\Prototype_Combat</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Prototype_Combat\Prototype_Combat.Build.cs">
+      <Filter>Source\Prototype_Combat</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Prototype_Combat\Prototype_Combat.cpp">
+      <Filter>Source\Prototype_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Prototype_Combat\Prototype_Combat.h">
+      <Filter>Source\Prototype_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Prototype_Combat\Prototype_CombatGameModeBase.cpp">
+      <Filter>Source\Prototype_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Prototype_Combat\Prototype_CombatGameModeBase.h">
+      <Filter>Source\Prototype_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Prototype_Combat\ReadingJSONs.cpp">
+      <Filter>Source\Prototype_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Prototype_Combat\ReadingJSONs.h">
+      <Filter>Source\Prototype_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Prototype_Combat\ReadJSON.cpp">
+      <Filter>Source\Prototype_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Prototype_Combat\ReadJSON.h">
+      <Filter>Source\Prototype_Combat</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Prototype_Combat\swordsdata.json">
+      <Filter>Source\Prototype_Combat</Filter>
+    </None>
+    <Filter Include="Source\Prototype_Combat\FP_FirstPerson">
+      <UniqueIdentifier>{F10DD702-CCE6-499C-BCE5-AA0736EBEA84}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Prototype_Combat\FP_FirstPerson\FP_FirstPerson.h">
+      <Filter>Source\Prototype_Combat\FP_FirstPerson</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Prototype_Combat\FP_FirstPerson\FP_FirstPersonCharacter.cpp">
+      <Filter>Source\Prototype_Combat\FP_FirstPerson</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Prototype_Combat\FP_FirstPerson\FP_FirstPersonCharacter.h">
+      <Filter>Source\Prototype_Combat\FP_FirstPerson</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Prototype_Combat\FP_FirstPerson\FP_FirstPersonGameMode.cpp">
+      <Filter>Source\Prototype_Combat\FP_FirstPerson</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Prototype_Combat\FP_FirstPerson\FP_FirstPersonGameMode.h">
+      <Filter>Source\Prototype_Combat\FP_FirstPerson</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Prototype_Combat\FP_FirstPerson\FP_FirstPersonHUD.cpp">
+      <Filter>Source\Prototype_Combat\FP_FirstPerson</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Prototype_Combat\FP_FirstPerson\FP_FirstPersonHUD.h">
+      <Filter>Source\Prototype_Combat\FP_FirstPerson</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1296 @@
+﻿Log file open, 04/08/19 21:24:34
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Prototype_Combat
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.274954
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.134s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz, GPU: Intel(R) UHD Graphics 620
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.008s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.04.09-01.24.35:331][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.04.09-01.24.35:331][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.04.09-01.24.35:331][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Snowm/Desktop/Prototype_Combat/Saved/Config/Windows/Engine.ini]
+[2019.04.09-01.24.35:331][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.04.09-01.24.35:331][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Snowm/Desktop/Prototype_Combat/Saved/Config/Windows/Engine.ini]
+[2019.04.09-01.24.35:331][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Snowm/Desktop/Prototype_Combat/Saved/Config/Windows/Engine.ini]
+[2019.04.09-01.24.35:331][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.04.09-01.24.35:331][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.04.09-01.24.35:331][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.04.09-01.24.35:331][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.04.09-01.24.35:331][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.04.09-01.24.35:331][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.04.09-01.24.35:331][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.04.09-01.24.35:331][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.04.09-01.24.35:331][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.04.09-01.24.35:331][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.04.09-01.24.35:331][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.04.09-01.24.35:331][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.04.09-01.24.35:331][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.04.09-01.24.35:332][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Snowm/Desktop/Prototype_Combat/Saved/Config/Windows/Engine.ini]
+[2019.04.09-01.24.35:332][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.04.09-01.24.35:332][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.04.09-01.24.35:332][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.04.09-01.24.35:332][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.04.09-01.24.35:332][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.04.09-01.24.35:332][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.04.09-01.24.35:332][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.04.09-01.24.35:332][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.04.09-01.24.35:332][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.04.09-01.24.35:332][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.04.09-01.24.35:332][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.04.09-01.24.35:332][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.04.09-01.24.35:332][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.04.09-01.24.35:332][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.04.09-01.24.35:332][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Snowm/Desktop/Prototype_Combat/Saved/Config/Windows/Engine.ini]
+[2019.04.09-01.24.35:332][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Snowm/Desktop/Prototype_Combat/Saved/Config/Windows/Engine.ini]
+[2019.04.09-01.24.35:337][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Snowm/Desktop/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.09-01.24.35:337][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.09-01.24.35:337][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.09-01.24.35:337][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Snowm/Desktop/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Snowm/Desktop/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Snowm/Desktop/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.04.09-01.24.35:338][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Snowm/Desktop/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Snowm/Desktop/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.09-01.24.35:339][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.09-01.24.35:340][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Snowm/Desktop/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.09-01.24.35:340][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.09-01.24.35:340][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.09-01.24.35:340][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.09-01.24.35:340][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.09-01.24.35:355][  0]LogHAL: Display: Platform has ~ 16 GB [16949690368 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.09-01.24.35:355][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.04.09-01.24.35:355][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.09-01.24.35:356][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [C:/Users/Snowm/Desktop/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [C:/Users/Snowm/Desktop/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [C:/Users/Snowm/Desktop/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [C:/Users/Snowm/Desktop/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [C:/Users/Snowm/Desktop/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
+[2019.04.09-01.24.35:356][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2019.04.09-01.24.35:357][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
+[2019.04.09-01.24.35:357][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.09-01.24.35:357][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [C:/Users/Snowm/Desktop/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.09-01.24.35:357][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2019.04.09-01.24.35:357][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2019.04.09-01.24.35:357][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.04.09-01.24.35:357][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2019.04.09-01.24.35:357][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2019.04.09-01.24.35:357][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.04.09-01.24.35:357][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2019.04.09-01.24.35:357][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2019.04.09-01.24.35:357][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2019.04.09-01.24.35:357][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2019.04.09-01.24.35:357][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.09-01.24.35:357][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2019.04.09-01.24.35:357][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2019.04.09-01.24.35:357][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [C:/Users/Snowm/Desktop/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.09-01.24.35:357][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
+[2019.04.09-01.24.35:357][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
+[2019.04.09-01.24.35:357][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.04.09-01.24.35:357][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.04.09-01.24.35:357][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Snowm/Desktop/Prototype_Combat/Saved/Config/Windows/Engine.ini]
+[2019.04.09-01.24.35:357][  0]LogInit: Computer: DESKTOP-3QPJQ6S
+[2019.04.09-01.24.35:357][  0]LogInit: User: Snowm
+[2019.04.09-01.24.35:357][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.09-01.24.35:358][  0]LogInit: High frequency timer resolution =1.945312 MHz
+[2019.04.09-01.24.35:358][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2019.04.09-01.24.35:358][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.09-01.24.35:358][  0]LogMemory: Process Physical Memory: 102.25 MB used, 102.25 MB peak
+[2019.04.09-01.24.35:358][  0]LogMemory: Process Virtual Memory: 91.47 MB used, 91.47 MB peak
+[2019.04.09-01.24.35:358][  0]LogMemory: Physical Memory: 6881.89 MB used,  9282.59 MB free, 16164.48 MB total
+[2019.04.09-01.24.35:358][  0]LogMemory: Virtual Memory: 4653.14 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2019.04.09-01.24.35:390][  0]LogInit: Using OS detected language (en-US).
+[2019.04.09-01.24.35:390][  0]LogInit: Using OS detected locale (en-US).
+[2019.04.09-01.24.35:392][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.09-01.24.35:886][  0]LogStreaming: Display: Took  0.495s to InitEngineTextLocalization.
+[2019.04.09-01.24.35:886][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.09-01.24.35:956][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.09-01.24.35:956][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.09-01.24.36:551][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.09-01.24.36:551][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.09-01.24.36:644][  0]LogD3D11RHI:    0. 'NVIDIA GeForce MX150' (Feature Level 11_0)
+[2019.04.09-01.24.36:644][  0]LogD3D11RHI:       1983/0/8082 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.09-01.24.36:666][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2019.04.09-01.24.36:666][  0]LogD3D11RHI:       128/0/8082 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.04.09-01.24.36:671][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.09-01.24.36:671][  0]LogD3D11RHI:       0/0/8082 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.09-01.24.36:671][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.09-01.24.36:706][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.09-01.24.36:706][  0]LogD3D11RHI:     GPU DeviceId: 0x1d10 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.09-01.24.36:706][  0]LogWindows: EnumDisplayDevices:
+[2019.04.09-01.24.36:707][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2019.04.09-01.24.36:707][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.04.09-01.24.36:707][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.04.09-01.24.36:707][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.09-01.24.36:707][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce MX150
+[2019.04.09-01.24.36:707][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.09-01.24.36:707][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.04.09-01.24.36:707][  0]LogRHI: Texture pool is 1388 MB (70% of 1983 MB)
+[2019.04.09-01.24.36:775][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.09-01.24.36:794][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.04.09-01.24.37:222][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.09-01.24.37:240][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.09-01.24.37:256][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.09-01.24.37:275][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.09-01.24.37:294][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.09-01.24.37:312][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.09-01.24.37:327][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.09-01.24.37:345][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.09-01.24.37:353][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.09-01.24.37:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-01.24.37:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-01.24.37:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-01.24.37:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-01.24.37:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-01.24.37:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-01.24.37:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-01.24.37:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-01.24.37:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-01.24.37:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-01.24.37:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-01.24.37:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-01.24.37:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-01.24.37:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-01.24.37:451][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-01.24.37:451][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-01.24.37:451][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-01.24.37:451][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-01.24.37:453][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.09-01.24.37:523][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.09-01.24.37:523][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.09-01.24.37:557][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.09-01.24.37:557][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.09-01.24.37:573][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.09-01.24.37:586][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.09-01.24.37:602][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.09-01.24.37:618][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.09-01.24.37:675][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.09-01.24.37:675][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.09-01.24.37:675][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.09-01.24.37:747][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../Users/Snowm/Desktop/Prototype_Combat/Intermediate/Shaders/WorkingDirectory/11656/).
+[2019.04.09-01.24.37:748][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Snowm/AppData/Local/Temp/UnrealShaderWorkingDir/B3C98D6C4E43B20166EC1192EA82D81A/'.
+[2019.04.09-01.24.37:750][  0]LogXGEController: Cleaning working directory: C:/Users/Snowm/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.09-01.24.37:750][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.09-01.24.37:750][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.09-01.24.37:750][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.09-01.24.38:619][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.09-01.24.38:727][  0]LogDerivedDataCache: Loaded boot cache 0.11s 73MB C:/Users/Snowm/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.09-01.24.38:727][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Snowm/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.04.09-01.24.38:727][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Snowm/Desktop/Prototype_Combat/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.09-01.24.38:727][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.09-01.24.38:727][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Snowm/Desktop/Prototype_Combat/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.09-01.24.38:727][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.09-01.24.38:753][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.09-01.24.38:753][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.09-01.24.38:753][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.04.09-01.24.38:766][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Snowm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.09-01.24.38:766][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.09-01.24.38:766][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.09-01.24.38:805][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.09-01.24.38:808][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.09-01.24.38:808][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.09-01.24.38:939][  0]LogAssetRegistry: FAssetRegistry took 0.0416 seconds to start up
+[2019.04.09-01.24.39:506][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.09-01.24.39:739][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.09-01.24.39:747][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.09-01.24.39:747][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.09-01.24.39:747][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.09-01.24.39:747][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.09-01.24.39:764][  0]LogNetVersion: Prototype_Combat 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3546136163)
+[2019.04.09-01.24.40:564][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.167751 seconds
+[2019.04.09-01.24.40:574][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.04.09-01.24.40:574][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.04.09-01.24.40:574][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.09-01.24.41:827][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.09-01.24.41:845][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.09-01.24.43:013][  0]SourceControl: Source control is disabled
+[2019.04.09-01.24.43:013][  0]SourceControl: Source control is disabled
+[2019.04.09-01.24.43:017][  0]SourceControl: Source control is disabled
+[2019.04.09-01.24.43:019][  0]SourceControl: Source control is disabled
+[2019.04.09-01.24.43:268][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.09-01.24.43:433][  0]LogOcInput: OculusInput pre-init called
+[2019.04.09-01.24.43:633][  0]LogEngine: Initializing Engine...
+[2019.04.09-01.24.43:634][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.09-01.24.43:635][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.09-01.24.43:636][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.09-01.24.43:636][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.09-01.24.43:636][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.09-01.24.44:034][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.09-01.24.44:051][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.09-01.24.44:063][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.09-01.24.44:758][  0]LogInit: FAudioDevice initialized.
+[2019.04.09-01.24.44:759][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.09-01.24.44:865][  0]LogDerivedDataCache: Saved boot cache 0.11s 73MB C:/Users/Snowm/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.09-01.24.44:865][  0]LogInit: Texture streaming: Enabled
+[2019.04.09-01.24.44:882][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.09-01.24.44:896][  0]LogInit: Transaction tracking system initialized
+[2019.04.09-01.24.44:922][  0]BlueprintLog: New page: Editor Load
+[2019.04.09-01.24.45:078][  0]LocalizationService: Localization service is disabled
+[2019.04.09-01.24.46:273][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Snowm/Desktop/Prototype_Combat/Content/' took 0.03s
+[2019.04.09-01.24.46:273][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.09-01.24.46:273][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.09-01.24.46:274][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.09-01.24.46:274][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.09-01.24.46:274][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.09-01.24.46:274][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.09-01.24.46:274][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.09-01.24.46:724][  0]SourceControl: Source control is disabled
+[2019.04.09-01.24.46:725][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Snowm/Desktop/Prototype_Combat/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.09-01.24.46:725][  0]LightingResults: New page: Lighting Build
+[2019.04.09-01.24.46:729][  0]MapCheck: New page: Map Check
+[2019.04.09-01.24.46:729][  0]LightingResults: New page: Lighting Build
+[2019.04.09-01.24.47:330][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.04.09-01.24.47:344][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.09-01.24.47:383][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.09-01.24.47:383][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.272ms to complete.
+[2019.04.09-01.24.47:383][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.659
+[2019.04.09-01.24.47:532][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-01.24.47:544][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-01.24.47:557][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-01.24.47:573][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-01.24.47:582][  0]LogCollectionManager: Loaded 0 collections in 0.002155 seconds
+[2019.04.09-01.24.47:605][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Snowm/Desktop/Prototype_Combat/Saved/Collections/' took 0.01s
+[2019.04.09-01.24.47:605][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Snowm/Desktop/Prototype_Combat/Content/Developers/Snowm/Collections/' took 0.00s
+[2019.04.09-01.24.47:605][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Snowm/Desktop/Prototype_Combat/Content/Collections/' took 0.00s
+[2019.04.09-01.24.47:605][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2019.04.09-01.24.47:620][  0]LogContentBrowser: Native class hierarchy populated in 0.0140 seconds. Added 2657 classes and 623 folders.
+[2019.04.09-01.24.47:630][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.04.09-01.24.47:632][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.09-01.24.47:633][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.09-01.24.47:634][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.09-01.24.47:635][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.09-01.24.47:637][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.09-01.24.47:638][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.09-01.24.47:639][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.09-01.24.47:640][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.09-01.24.47:640][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.09-01.24.47:641][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.09-01.24.47:642][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.09-01.24.47:642][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.09-01.24.47:643][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.09-01.24.47:644][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.09-01.24.47:644][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.09-01.24.47:645][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.09-01.24.47:646][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.09-01.24.47:646][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.09-01.24.47:647][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.09-01.24.47:648][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.09-01.24.47:648][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.09-01.24.47:649][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.09-01.24.47:650][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.09-01.24.47:650][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.09-01.24.47:651][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.09-01.24.47:652][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.09-01.24.47:730][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.04.09-01.24.47:744][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2019.04.09-01.24.47:879][  0]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.09-01.24.47:882][  0]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.09-01.24.47:893][  0]LogSlate: Took 0.000389 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.09-01.24.47:894][  0]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.04.09-01.24.48:149][  0]LogRenderer: Reallocating scene render targets to support 936x436 Format 9 NumSamples 1 (Frame:1).
+[2019.04.09-01.24.48:400][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2019.04.09-01.24.48:400][  0]LogLoad: (Engine Initialization) Total time: 15.12 seconds
+[2019.04.09-01.24.48:400][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.09-01.24.48:420][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.09-01.24.48:479][  0]LogContentStreaming: Texture pool size now 400 MB
+[2019.04.09-01.24.48:753][  2]LogAssetRegistry: Asset discovery search completed in 9.8356 seconds
+[2019.04.09-01.24.48:757][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.04.09-01.24.48:757][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000282 seconds (updated 0 objects)
+[2019.04.09-01.24.51:233][ 99]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-01.24.51:300][ 99]LogSlate: Took 0.000290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.09-01.24.53:034][159]LogSlate: Took 0.001392 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.09-01.24.53:076][159]LogAssetEditorManager: Opening Asset editor for Class /Script/Prototype_Combat.JSONReaderComponenent
+[2019.04.09-01.25.06:989][318]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2019.04.09-01.25.15:813][376]Candidate modules for hot reload:
+[2019.04.09-01.25.15:813][376]  Prototype_Combat
+[2019.04.09-01.25.15:814][376]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Prototype_Combat,924 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Snowm/Desktop/Prototype_Combat/Prototype_Combat.uproject" -canskiplink "C:/Users/Snowm/Desktop/Prototype_Combat/Prototype_Combat.uproject" ]
+[2019.04.09-01.25.15:834][376]Warning: Starting HotReload took  0.1s.
+[2019.04.09-01.25.41:498][920]CompilerResultsLog: New page: Compilation - Apr 8, 2019, 5:25:41 PM
+[2019.04.09-01.25.41:498][920]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2019.04.09-01.25.41:499][920]CompilerResultsLog: Creating makefile for hot reloading Prototype_CombatEditor (game project files are newer)
+[2019.04.09-01.25.41:500][920]CompilerResultsLog: Compiling game modules for hot reload
+[2019.04.09-01.25.41:501][920]CompilerResultsLog: Using Visual Studio 2017 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.04.09-01.25.41:503][920]CompilerResultsLog: Target is up to date
+[2019.04.09-01.25.41:503][920]CompilerResultsLog: Total build time: 23.36 seconds (NoActionsToExecute executor: 0.01 seconds)
+[2019.04.09-01.25.41:504][920]LogMainFrame: MainFrame: Module compiling took 25.697 seconds
+[2019.04.09-01.25.41:621][920]LogContentBrowser: Native class hierarchy populated in 0.0440 seconds. Added 2658 classes and 625 folders.
+[2019.04.09-01.25.41:623][920]Display: HotReload took 25.9s.
+[2019.04.09-01.27.14:444][269]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.09-01.27.14:488][269]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.04.09-01.27.14:489][269]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.09-01.27.14:490][269]PIE: New page: PIE session: Minimal_Default (Apr 8, 2019, 5:27:14 PM)
+[2019.04.09-01.27.14:507][269]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2019.04.09-01.27.14:547][269]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036338s)
+[2019.04.09-01.27.14:548][269]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.04.09-01.27.14:548][269]LogPlayLevel: PIE: World Init took: (0.001399s)
+[2019.04.09-01.27.14:549][269]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.041318s)
+[2019.04.09-01.27.14:601][269]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.09-01.27.14:711][269]LogInit: FAudioDevice initialized.
+[2019.04.09-01.27.14:767][269]LogLoad: Game class is 'FP_FirstPersonGameMode'
+[2019.04.09-01.27.14:771][269]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2019.04.08-21.27.14
+[2019.04.09-01.27.14:772][269]LogWorld: Bringing up level for play took: 0.001877
+[2019.04.09-01.27.14:856][269]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 20 classes and 0 folders.
+[2019.04.09-01.27.14:863][269]LogTemp: File can be read!
+[2019.04.09-01.27.14:864][269]LogTemp: Found blade!
+[2019.04.09-01.27.14:865][269]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.423
+[2019.04.09-01.27.14:865][269]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.04.09-01.27.18:356][383]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.04.09-01.27.18:363][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-01.27.18:442][383]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.09-01.27.18:443][383]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.04.09-01.27.18:500][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-01.27.18:567][384]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.04.09-01.41.47:398][ 70]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.41.47:900][ 71]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.41.48:412][ 72]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.41.48:915][ 73]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.41.49:416][ 74]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.41.49:918][ 75]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.41.50:419][ 76]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.41.50:921][ 77]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.41.51:423][ 78]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.41.51:924][ 79]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.41.52:426][ 80]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.41.52:928][ 81]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.41.53:429][ 82]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.41.53:931][ 83]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.41.54:433][ 84]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.41.54:934][ 85]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.41.55:436][ 86]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.41.55:938][ 87]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.41.56:439][ 88]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.41.57:326][ 90]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.41.57:827][ 91]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.41.58:846][ 93]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.41.59:357][ 94]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.41.59:866][ 95]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.00:375][ 96]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.00:887][ 97]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.01:398][ 98]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.01:912][ 99]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.02:424][100]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.02:934][101]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.03:443][102]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.03:952][103]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.04:461][104]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.04:963][105]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.05:465][106]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.05:967][107]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.06:468][108]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.06:970][109]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.07:471][110]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.07:972][111]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.08:474][112]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.08:975][113]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.09:477][114]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.09:979][115]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.10:480][116]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.10:981][117]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.11:702][119]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.12:204][120]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.12:705][121]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.13:213][122]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.13:726][123]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.14:240][124]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.14:750][125]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.15:252][126]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.15:754][127]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.16:255][128]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.16:756][129]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.17:257][130]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.17:759][131]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.18:261][132]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.18:763][133]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.19:264][134]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.19:766][135]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.20:267][136]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.20:769][137]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.21:271][138]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.21:773][139]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.22:274][140]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.22:776][141]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.23:278][142]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.23:780][143]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.24:281][144]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.24:782][145]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.25:284][146]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.25:786][147]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.26:288][148]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.26:790][149]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.27:291][150]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.27:793][151]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.28:294][152]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.28:796][153]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.29:298][154]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.29:800][155]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.30:301][156]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.30:803][157]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.31:305][158]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.31:806][159]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.32:307][160]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.32:810][161]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.33:311][162]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.33:812][163]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.34:446][165]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.35:448][167]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.35:962][168]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.36:464][169]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.36:974][170]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.37:486][171]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.37:995][172]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.38:503][173]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.39:006][174]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.39:507][175]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.40:008][176]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.40:510][177]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.41:011][178]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.41:513][179]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.42:015][180]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.42:516][181]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.43:017][182]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.43:518][183]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.44:021][184]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.44:522][185]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.45:024][186]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.45:525][187]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.46:027][188]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.46:529][189]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.47:030][190]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.47:532][191]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.48:033][192]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.48:535][193]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.49:038][194]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.49:539][195]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.50:041][196]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.50:542][197]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.51:044][198]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.51:545][199]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.52:046][200]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.52:548][201]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.53:049][202]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.53:551][203]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.54:053][204]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.54:554][205]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.55:056][206]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.55:557][207]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.56:059][208]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.56:561][209]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.57:061][210]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.57:563][211]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.58:064][212]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.58:566][213]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.59:067][214]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.42.59:569][215]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.00:071][216]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.00:572][217]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.01:079][218]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.01:595][219]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.02:104][220]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.02:606][221]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.03:107][222]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.03:608][223]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.04:110][224]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.04:611][225]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.05:113][226]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.05:615][227]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.06:116][228]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.06:618][229]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.07:120][230]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.07:621][231]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.08:123][232]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.08:624][233]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.09:126][234]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.09:627][235]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.10:128][236]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.10:631][237]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.11:132][238]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.11:634][239]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.12:135][240]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.12:637][241]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.13:138][242]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.13:640][243]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.14:141][244]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.14:644][245]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.15:146][246]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.15:647][247]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.16:148][248]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.16:650][249]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.17:152][250]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.17:653][251]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.18:155][252]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.18:656][253]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.19:157][254]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.19:659][255]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.20:161][256]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.20:664][257]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.21:179][258]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.21:681][259]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.22:193][260]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.22:713][261]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.23:216][262]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.23:723][263]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.24:248][264]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.24:764][265]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.25:266][266]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.25:768][267]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.26:286][268]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.26:796][269]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.27:306][270]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.27:826][271]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.28:332][272]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.28:858][273]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.29:361][274]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.29:865][275]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.30:373][276]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.30:900][277]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.31:403][278]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.31:918][279]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.32:437][280]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.32:954][281]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.33:465][282]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.33:968][283]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.34:487][284]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.34:990][285]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.35:506][286]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.36:018][287]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.36:525][288]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.37:035][289]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.37:538][290]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.38:050][291]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.38:569][292]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.39:092][293]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.39:595][294]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.40:108][295]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.40:626][296]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.41:153][297]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.41:693][298]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.42:213][299]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.42:716][300]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.43:227][301]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.43:740][302]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.44:263][303]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.44:764][304]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.45:271][305]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.45:792][306]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.46:306][307]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.46:809][308]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.47:310][309]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.47:812][310]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.48:313][311]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.48:815][312]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.49:315][313]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.49:817][314]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.50:319][315]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.50:820][316]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.51:321][317]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.51:823][318]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.52:325][319]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.52:826][320]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.53:328][321]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.53:830][322]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.54:331][323]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.54:833][324]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.55:334][325]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.55:837][326]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.56:340][327]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.56:841][328]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.57:342][329]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.57:844][330]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.58:345][331]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.58:846][332]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.59:348][333]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.43.59:850][334]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.00:351][335]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.01:346][337]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.01:847][338]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.02:348][339]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.02:850][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.03:359][341]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.03:866][342]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.04:369][343]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.04:871][344]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.05:372][345]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.10:011][359]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.10:519][360]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.11:021][361]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.11:532][362]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.12:039][363]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.12:540][364]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.13:041][365]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.13:544][366]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.14:045][367]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.14:546][368]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.15:047][369]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.15:549][370]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.16:050][371]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.16:553][372]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.17:054][373]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.17:556][374]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.18:057][375]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.18:558][376]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.19:060][377]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.19:562][378]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.20:063][379]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.20:564][380]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.21:067][381]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.21:567][382]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.22:069][383]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.22:571][384]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.23:072][385]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.23:574][386]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.24:076][387]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.24:577][388]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.25:078][389]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.25:581][390]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.26:082][391]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.27:464][394]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.27:972][395]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.28:472][396]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.28:975][397]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.29:476][398]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.29:977][399]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.30:479][400]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.30:980][401]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.31:481][402]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.31:983][403]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.32:484][404]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.32:986][405]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.33:488][406]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.33:989][407]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.34:491][408]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.34:992][409]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.35:493][410]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.35:994][411]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.36:496][412]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.36:997][413]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.37:500][414]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.38:001][415]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.38:502][416]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.39:005][417]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.39:506][418]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.40:007][419]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.40:509][420]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.41:011][421]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.41:512][422]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.42:014][423]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.42:516][424]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.43:017][425]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.43:518][426]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.44:020][427]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.44:522][428]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.45:023][429]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.45:524][430]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.09-01.44.58:291][468]LogRenderer: Reallocating scene render targets to support 936x460 Format 9 NumSamples 1 (Frame:4268).
+[2019.04.09-01.46.23:547][155]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms
+[2019.04.09-01.46.23:572][155]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2019.04.09-01.46.23:928][155]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.04.09-01.46.23:933][155]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0008 seconds. Added 1 classes and 0 folders.
+[2019.04.09-01.46.24:014][155]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.04.09-01.46.24:557][155]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2019.04.09-01.46.24:560][155]LogRenderer: Reallocating scene render targets to support 936x672 Format 9 NumSamples 1 (Frame:1).
+[2019.04.09-01.46.30:211][266]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-01.46.53:506][735]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.09-01.46.53:718][735]LogSavePackage: Moving '../../../../../../Users/Snowm/Desktop/Prototype_Combat/Saved/SK_Mannequin_Arms4A4BC4F84E30711C0240C3944FA414F5.tmp' to '../../../../../../Users/Snowm/Desktop/Prototype_Combat/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms.uasset'
+[2019.04.09-01.46.57:116][807]LogSlate: Window 'SK_Mannequin_Arms' being destroyed
+[2019.04.09-01.46.57:129][807]LogSlate: Window 'SK_Mannequin_Arms' being destroyed
+[2019.04.09-01.48.02:213][278]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.029
+[2019.04.09-01.48.02:216][278]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton] ([1] browsable assets)...
+[2019.04.09-01.48.02:217][278]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton]
+[2019.04.09-01.48.02:226][278]LogSavePackage: Moving '../../../../../../Users/Snowm/Desktop/Prototype_Combat/Saved/SK_Mannequin_Arms_Skeleton_Auto19FCC972040C9D665BDF6D9ABFEA9D0FA.tmp' to '../../../../../../Users/Snowm/Desktop/Prototype_Combat/Saved/Autosaves/Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton_Auto1.uasset'
+[2019.04.09-01.48.02:230][278]LogFileHelpers: Auto-saving content packages took 0.016
+[2019.04.09-01.51.13:754][ 69]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.09-01.51.17:313][138]LogSavePackage: Moving '../../../../../../Users/Snowm/Desktop/Prototype_Combat/Saved/Minimal_DefaultFA6D5D7D49CC6E75CBBA84A816D0861B.tmp' to '../../../../../../Users/Snowm/Desktop/Prototype_Combat/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.04.09-01.51.17:367][138]LogSavePackage: Moving '../../../../../../Users/Snowm/Desktop/Prototype_Combat/Saved/Minimal_Default_BuiltData9F97D0BB439D19CB7C7A3495CDF034A6.tmp' to '../../../../../../Users/Snowm/Desktop/Prototype_Combat/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2019.04.09-01.51.19:320][167]LogSlate: Window 'Save Content' being destroyed
+[2019.04.09-01.51.19:374][167]LogSavePackage: Moving '../../../../../../Users/Snowm/Desktop/Prototype_Combat/Saved/SK_Mannequin_Arms_SkeletonC9F5270542CA30DC1BC27B9A80B17F59.tmp' to '../../../../../../Users/Snowm/Desktop/Prototype_Combat/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset'
+[2019.04.09-01.51.19:424][167]LogSlate: Window 'Prototype_Combat - Unreal Editor' being destroyed
+[2019.04.09-01.51.19:818][168]Cmd: QUIT_EDITOR
+[2019.04.09-01.51.20:256][168]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.09-01.51.20:282][168]LogExit: Preparing to exit.
+[2019.04.09-01.51.20:465][168]LogExit: Editor shut down
+[2019.04.09-01.51.20:467][168]LogExit: Transaction tracking system shut down
+[2019.04.09-01.51.20:859][168]LogExit: Object subsystem successfully closed.
+[2019.04.09-01.51.20:891][168]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.04.09-01.51.20:903][168]LogD3D11RHI: Shutdown
+[2019.04.09-01.51.20:903][168]LogD3D11RHI: CleanupD3DDevice
+[2019.04.09-01.51.20:908][168]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.04.09-01.51.20:971][168]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (634)
+[2019.04.09-01.51.20:971][168]LogModuleManager: Shutting down and abandoning module PinnedCommandList (632)
+[2019.04.09-01.51.20:971][168]LogModuleManager: Shutting down and abandoning module SkeletonEditor (630)
+[2019.04.09-01.51.20:971][168]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (628)
+[2019.04.09-01.51.20:971][168]LogModuleManager: Shutting down and abandoning module Voice (626)
+[2019.04.09-01.51.20:971][168]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (624)
+[2019.04.09-01.51.20:971][168]LogModuleManager: Shutting down and abandoning module SceneOutliner (622)
+[2019.04.09-01.51.20:972][168]LogModuleManager: Shutting down and abandoning module AddContentDialog (620)
+[2019.04.09-01.51.20:972][168]LogModuleManager: Shutting down and abandoning module WidgetCarousel (619)
+[2019.04.09-01.51.20:972][168]LogModuleManager: Shutting down and abandoning module EditorWidgets (616)
+[2019.04.09-01.51.20:972][168]LogModuleManager: Shutting down and abandoning module CollectionManager (614)
+[2019.04.09-01.51.20:973][168]LogModuleManager: Shutting down and abandoning module StatsViewer (612)
+[2019.04.09-01.51.20:974][168]LogModuleManager: Shutting down and abandoning module FoliageEdit (610)
+[2019.04.09-01.51.20:974][168]LogModuleManager: Shutting down and abandoning module LandscapeEditor (608)
+[2019.04.09-01.51.20:976][168]LogModuleManager: Shutting down and abandoning module MeshPaintMode (606)
+[2019.04.09-01.51.20:976][168]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (604)
+[2019.04.09-01.51.20:976][168]LogModuleManager: Shutting down and abandoning module ActorPickerMode (602)
+[2019.04.09-01.51.20:976][168]LogModuleManager: Shutting down and abandoning module GeometryMode (600)
+[2019.04.09-01.51.20:976][168]LogModuleManager: Shutting down and abandoning module TextureAlignMode (598)
+[2019.04.09-01.51.20:976][168]LogModuleManager: Shutting down and abandoning module BspMode (596)
+[2019.04.09-01.51.20:976][168]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (594)
+[2019.04.09-01.51.20:977][168]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (592)
+[2019.04.09-01.51.20:977][168]LogModuleManager: Shutting down and abandoning module AutomationWorker (590)
+[2019.04.09-01.51.20:977][168]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (588)
+[2019.04.09-01.51.20:977][168]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (586)
+[2019.04.09-01.51.20:977][168]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (584)
+[2019.04.09-01.51.20:980][168]LogModuleManager: Shutting down and abandoning module PlacementMode (583)
+[2019.04.09-01.51.20:980][168]LogModuleManager: Shutting down and abandoning module MaterialEditor (582)
+[2019.04.09-01.51.20:981][168]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (578)
+[2019.04.09-01.51.20:981][168]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (576)
+[2019.04.09-01.51.20:981][168]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (574)
+[2019.04.09-01.51.20:981][168]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (572)
+[2019.04.09-01.51.20:981][168]LogModuleManager: Shutting down and abandoning module WebMMedia (570)
+[2019.04.09-01.51.20:982][168]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (568)
+[2019.04.09-01.51.20:983][168]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (566)
+[2019.04.09-01.51.20:984][168]LogModuleManager: Shutting down and abandoning module SequenceRecorder (565)
+[2019.04.09-01.51.20:984][168]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (562)
+[2019.04.09-01.51.20:984][168]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (560)
+[2019.04.09-01.51.20:984][168]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (558)
+[2019.04.09-01.51.20:984][168]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (556)
+[2019.04.09-01.51.20:984][168]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (554)
+[2019.04.09-01.51.20:984][168]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (552)
+[2019.04.09-01.51.20:984][168]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (550)
+[2019.04.09-01.51.20:984][168]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (548)
+[2019.04.09-01.51.20:984][168]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (546)
+[2019.04.09-01.51.20:984][168]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (544)
+[2019.04.09-01.51.20:984][168]LogModuleManager: Shutting down and abandoning module CharacterAI (542)
+[2019.04.09-01.51.20:984][168]LogModuleManager: Shutting down and abandoning module SmartSnapping (540)
+[2019.04.09-01.51.20:984][168]LogModuleManager: Shutting down and abandoning module SessionServices (538)
+[2019.04.09-01.51.20:984][168]LogModuleManager: Shutting down and abandoning module ViewportSnapping (536)
+[2019.04.09-01.51.20:984][168]LogModuleManager: Shutting down and abandoning module ViewportInteraction (534)
+[2019.04.09-01.51.20:984][168]LogModuleManager: Shutting down and abandoning module ClothPainter (532)
+[2019.04.09-01.51.20:985][168]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (531)
+[2019.04.09-01.51.20:985][168]LogModuleManager: Shutting down and abandoning module LogVisualizer (528)
+[2019.04.09-01.51.20:987][168]LogModuleManager: Shutting down and abandoning module IntroTutorials (526)
+[2019.04.09-01.51.20:989][168]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (525)
+[2019.04.09-01.51.20:989][168]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (522)
+[2019.04.09-01.51.20:990][168]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (520)
+[2019.04.09-01.51.20:990][168]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (518)
+[2019.04.09-01.51.20:990][168]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (516)
+[2019.04.09-01.51.20:990][168]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (515)
+[2019.04.09-01.51.21:347][168]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (512)
+[2019.04.09-01.51.21:347][168]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (510)
+[2019.04.09-01.51.21:347][168]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (508)
+[2019.04.09-01.51.21:348][168]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (506)
+[2019.04.09-01.51.21:348][168]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (504)
+[2019.04.09-01.51.21:348][168]LogModuleManager: Shutting down and abandoning module InputBindingEditor (502)
+[2019.04.09-01.51.21:349][168]LogModuleManager: Shutting down and abandoning module MergeActors (500)
+[2019.04.09-01.51.21:350][168]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (498)
+[2019.04.09-01.51.21:351][168]LogModuleManager: Shutting down and abandoning module LocalizationService (497)
+[2019.04.09-01.51.21:352][168]LogModuleManager: Shutting down and abandoning module HardwareTargeting (494)
+[2019.04.09-01.51.21:352][168]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (492)
+[2019.04.09-01.51.21:352][168]LogModuleManager: Shutting down and abandoning module UndoHistory (490)
+[2019.04.09-01.51.21:352][168]LogModuleManager: Shutting down and abandoning module XmlParser (488)
+[2019.04.09-01.51.21:353][168]LogModuleManager: Shutting down and abandoning module Blutility (486)
+[2019.04.09-01.51.21:353][168]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (484)
+[2019.04.09-01.51.21:353][168]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (483)
+[2019.04.09-01.51.21:354][168]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (480)
+[2019.04.09-01.51.21:354][168]LogModuleManager: Shutting down and abandoning module SettingsEditor (478)
+[2019.04.09-01.51.21:355][168]LogModuleManager: Shutting down and abandoning module ProjectLauncher (476)
+[2019.04.09-01.51.21:355][168]LogModuleManager: Shutting down and abandoning module SessionFrontend (474)
+[2019.04.09-01.51.21:356][168]LogModuleManager: Shutting down and abandoning module ProfilerClient (472)
+[2019.04.09-01.51.21:356][168]LogModuleManager: Shutting down and abandoning module DeviceManager (470)
+[2019.04.09-01.51.21:356][168]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (469)
+[2019.04.09-01.51.21:411][168]LogModuleManager: Shutting down and abandoning module AutomationController (466)
+[2019.04.09-01.51.21:412][168]LogModuleManager: Shutting down and abandoning module AutomationWindow (464)
+[2019.04.09-01.51.21:413][168]LogModuleManager: Shutting down and abandoning module Layers (462)
+[2019.04.09-01.51.21:415][168]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (460)
+[2019.04.09-01.51.21:415][168]LogModuleManager: Shutting down and abandoning module DetailCustomizations (458)
+[2019.04.09-01.51.21:415][168]LogModuleManager: Shutting down and abandoning module PackagesDialog (456)
+[2019.04.09-01.51.21:415][168]LogModuleManager: Shutting down and abandoning module Persona (454)
+[2019.04.09-01.51.21:416][168]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (453)
+[2019.04.09-01.51.21:416][168]LogModuleManager: Shutting down and abandoning module AnimGraph (451)
+[2019.04.09-01.51.21:416][168]LogModuleManager: Shutting down and abandoning module Kismet (448)
+[2019.04.09-01.51.21:418][168]LogModuleManager: Shutting down and abandoning module GraphEditor (446)
+[2019.04.09-01.51.21:420][168]LogModuleManager: Shutting down and abandoning module ClassViewer (444)
+[2019.04.09-01.51.21:420][168]LogModuleManager: Shutting down and abandoning module Toolbox (442)
+[2019.04.09-01.51.21:420][168]LogModuleManager: Shutting down and abandoning module DesktopPlatform (441)
+[2019.04.09-01.51.21:420][168]LogModuleManager: Shutting down and abandoning module ModuleUI (438)
+[2019.04.09-01.51.21:421][168]LogModuleManager: Shutting down and abandoning module MovieSceneTools (436)
+[2019.04.09-01.51.21:421][168]LogModuleManager: Shutting down and abandoning module OutputLog (434)
+[2019.04.09-01.51.21:421][168]LogModuleManager: Shutting down and abandoning module GammaUI (432)
+[2019.04.09-01.51.21:421][168]LogModuleManager: Shutting down and abandoning module Documentation (430)
+[2019.04.09-01.51.21:421][168]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (428)
+[2019.04.09-01.51.21:421][168]LogModuleManager: Shutting down and abandoning module MovieScene (426)
+[2019.04.09-01.51.21:422][168]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (424)
+[2019.04.09-01.51.21:422][168]LogModuleManager: Shutting down and abandoning module LauncherPlatform (422)
+[2019.04.09-01.51.21:422][168]LogModuleManager: Shutting down and abandoning module AnalyticsET (420)
+[2019.04.09-01.51.21:422][168]LogModuleManager: Shutting down and abandoning module PortalServices (418)
+[2019.04.09-01.51.21:422][168]LogModuleManager: Shutting down and abandoning module PortalRpc (416)
+[2019.04.09-01.51.21:422][168]LogModuleManager: Shutting down and abandoning module MessagingRpc (414)
+[2019.04.09-01.51.21:422][168]LogModuleManager: Shutting down and abandoning module AIModule (412)
+[2019.04.09-01.51.21:423][168]LogModuleManager: Shutting down and abandoning module GameplayDebugger (411)
+[2019.04.09-01.51.21:423][168]LogModuleManager: Shutting down and abandoning module AITestSuite (409)
+[2019.04.09-01.51.21:423][168]LogModuleManager: Shutting down and abandoning module NavigationSystem (407)
+[2019.04.09-01.51.21:423][168]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (404)
+[2019.04.09-01.51.21:426][168]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2019.04.09-01.51.21:553][168]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2019.04.09-01.51.21:554][168]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2019.04.09-01.51.21:554][168]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2019.04.09-01.51.21:555][168]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2019.04.09-01.51.21:556][168]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2019.04.09-01.51.21:556][168]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2019.04.09-01.51.21:556][168]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2019.04.09-01.51.21:556][168]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2019.04.09-01.51.21:556][168]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2019.04.09-01.51.21:556][168]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2019.04.09-01.51.21:556][168]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2019.04.09-01.51.21:556][168]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2019.04.09-01.51.21:556][168]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2019.04.09-01.51.21:557][168]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2019.04.09-01.51.21:558][168]LogModuleManager: Shutting down and abandoning module MediaCompositing (372)
+[2019.04.09-01.51.21:558][168]LogModuleManager: Shutting down and abandoning module LinearTimecode (370)
+[2019.04.09-01.51.21:558][168]LogModuleManager: Shutting down and abandoning module ImgMedia (368)
+[2019.04.09-01.51.21:565][168]LogModuleManager: Shutting down and abandoning module HTML5Networking (366)
+[2019.04.09-01.51.21:565][168]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
+[2019.04.09-01.51.21:565][168]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (362)
+[2019.04.09-01.51.21:565][168]LogModuleManager: Shutting down and abandoning module BackChannel (360)
+[2019.04.09-01.51.21:565][168]LogModuleManager: Shutting down and abandoning module AppleVision (358)
+[2019.04.09-01.51.21:565][168]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (356)
+[2019.04.09-01.51.21:565][168]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.04.09-01.51.21:566][168]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.04.09-01.51.21:566][168]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.04.09-01.51.21:566][168]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.04.09-01.51.21:566][168]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.04.09-01.51.21:566][168]LogModuleManager: Shutting down and abandoning module VariantManagerContent (344)
+[2019.04.09-01.51.21:566][168]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.04.09-01.51.21:566][168]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.04.09-01.51.21:566][168]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.04.09-01.51.21:568][168]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.04.09-01.51.21:569][168]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.04.09-01.51.21:569][168]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.04.09-01.51.21:569][168]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.04.09-01.51.21:569][168]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.04.09-01.51.21:570][168]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.04.09-01.51.21:570][168]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.04.09-01.51.21:570][168]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.04.09-01.51.21:570][168]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.04.09-01.51.21:570][168]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.04.09-01.51.21:571][168]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.04.09-01.51.21:573][168]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.04.09-01.51.21:573][168]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.04.09-01.51.21:574][168]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (310)
+[2019.04.09-01.51.21:574][168]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (308)
+[2019.04.09-01.51.21:574][168]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (306)
+[2019.04.09-01.51.21:574][168]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (304)
+[2019.04.09-01.51.21:574][168]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (302)
+[2019.04.09-01.51.21:574][168]LogModuleManager: Shutting down and abandoning module Paper2DEditor (300)
+[2019.04.09-01.51.21:575][168]LogModuleManager: Shutting down and abandoning module MeshPaint (299)
+[2019.04.09-01.51.21:575][168]LogModuleManager: Shutting down and abandoning module Prototype_Combat (296)
+[2019.04.09-01.51.21:575][168]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
+[2019.04.09-01.51.21:575][168]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
+[2019.04.09-01.51.21:575][168]LogModuleManager: Shutting down and abandoning module PhysXVehicles (290)
+[2019.04.09-01.51.21:575][168]LogModuleManager: Shutting down and abandoning module OculusEditor (288)
+[2019.04.09-01.51.21:576][168]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.04.09-01.51.21:576][168]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.04.09-01.51.21:576][168]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.04.09-01.51.21:677][168]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.04.09-01.51.21:777][168]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.04.09-01.51.21:777][168]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.04.09-01.51.21:777][168]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.04.09-01.51.21:777][168]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.04.09-01.51.21:777][168]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.04.09-01.51.21:777][168]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.04.09-01.51.21:779][168]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.04.09-01.51.21:782][168]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.04.09-01.51.21:783][168]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.04.09-01.51.21:783][168]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.04.09-01.51.21:783][168]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.04.09-01.51.21:785][168]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.04.09-01.51.21:787][168]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.04.09-01.51.21:788][168]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.04.09-01.51.21:788][168]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.04.09-01.51.21:788][168]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.04.09-01.51.21:788][168]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.04.09-01.51.21:788][168]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (244)
+[2019.04.09-01.51.21:789][168]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
+[2019.04.09-01.51.21:792][168]LogModuleManager: Shutting down and abandoning module Media (241)
+[2019.04.09-01.51.21:798][168]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
+[2019.04.09-01.51.21:798][168]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
+[2019.04.09-01.51.21:798][168]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
+[2019.04.09-01.51.21:799][168]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
+[2019.04.09-01.51.21:799][168]LogModuleManager: Shutting down and abandoning module Overlay (230)
+[2019.04.09-01.51.21:799][168]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
+[2019.04.09-01.51.21:799][168]LogModuleManager: Shutting down and abandoning module VREditor (226)
+[2019.04.09-01.51.21:800][168]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
+[2019.04.09-01.51.21:800][168]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
+[2019.04.09-01.51.21:800][168]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
+[2019.04.09-01.51.21:802][168]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
+[2019.04.09-01.51.21:802][168]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
+[2019.04.09-01.51.21:803][168]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
+[2019.04.09-01.51.21:803][168]LogModuleManager: Shutting down and abandoning module UMG (212)
+[2019.04.09-01.51.21:803][168]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
+[2019.04.09-01.51.21:804][168]LogModuleManager: Shutting down and abandoning module Sequencer (210)
+[2019.04.09-01.51.21:806][168]LogModuleManager: Shutting down and abandoning module MessageLog (207)
+[2019.04.09-01.51.21:806][168]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
+[2019.04.09-01.51.21:808][168]LogModuleManager: Shutting down and abandoning module Slate (200)
+[2019.04.09-01.51.21:808][168]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
+[2019.04.09-01.51.21:810][168]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.04.09-01.51.21:811][168]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.04.09-01.51.21:811][168]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.04.09-01.51.21:811][168]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.04.09-01.51.21:811][168]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.04.09-01.51.21:811][168]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.04.09-01.51.21:811][168]LogModuleManager: Shutting down and abandoning module LevelSequence (184)
+[2019.04.09-01.51.21:811][168]LogModuleManager: Shutting down and abandoning module KismetCompiler (182)
+[2019.04.09-01.51.21:811][168]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
+[2019.04.09-01.51.21:811][168]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
+[2019.04.09-01.51.21:812][168]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
+[2019.04.09-01.51.21:812][168]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (177)
+[2019.04.09-01.51.21:812][168]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (175)
+[2019.04.09-01.51.21:813][168]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (173)
+[2019.04.09-01.51.21:813][168]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
+[2019.04.09-01.51.21:813][168]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
+[2019.04.09-01.51.21:813][168]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
+[2019.04.09-01.51.21:813][168]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
+[2019.04.09-01.51.21:885][168]LogDerivedDataCache: Shutdown
+[2019.04.09-01.51.21:885][168]LogModuleManager: Shutting down and abandoning module XGEController (158)
+[2019.04.09-01.51.21:885][168]LogXGEController: Cleaning working directory: C:/Users/Snowm/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.09-01.51.21:886][168]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
+[2019.04.09-01.51.21:886][168]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
+[2019.04.09-01.51.21:887][168]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
+[2019.04.09-01.51.21:887][168]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
+[2019.04.09-01.51.21:888][168]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
+[2019.04.09-01.51.21:888][168]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
+[2019.04.09-01.51.21:888][168]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
+[2019.04.09-01.51.21:888][168]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
+[2019.04.09-01.51.21:889][168]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
+[2019.04.09-01.51.21:889][168]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
+[2019.04.09-01.51.21:890][168]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
+[2019.04.09-01.51.21:890][168]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
+[2019.04.09-01.51.21:890][168]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
+[2019.04.09-01.51.21:890][168]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
+[2019.04.09-01.51.21:890][168]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
+[2019.04.09-01.51.21:891][168]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
+[2019.04.09-01.51.21:891][168]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
+[2019.04.09-01.51.21:893][168]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2019.04.09-01.51.21:893][168]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2019.04.09-01.51.21:893][168]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
+[2019.04.09-01.51.21:893][168]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
+[2019.04.09-01.51.21:893][168]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
+[2019.04.09-01.51.21:896][168]LogModuleManager: Shutting down and abandoning module Messaging (113)
+[2019.04.09-01.51.21:896][168]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
+[2019.04.09-01.51.21:897][168]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
+[2019.04.09-01.51.21:897][168]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
+[2019.04.09-01.51.21:903][168]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
+[2019.04.09-01.51.21:903][168]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
+[2019.04.09-01.51.21:903][168]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
+[2019.04.09-01.51.21:903][168]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
+[2019.04.09-01.51.21:903][168]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
+[2019.04.09-01.51.21:903][168]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
+[2019.04.09-01.51.21:904][168]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
+[2019.04.09-01.51.21:904][168]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
+[2019.04.09-01.51.21:904][168]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
+[2019.04.09-01.51.21:904][168]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2019.04.09-01.51.21:904][168]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2019.04.09-01.51.21:904][168]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
+[2019.04.09-01.51.21:904][168]LogModuleManager: Shutting down and abandoning module SteamVR (80)
+[2019.04.09-01.51.21:904][168]LogHMD: Freeing OpenVRDLLHandle.
+[2019.04.09-01.51.21:904][168]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
+[2019.04.09-01.51.21:904][168]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2019.04.09-01.51.21:905][168]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2019.04.09-01.51.21:905][168]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
+[2019.04.09-01.51.21:905][168]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
+[2019.04.09-01.51.21:906][168]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2019.04.09-01.51.21:907][168]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2019.04.09-01.51.21:915][168]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2019.04.09-01.51.21:915][168]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.04.09-01.51.21:915][168]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B88F3A27D-40E5-1154-F887-30AD1B354042%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=2938f7d44d2e832cd679209e78c86766%7C2dcb689e85944acf89f68d859ee4373d%7Ccf057740-bf80-432a-9158-48f3fbb6a4cc&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.04.09-01.51.21:915][168]LogHttp: Warning: 00000160FAE53600: request has been successfully processed. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B88F3A27D-40E5-1154-F887-30AD1B354042%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=2938f7d44d2e832cd679209e78c86766%7C2dcb689e85944acf89f68d859ee4373d%7Ccf057740-bf80-432a-9158-48f3fbb6a4cc&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 502, content length: 138, actual payload size: 138
+[2019.04.09-01.51.21:915][168]LogHttp: Warning: 00000160FAE53600 Response Header Server: awselb/2.0
+[2019.04.09-01.51.21:915][168]LogHttp: Warning: 00000160FAE53600 Response Header Date: Tue, 09 Apr 2019 01:51:13 GMT
+[2019.04.09-01.51.21:915][168]LogHttp: Warning: 00000160FAE53600 Response Header Content-Type: text/html
+[2019.04.09-01.51.21:915][168]LogHttp: Warning: 00000160FAE53600 Response Header Content-Length: 138
+[2019.04.09-01.51.21:916][168]LogHttp: Warning: 00000160FAE53600 Response Header Connection: keep-alive
+[2019.04.09-01.51.21:944][168]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2019.04.09-01.51.21:947][168]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.04.09-01.51.21:947][168]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.04.09-01.51.21:947][168]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.04.09-01.51.21:947][168]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.04.09-01.51.21:947][168]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2019.04.09-01.51.21:948][168]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.04.09-01.51.21:948][168]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.04.09-01.51.21:948][168]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.04.09-01.51.21:948][168]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.04.09-01.51.21:949][168]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.04.09-01.51.21:950][168]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.04.09-01.51.21:950][168]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.04.09-01.51.21:951][168]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.04.09-01.51.21:951][168]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.04.09-01.51.21:953][168]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.04.09-01.51.21:953][168]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.04.09-01.51.21:953][168]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.04.09-01.51.21:956][168]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.04.09-01.51.21:956][168]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.04.09-01.51.21:957][168]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.04.09-01.51.21:957][168]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.04.09-01.51.21:957][168]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.04.09-01.51.21:957][168]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.04.09-01.51.21:957][168]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.04.09-01.51.21:957][168]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.04.09-01.51.21:957][168]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.04.09-01.51.21:958][168]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.04.09-01.51.21:958][168]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.04.09-01.51.21:969][168]LogExit: Exiting.
+[2019.04.09-01.51.21:979][168]Log file closed, 04/08/19 21:51:21
