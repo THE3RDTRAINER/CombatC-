@@ -6,7 +6,6 @@
 #include "Components/ActorComponent.h"
 #include "JSONReaderComponenent.generated.h"
 
-
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class PROTOTYPE_COMBAT_API UJSONReaderComponenent : public UActorComponent
 {
@@ -15,6 +14,8 @@ class PROTOTYPE_COMBAT_API UJSONReaderComponenent : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	UJSONReaderComponenent();
+
+
 
 protected:
 	// Called when the game starts

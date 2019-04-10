@@ -7,11 +7,21 @@
 #include "KismetSystemLibrary.generated.h"
 
 
-//#include "CoreUObject.h"
+
+#include "CoreUObject.h"
 using namespace std;
-//string GetSwordParts(string, fstream, string, string, string);
-string _blade;
+
+//void GetSwordParts(string, fstream, string, string, string );
+
+ifstream readSwords;
+string sword1;
+string swordpart;
+string parttofind = "\"Blade\":";
+string _blade="Blade";
 string _Blade;
+string _crossGuard; 
+int8 i=0;
+
 // Sets default values for this component's properties
 UJSONReaderComponenent::UJSONReaderComponenent()
 {
@@ -29,11 +39,9 @@ void UJSONReaderComponenent::BeginPlay()
 	Super::BeginPlay();
 
 	// ...
-	ifstream readSwords;
+
 	readSwords.open("swordsdata.JSON");
-	string sword1;
-	string swordpart;
-	string parttofind= "\"Blade\":";
+	
 	if (readSwords.fail())
 	{
 		UE_LOG(LogTemp, Log, TEXT("Read Has failed"));
@@ -53,22 +61,21 @@ void UJSONReaderComponenent::BeginPlay()
 	}
 
 	//UE_LOG(LogTemp, Log, TEXT("File can be read!"));
-	while (getline(readSwords, sword1)) {
-		//string GetSwordParts(string sword1, ifstream readSwords,string swordpart, string parttofind, string _blade);
-		//if (sword1 == "\"Blade\":") {
-			//getline(readSwords, swordpart);
-			//blade=swordpart;
-			//UE_LOG(LogTemp, Log, TEXT("Found blade!"));
-		//}
-	}
+	//while (getline(readSwords, sword1)) {
+		// void GetSwordParts(string sword1, ifstream readSwords,string swordpart, string parttofind, string& _blade);
+		
+	
 
-	if (_blade== swordpart) {
+/*	if (_blade== "\"Sword_Blade_01\",") {
 	
 		UE_LOG(LogTemp, Log, TEXT("Found blade!"));
 		//_Blade =_blade.erase(_blade.begin(), _blade.end()-1, _blade.end());
-
-		
+		//static ConstructorHelpers::FObjectFinder<UStaticMesh> blade("\Content\ModularWeapons\Meshes\Swords\Blades"+_Blade +".uasset");
+	
 	}
+	if (_crossGuard == "\"Sword_Crossguard_01\",") {
+		UE_LOG(LogTemp, Log, TEXT("Found crossguard!"));
+	}*/
 	//ofstream swordsdata;
 	//swordsdata.open("Swordsdata.txt", ios::app); //Not sure if he wants to append or 
 	//swordsdata << "Blade: " << _blade << endl;
@@ -85,15 +92,28 @@ void UJSONReaderComponenent::TickComponent(float DeltaTime, ELevelTick TickType,
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// ...
+
+	if (i >= 16) {
+		getline(readSwords, sword1);
+		if (sword1 == "\"Blade\":") {
+			//getline(readSwords, swordpart);
+			//_blade=swordpart;
+			UE_LOG(LogTemp, Log, TEXT("Found blade!"));
+		}
+		UE_LOG(LogTemp, Log, TEXT("READING"));
+		//parttofind = "\"Crossguard\":";
+		//void GetSwordParts(string sword1, ifstream readSwords, string swordpart, string parttofind, string& _crossGaurd);
+		i++;
+	}
+
 }
-/*
-string GetSwordParts( string sword1, ifstream readSwords,string parttofind, string swordpart, string part ) {
+
+void GetSwordParts(string sword1, ifstream readSwords, string parttofind, string swordpart, string part) {
 	if (sword1 == parttofind)
 	{
 		getline(readSwords, swordpart);
 		part = swordpart;
-		return part, swordpart;
-
+		//return sword1, readSwords, parttofind, part, swordpart;
+		UE_LOG(LogTemp, Log, TEXT("Function works"));
 	}
-
-}*/
+}

@@ -5,6 +5,7 @@
 #include <string>
 
 using namespace std;
+int i = 0;
 //void writeJSON(string, string, string, string, string, string);
 // Sets default values
 AReadJSON::AReadJSON()
@@ -27,17 +28,29 @@ void AReadJSON::BeginPlay()
 
 	if (!readSwords.fail())
 	{
-		//while (readSwords)
-		//{
-			UE_LOG(LogTemp, Log, TEXT("File has been parsed"));
-			if (sword1 == "Sword_blade_01")
-			{
-				UE_LOG(LogTemp, Log, TEXT("Found Blade!!"));
-			}
-		//}
+		UE_LOG(LogTemp, Log, TEXT("File has been parsed"));
+		
 	}
 	else {
 		UE_LOG(LogTemp, Log, TEXT("Read Has failed"));
+		
+	}
+	//getline(readSwords, sword1);
+
+	
+		//UE_LOG(LogTemp, Log, TEXT("Can read File"));
+	
+
+	while ( i >= 14) {
+		UE_LOG(LogTemp, Log, TEXT("READING..."));
+		getline(readSwords, sword1);
+		i++;
+	
+		if (sword1 == "\"Sword_blade_01\",")
+		{
+			UE_LOG(LogTemp, Log, TEXT("Found Blade!!"));
+		}
+	
 	}
 	//swordsdata.close();
 	readSwords.close();
