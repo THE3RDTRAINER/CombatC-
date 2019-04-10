@@ -90,4 +90,14 @@
       <Filter>Source\Prototype_Combat\FP_FirstPerson</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Prototype_Combat\BasicEnemy.h">
+      <Filter>Source\Prototype_Combat</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Prototype_Combat\BasicEnemy.cpp">
+      <Filter>Source\Prototype_Combat</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

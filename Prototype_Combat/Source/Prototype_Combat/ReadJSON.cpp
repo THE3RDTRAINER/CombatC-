@@ -3,9 +3,11 @@
 #include "ReadJSON.h"
 #include <fstream>
 #include <string>
+#include <iostream>
 
 using namespace std;
 int i = 0;
+
 //void writeJSON(string, string, string, string, string, string);
 // Sets default values
 AReadJSON::AReadJSON()
@@ -24,7 +26,7 @@ void AReadJSON::BeginPlay()
 	//swordsdata.open("swordsdata.JSON", ios::app);
 	string sword1;
 	ifstream readSwords;
-	readSwords.open("swordsdata.JSON"); //SO we need a good dummy data file for me to mess with 
+	readSwords.open("swordsdata.JSON"); 
 
 	if (!readSwords.fail())
 	{
@@ -39,18 +41,14 @@ void AReadJSON::BeginPlay()
 
 	
 		//UE_LOG(LogTemp, Log, TEXT("Can read File"));
-	
+	while (i <= 14) {
 
-	while ( i >= 14) {
-		UE_LOG(LogTemp, Log, TEXT("READING..."));
-		getline(readSwords, sword1);
-		i++;
-	
-		if (sword1 == "\"Sword_blade_01\",")
-		{
-			UE_LOG(LogTemp, Log, TEXT("Found Blade!!"));
-		}
-	
+			UE_LOG(LogTemp, Log, TEXT("READING..."));
+			getline(readSwords, sword1);
+
+
+			i++;
+		
 	}
 	//swordsdata.close();
 	readSwords.close();
@@ -61,6 +59,9 @@ void AReadJSON::BeginPlay()
 void AReadJSON::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	
+	
+		
 
 }
 
@@ -74,3 +75,10 @@ void writeJSON(string _path, string _blade, string _crossGuard, string _hilt, st
 	swordsdata << "Pommel: " << _pommel << endl;
 	swordsdata << "Price: " << _price << endl;
 }*/
+
+/*
+if (sword1 == "\"Sword_Blade_01\",")
+			{
+
+				UE_LOG(LogTemp, Log, TEXT("Found Blade!!"));
+			}*/
