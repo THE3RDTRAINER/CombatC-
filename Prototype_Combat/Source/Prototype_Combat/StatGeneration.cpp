@@ -5,11 +5,7 @@
 #include <string>
 
 using namespace std; 
-
-int _durability;
-int _sharpness;
-int _health;
-int _baseDmg;
+//I'm making this reusable.  
 string sworddata;
 
 
@@ -48,5 +44,8 @@ void UStatGeneration::TickComponent(float DeltaTime, ELevelTick TickType, FActor
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// ...
+	if (_health == 0) {
+		//Destroy();  
+	}
 }
 

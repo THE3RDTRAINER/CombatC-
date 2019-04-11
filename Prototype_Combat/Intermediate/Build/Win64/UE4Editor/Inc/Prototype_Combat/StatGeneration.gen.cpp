@@ -31,6 +31,23 @@ void EmptyLinkFunctionForGeneratedCodeStatGeneration() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__baseDmg_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp__baseDmg;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__sharpness_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp__sharpness;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__durability_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp__durability;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__health_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp__health;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -46,6 +63,40 @@ void EmptyLinkFunctionForGeneratedCodeStatGeneration() {}
 		{ "ModuleRelativePath", "StatGeneration.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UStatGeneration_Statics::NewProp__baseDmg_MetaData[] = {
+		{ "Category", "StatGeneration" },
+		{ "ModuleRelativePath", "StatGeneration.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_UStatGeneration_Statics::NewProp__baseDmg = { UE4CodeGen_Private::EPropertyClass::Int, "_baseDmg", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(UStatGeneration, _baseDmg), METADATA_PARAMS(Z_Construct_UClass_UStatGeneration_Statics::NewProp__baseDmg_MetaData, ARRAY_COUNT(Z_Construct_UClass_UStatGeneration_Statics::NewProp__baseDmg_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UStatGeneration_Statics::NewProp__sharpness_MetaData[] = {
+		{ "Category", "StatGeneration" },
+		{ "ModuleRelativePath", "StatGeneration.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_UStatGeneration_Statics::NewProp__sharpness = { UE4CodeGen_Private::EPropertyClass::Int, "_sharpness", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(UStatGeneration, _sharpness), METADATA_PARAMS(Z_Construct_UClass_UStatGeneration_Statics::NewProp__sharpness_MetaData, ARRAY_COUNT(Z_Construct_UClass_UStatGeneration_Statics::NewProp__sharpness_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UStatGeneration_Statics::NewProp__durability_MetaData[] = {
+		{ "Category", "StatGeneration" },
+		{ "ModuleRelativePath", "StatGeneration.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_UStatGeneration_Statics::NewProp__durability = { UE4CodeGen_Private::EPropertyClass::Int, "_durability", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(UStatGeneration, _durability), METADATA_PARAMS(Z_Construct_UClass_UStatGeneration_Statics::NewProp__durability_MetaData, ARRAY_COUNT(Z_Construct_UClass_UStatGeneration_Statics::NewProp__durability_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UStatGeneration_Statics::NewProp__health_MetaData[] = {
+		{ "Category", "StatGeneration" },
+		{ "ModuleRelativePath", "StatGeneration.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_UStatGeneration_Statics::NewProp__health = { UE4CodeGen_Private::EPropertyClass::Int, "_health", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(UStatGeneration, _health), METADATA_PARAMS(Z_Construct_UClass_UStatGeneration_Statics::NewProp__health_MetaData, ARRAY_COUNT(Z_Construct_UClass_UStatGeneration_Statics::NewProp__health_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UStatGeneration_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UStatGeneration_Statics::NewProp__baseDmg,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UStatGeneration_Statics::NewProp__sharpness,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UStatGeneration_Statics::NewProp__durability,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UStatGeneration_Statics::NewProp__health,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UStatGeneration_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UStatGeneration>::IsAbstract,
 	};
@@ -54,7 +105,7 @@ void EmptyLinkFunctionForGeneratedCodeStatGeneration() {}
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x00B000A4u,
 		nullptr, 0,
-		nullptr, 0,
+		Z_Construct_UClass_UStatGeneration_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_UStatGeneration_Statics::PropPointers),
 		"Engine",
 		&StaticCppClassTypeInfo,
 		nullptr, 0,
@@ -69,7 +120,7 @@ void EmptyLinkFunctionForGeneratedCodeStatGeneration() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UStatGeneration, 663417527);
+	IMPLEMENT_CLASS(UStatGeneration, 2842067847);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UStatGeneration(Z_Construct_UClass_UStatGeneration, &UStatGeneration::StaticClass, TEXT("/Script/Prototype_Combat"), TEXT("UStatGeneration"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UStatGeneration);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

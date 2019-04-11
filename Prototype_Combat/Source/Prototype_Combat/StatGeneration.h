@@ -6,13 +6,12 @@
 #include "Components/ActorComponent.h"
 #include "StatGeneration.generated.h"
 
-
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class PROTOTYPE_COMBAT_API UStatGeneration : public UActorComponent
 {
 	GENERATED_BODY()
 
-public:	
+public:
 	// Sets default values for this component's properties
 	UStatGeneration();
 
@@ -20,9 +19,16 @@ protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-		
+	UPROPERTY(EditAnywhere)
+		int _health = 60;
+	UPROPERTY(EditAnywhere)
+		int _durability;
+	UPROPERTY(EditAnywhere)
+		int _sharpness;
+	UPROPERTY(EditAnywhere)
+		int _baseDmg;
 };
