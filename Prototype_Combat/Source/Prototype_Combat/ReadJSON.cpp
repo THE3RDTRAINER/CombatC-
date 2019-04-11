@@ -41,7 +41,7 @@ void AReadJSON::BeginPlay()
 
 	
 		//UE_LOG(LogTemp, Log, TEXT("Can read File"));
-	while (i <= 14) {
+	while (i <= 20) {
 
 			UE_LOG(LogTemp, Log, TEXT("READING..."));
 			getline(readSwords, sword1);

@@ -1,4 +1,4 @@
-﻿Log file open, 04/10/19 18:49:28
+﻿Log file open, 04/10/19 20:39:16
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: Prototype_Combat
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.269053
+LogStats: Stats thread started at 0.498098
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -94,7 +94,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.202s to configure plugins.
+LogStreaming: Display: Took  0.230s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -149,406 +149,566 @@ LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
 LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
-LogStreaming: Display: Took  0.004s to delete old logs.
+LogStreaming: Display: Took  0.008s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Engine.ini]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Engine.ini]
-[2019.04.10-22.49.28:676][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Engine.ini]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Engine.ini]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.04.10-22.49.28:676][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Engine.ini]
-[2019.04.10-22.49.28:676][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Engine.ini]
-[2019.04.10-22.49.28:679][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.04.10-22.49.28:679][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.04.10-22.49.28:680][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.04.10-22.49.28:680][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.10-22.49.28:680][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.04.10-22.49.28:696][  0]LogHAL: Display: Platform has ~ 16 GB [16949690368 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.04.10-22.49.28:696][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2019.04.10-22.49.28:696][  0]LogInit: Going up to parent DeviceProfile []
-[2019.04.10-22.49.28:696][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.04.10-22.49.28:697][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.04.10-22.49.28:697][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Engine.ini]
-[2019.04.10-22.49.28:698][  0]LogInit: Computer: DESKTOP-3QPJQ6S
-[2019.04.10-22.49.28:698][  0]LogInit: User: Snowm
-[2019.04.10-22.49.28:698][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.04.10-22.49.28:698][  0]LogInit: High frequency timer resolution =1.945315 MHz
-[2019.04.10-22.49.28:698][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2019.04.10-22.49.28:698][  0]LogMemory: Platform Memory Stats for Windows
-[2019.04.10-22.49.28:698][  0]LogMemory: Process Physical Memory: 102.09 MB used, 102.09 MB peak
-[2019.04.10-22.49.28:698][  0]LogMemory: Process Virtual Memory: 91.50 MB used, 91.50 MB peak
-[2019.04.10-22.49.28:698][  0]LogMemory: Physical Memory: 10496.46 MB used,  5668.03 MB free, 16164.48 MB total
-[2019.04.10-22.49.28:698][  0]LogMemory: Virtual Memory: 4653.13 MB used,  134213072.00 MB free, 134217728.00 MB total
-[2019.04.10-22.49.28:718][  0]LogInit: Using OS detected language (en-US).
-[2019.04.10-22.49.28:718][  0]LogInit: Using OS detected locale (en-US).
-[2019.04.10-22.49.28:719][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.04.10-22.49.29:029][  0]LogStreaming: Display: Took  0.311s to InitEngineTextLocalization.
-[2019.04.10-22.49.29:029][  0]LogInit: Setting process to per monitor DPI aware
-[2019.04.10-22.49.29:073][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.04.10-22.49.29:073][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.04.10-22.49.29:301][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.04.10-22.49.29:301][  0]LogD3D11RHI: D3D11 adapters:
-[2019.04.10-22.49.30:016][  0]LogD3D11RHI:    0. 'NVIDIA GeForce MX150' (Feature Level 11_0)
-[2019.04.10-22.49.30:016][  0]LogD3D11RHI:       1983/0/8082 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.04.10-22.49.30:028][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
-[2019.04.10-22.49.30:028][  0]LogD3D11RHI:       128/0/8082 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.04.10-22.49.30:030][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.04.10-22.49.30:030][  0]LogD3D11RHI:       0/0/8082 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.04.10-22.49.30:030][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.04.10-22.49.30:051][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.04.10-22.49.30:051][  0]LogD3D11RHI:     GPU DeviceId: 0x1d10 (for the marketing name, search the web for "GPU Device Id")
-[2019.04.10-22.49.30:051][  0]LogWindows: EnumDisplayDevices:
-[2019.04.10-22.49.30:051][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
-[2019.04.10-22.49.30:051][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
-[2019.04.10-22.49.30:051][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
-[2019.04.10-22.49.30:051][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.04.10-22.49.30:051][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce MX150
-[2019.04.10-22.49.30:051][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.04.10-22.49.30:051][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.04.10-22.49.30:051][  0]LogRHI: Texture pool is 1388 MB (70% of 1983 MB)
-[2019.04.10-22.49.30:089][  0]LogD3D11RHI: Async texture creation enabled
-[2019.04.10-22.49.30:105][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.04.10-22.49.30:393][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.04.10-22.49.30:405][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.04.10-22.49.30:416][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.04.10-22.49.30:426][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.04.10-22.49.30:437][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.04.10-22.49.30:448][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.04.10-22.49.30:458][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.04.10-22.49.30:469][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.04.10-22.49.30:474][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.04.10-22.49.30:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.10-22.49.30:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.10-22.49.30:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.10-22.49.30:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.10-22.49.30:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.10-22.49.30:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.10-22.49.30:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.10-22.49.30:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.10-22.49.30:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.10-22.49.30:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.10-22.49.30:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.10-22.49.30:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.10-22.49.30:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.10-22.49.30:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.10-22.49.30:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.10-22.49.30:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.10-22.49.30:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.10-22.49.30:538][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.04.10-22.49.30:539][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.04.10-22.49.30:595][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.04.10-22.49.30:595][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.04.10-22.49.30:615][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.04.10-22.49.30:615][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.04.10-22.49.30:625][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.04.10-22.49.30:639][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.04.10-22.49.30:649][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.04.10-22.49.30:661][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.04.10-22.49.30:699][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.04.10-22.49.30:699][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.04.10-22.49.30:699][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.04.10-22.49.30:750][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/Snowm/Documents/CombatC-/Prototype_Combat/Intermediate/Shaders/WorkingDirectory/6852/).
-[2019.04.10-22.49.30:750][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Snowm/AppData/Local/Temp/UnrealShaderWorkingDir/8A6153FA41F2E8EDE3B7668ADE9C921B/'.
-[2019.04.10-22.49.30:751][  0]LogXGEController: Cleaning working directory: C:/Users/Snowm/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.04.10-22.49.30:751][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.04.10-22.49.30:752][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.04.10-22.49.30:752][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.04.10-22.49.31:212][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.04.10-22.49.31:269][  0]LogDerivedDataCache: Loaded boot cache 0.06s 72MB C:/Users/Snowm/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.04.10-22.49.31:269][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Snowm/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2019.04.10-22.49.31:269][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Snowm/Documents/CombatC-/Prototype_Combat/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.04.10-22.49.31:269][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.04.10-22.49.31:269][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Snowm/Documents/CombatC-/Prototype_Combat/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.04.10-22.49.31:269][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.04.10-22.49.31:282][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.04.10-22.49.31:282][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.04.10-22.49.31:282][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.04.10-22.49.31:295][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Snowm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.04.10-22.49.31:295][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.04.10-22.49.31:295][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.04.10-22.49.31:313][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.04.10-22.49.31:314][  0]LogSlate: Using FreeType 2.6.0
-[2019.04.10-22.49.31:315][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.04.10-22.49.31:398][  0]LogAssetRegistry: FAssetRegistry took 0.0308 seconds to start up
-[2019.04.10-22.49.31:819][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.10-22.49.31:944][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.04.10-22.49.31:948][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.04.10-22.49.31:948][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.04.10-22.49.31:948][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.04.10-22.49.31:948][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.04.10-22.49.31:960][  0]LogNetVersion: Prototype_Combat 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3546136163)
-[2019.04.10-22.49.32:479][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.147312 seconds
-[2019.04.10-22.49.32:484][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
-[2019.04.10-22.49.32:484][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
-[2019.04.10-22.49.32:484][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.04.10-22.49.33:228][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.04.10-22.49.33:242][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.04.10-22.49.33:971][  0]SourceControl: Source control is disabled
-[2019.04.10-22.49.33:971][  0]SourceControl: Source control is disabled
-[2019.04.10-22.49.33:972][  0]SourceControl: Source control is disabled
-[2019.04.10-22.49.33:973][  0]SourceControl: Source control is disabled
-[2019.04.10-22.49.34:142][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.04.10-22.49.34:182][  0]LogOcInput: OculusInput pre-init called
-[2019.04.10-22.49.34:309][  0]LogEngine: Initializing Engine...
-[2019.04.10-22.49.34:310][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.04.10-22.49.34:312][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.04.10-22.49.34:312][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.04.10-22.49.34:312][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.04.10-22.49.34:312][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.04.10-22.49.34:534][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.04.10-22.49.34:544][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.04.10-22.49.34:600][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.04.10-22.49.35:186][  0]LogInit: FAudioDevice initialized.
-[2019.04.10-22.49.35:186][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.04.10-22.49.35:252][  0]LogDerivedDataCache: Saved boot cache 0.07s 72MB C:/Users/Snowm/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.04.10-22.49.35:258][  0]LogInit: Texture streaming: Enabled
-[2019.04.10-22.49.35:272][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.04.10-22.49.35:283][  0]LogInit: Transaction tracking system initialized
-[2019.04.10-22.49.35:302][  0]BlueprintLog: New page: Editor Load
-[2019.04.10-22.49.35:387][  0]LocalizationService: Localization service is disabled
-[2019.04.10-22.49.36:151][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Content/' took 0.02s
-[2019.04.10-22.49.36:151][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.04.10-22.49.36:151][  0]LogCook: Display: Mobile HDR setting 1
-[2019.04.10-22.49.36:151][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.04.10-22.49.36:151][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.04.10-22.49.36:151][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.04.10-22.49.36:151][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.04.10-22.49.36:151][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.04.10-22.49.36:287][  0]SourceControl: Source control is disabled
-[2019.04.10-22.49.36:287][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Snowm/Documents/CombatC-/Prototype_Combat/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.04.10-22.49.36:287][  0]LightingResults: New page: Lighting Build
-[2019.04.10-22.49.36:290][  0]MapCheck: New page: Map Check
-[2019.04.10-22.49.36:290][  0]LightingResults: New page: Lighting Build
-[2019.04.10-22.49.36:447][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.04.10-22.49.36:469][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.04.10-22.49.36:492][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.04.10-22.49.36:492][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.196ms to complete.
-[2019.04.10-22.49.36:492][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.205
-[2019.04.10-22.49.36:647][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.10-22.49.36:657][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.10-22.49.36:668][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.10-22.49.36:688][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.04.10-22.49.36:695][  0]LogCollectionManager: Loaded 0 collections in 0.001285 seconds
-[2019.04.10-22.49.36:721][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Collections/' took 0.01s
-[2019.04.10-22.49.36:721][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Content/Developers/Snowm/Collections/' took 0.00s
-[2019.04.10-22.49.36:721][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Content/Collections/' took 0.00s
-[2019.04.10-22.49.36:721][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.04.10-22.49.36:741][  0]LogContentBrowser: Native class hierarchy populated in 0.0194 seconds. Added 2658 classes and 623 folders.
-[2019.04.10-22.49.36:746][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.04.10-22.49.36:748][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.10-22.49.36:752][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.10-22.49.36:755][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.10-22.49.36:756][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.10-22.49.36:757][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.10-22.49.36:758][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.10-22.49.36:759][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.10-22.49.36:759][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.10-22.49.36:759][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.10-22.49.36:760][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.10-22.49.36:760][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.10-22.49.36:761][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.10-22.49.36:761][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.10-22.49.36:761][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.10-22.49.36:762][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.10-22.49.36:762][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.10-22.49.36:762][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.10-22.49.36:763][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.10-22.49.36:764][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.10-22.49.36:764][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.10-22.49.36:765][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.10-22.49.36:766][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.10-22.49.36:767][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.10-22.49.36:768][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.10-22.49.36:769][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.10-22.49.36:770][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.04.10-22.49.36:816][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.04.10-22.49.36:822][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2019.04.10-22.49.36:923][  0]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.04.10-22.49.36:925][  0]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.04.10-22.49.36:932][  0]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.04.10-22.49.37:036][  0]LogRenderer: Reallocating scene render targets to support 936x448 Format 9 NumSamples 1 (Frame:1).
-[2019.04.10-22.49.37:092][  0]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.04.10-22.49.37:358][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2019.04.10-22.49.37:358][  0]LogLoad: (Engine Initialization) Total time: 10.43 seconds
-[2019.04.10-22.49.37:358][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.04.10-22.49.37:374][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.04.10-22.49.37:471][  0]LogContentStreaming: Texture pool size now 400 MB
-[2019.04.10-22.49.37:698][  2]LogAssetRegistry: Asset discovery search completed in 6.3222 seconds
-[2019.04.10-22.49.37:700][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2019.04.10-22.49.37:700][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000063 seconds (updated 0 objects)
-[2019.04.10-22.49.42:942][200]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.04.10-22.50.05:507][109]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Engine.ini]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Engine.ini]
+[2019.04.11-00.39.17:252][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Engine.ini]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Engine.ini]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.04.11-00.39.17:252][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Engine.ini]
+[2019.04.11-00.39.17:252][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Engine.ini]
+[2019.04.11-00.39.17:255][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.11-00.39.17:255][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.11-00.39.17:255][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.11-00.39.17:255][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.11-00.39.17:255][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.04.11-00.39.17:255][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.11-00.39.17:255][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.11-00.39.17:255][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.11-00.39.17:255][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.11-00.39.17:255][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.11-00.39.17:255][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.11-00.39.17:255][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.11-00.39.17:255][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.11-00.39.17:255][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.11-00.39.17:255][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.11-00.39.17:255][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.11-00.39.17:255][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.11-00.39.17:255][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.11-00.39.17:255][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.11-00.39.17:255][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.11-00.39.17:255][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.11-00.39.17:255][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.11-00.39.17:255][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.11-00.39.17:255][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.11-00.39.17:255][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.11-00.39.17:256][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.11-00.39.17:256][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.11-00.39.17:256][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.11-00.39.17:281][  0]LogHAL: Display: Platform has ~ 16 GB [16949690368 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.11-00.39.17:282][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.04.11-00.39.17:282][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.11-00.39.17:282][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.11-00.39.17:282][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
+[2019.04.11-00.39.17:282][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
+[2019.04.11-00.39.17:282][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.11-00.39.17:282][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
+[2019.04.11-00.39.17:282][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.11-00.39.17:282][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2019.04.11-00.39.17:282][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2019.04.11-00.39.17:282][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2019.04.11-00.39.17:282][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2019.04.11-00.39.17:282][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2019.04.11-00.39.17:282][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2019.04.11-00.39.17:282][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2019.04.11-00.39.17:282][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2019.04.11-00.39.17:282][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2019.04.11-00.39.17:282][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2019.04.11-00.39.17:282][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2019.04.11-00.39.17:282][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2019.04.11-00.39.17:283][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2019.04.11-00.39.17:284][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.11-00.39.17:284][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
+[2019.04.11-00.39.17:284][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
+[2019.04.11-00.39.17:284][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.04.11-00.39.17:284][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.04.11-00.39.17:284][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Engine.ini]
+[2019.04.11-00.39.17:285][  0]LogInit: Computer: DESKTOP-3QPJQ6S
+[2019.04.11-00.39.17:285][  0]LogInit: User: Snowm
+[2019.04.11-00.39.17:285][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.11-00.39.17:285][  0]LogInit: High frequency timer resolution =1.945315 MHz
+[2019.04.11-00.39.17:285][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2019.04.11-00.39.17:285][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.11-00.39.17:285][  0]LogMemory: Process Physical Memory: 101.99 MB used, 101.99 MB peak
+[2019.04.11-00.39.17:285][  0]LogMemory: Process Virtual Memory: 91.58 MB used, 91.58 MB peak
+[2019.04.11-00.39.17:285][  0]LogMemory: Physical Memory: 10725.18 MB used,  5439.30 MB free, 16164.48 MB total
+[2019.04.11-00.39.17:285][  0]LogMemory: Virtual Memory: 4653.13 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2019.04.11-00.39.17:445][  0]LogInit: Using OS detected language (en-US).
+[2019.04.11-00.39.17:445][  0]LogInit: Using OS detected locale (en-US).
+[2019.04.11-00.39.17:448][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.11-00.39.17:931][  0]LogStreaming: Display: Took  0.486s to InitEngineTextLocalization.
+[2019.04.11-00.39.17:931][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.11-00.39.17:999][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.11-00.39.17:999][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.11-00.39.18:540][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.11-00.39.18:540][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.11-00.39.19:277][  0]LogD3D11RHI:    0. 'NVIDIA GeForce MX150' (Feature Level 11_0)
+[2019.04.11-00.39.19:277][  0]LogD3D11RHI:       1983/0/8082 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.11-00.39.19:287][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2019.04.11-00.39.19:288][  0]LogD3D11RHI:       128/0/8082 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.04.11-00.39.19:289][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.11-00.39.19:290][  0]LogD3D11RHI:       0/0/8082 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.11-00.39.19:290][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.11-00.39.19:312][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.11-00.39.19:313][  0]LogD3D11RHI:     GPU DeviceId: 0x1d10 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.11-00.39.19:313][  0]LogWindows: EnumDisplayDevices:
+[2019.04.11-00.39.19:313][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2019.04.11-00.39.19:313][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.04.11-00.39.19:313][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.04.11-00.39.19:313][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.11-00.39.19:313][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce MX150
+[2019.04.11-00.39.19:313][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.11-00.39.19:313][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.04.11-00.39.19:313][  0]LogRHI: Texture pool is 1388 MB (70% of 1983 MB)
+[2019.04.11-00.39.19:359][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.11-00.39.19:377][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.04.11-00.39.20:594][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.11-00.39.20:609][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.11-00.39.20:627][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.11-00.39.20:647][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.11-00.39.20:666][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.11-00.39.20:679][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.11-00.39.20:694][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.11-00.39.20:713][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.11-00.39.20:719][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.11-00.39.20:803][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-00.39.20:803][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-00.39.20:803][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-00.39.20:803][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-00.39.20:803][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-00.39.20:803][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-00.39.20:803][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-00.39.20:803][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-00.39.20:803][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-00.39.20:803][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-00.39.20:803][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-00.39.20:803][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-00.39.20:803][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-00.39.20:803][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-00.39.20:803][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-00.39.20:803][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-00.39.20:803][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-00.39.20:803][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.11-00.39.20:805][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.11-00.39.20:867][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.11-00.39.20:867][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.11-00.39.20:891][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.11-00.39.20:891][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.11-00.39.20:904][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.11-00.39.20:920][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.11-00.39.20:950][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.11-00.39.20:994][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.11-00.39.21:170][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.11-00.39.21:170][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.11-00.39.21:170][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.11-00.39.21:569][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/Snowm/Documents/CombatC-/Prototype_Combat/Intermediate/Shaders/WorkingDirectory/11692/).
+[2019.04.11-00.39.21:569][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Snowm/AppData/Local/Temp/UnrealShaderWorkingDir/58C8CFA34CA5A3E3C9D2DD98A602A03D/'.
+[2019.04.11-00.39.21:571][  0]LogXGEController: Cleaning working directory: C:/Users/Snowm/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.11-00.39.21:571][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.11-00.39.21:571][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.11-00.39.21:571][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.11-00.39.22:485][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.11-00.39.22:610][  0]LogDerivedDataCache: Loaded boot cache 0.12s 72MB C:/Users/Snowm/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.11-00.39.22:610][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Snowm/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.04.11-00.39.22:610][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Snowm/Documents/CombatC-/Prototype_Combat/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.11-00.39.22:610][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.11-00.39.22:610][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Snowm/Documents/CombatC-/Prototype_Combat/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.11-00.39.22:610][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.11-00.39.22:625][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.11-00.39.22:625][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.11-00.39.22:626][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.04.11-00.39.22:639][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Snowm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.11-00.39.22:639][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.11-00.39.22:639][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.11-00.39.22:661][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.11-00.39.22:663][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.11-00.39.22:665][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.11-00.39.22:823][  0]LogAssetRegistry: FAssetRegistry took 0.0346 seconds to start up
+[2019.04.11-00.39.23:332][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.11-00.39.23:789][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.11-00.39.23:819][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.11-00.39.23:819][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.11-00.39.23:819][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.11-00.39.23:819][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.11-00.39.23:867][  0]LogNetVersion: Prototype_Combat 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3546136163)
+[2019.04.11-00.39.24:999][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.367237 seconds
+[2019.04.11-00.39.25:014][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.04.11-00.39.25:014][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.04.11-00.39.25:014][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.11-00.39.27:245][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.11-00.39.27:269][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.11-00.39.28:465][  0]SourceControl: Source control is disabled
+[2019.04.11-00.39.28:466][  0]SourceControl: Source control is disabled
+[2019.04.11-00.39.28:480][  0]SourceControl: Source control is disabled
+[2019.04.11-00.39.28:496][  0]SourceControl: Source control is disabled
+[2019.04.11-00.39.29:051][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.11-00.39.29:176][  0]LogOcInput: OculusInput pre-init called
+[2019.04.11-00.39.29:399][  0]LogEngine: Initializing Engine...
+[2019.04.11-00.39.29:401][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.11-00.39.29:403][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.11-00.39.29:403][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.11-00.39.29:403][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.11-00.39.29:403][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.11-00.39.29:757][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.11-00.39.29:817][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.11-00.39.29:835][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.11-00.39.30:400][  0]LogInit: FAudioDevice initialized.
+[2019.04.11-00.39.30:401][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.11-00.39.30:409][  0]LogDerivedDataCache: Error: Could not save memory cache C:/Users/Snowm/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.11-00.39.30:420][  0]LogInit: Texture streaming: Enabled
+[2019.04.11-00.39.30:479][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.11-00.39.30:508][  0]LogInit: Transaction tracking system initialized
+[2019.04.11-00.39.30:582][  0]BlueprintLog: New page: Editor Load
+[2019.04.11-00.39.30:978][  0]LocalizationService: Localization service is disabled
+[2019.04.11-00.39.32:404][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Content/' took 0.02s
+[2019.04.11-00.39.32:404][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.11-00.39.32:404][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.11-00.39.32:405][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.11-00.39.32:405][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.11-00.39.32:405][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.11-00.39.32:405][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.11-00.39.32:405][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.11-00.39.32:985][  0]SourceControl: Source control is disabled
+[2019.04.11-00.39.32:985][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Snowm/Documents/CombatC-/Prototype_Combat/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.11-00.39.32:990][  0]LightingResults: New page: Lighting Build
+[2019.04.11-00.39.32:995][  0]MapCheck: New page: Map Check
+[2019.04.11-00.39.32:995][  0]LightingResults: New page: Lighting Build
+[2019.04.11-00.39.33:278][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.04.11-00.39.33:294][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.11-00.39.33:338][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.11-00.39.33:339][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.192ms to complete.
+[2019.04.11-00.39.33:339][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.353
+[2019.04.11-00.39.33:498][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-00.39.33:513][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-00.39.33:527][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-00.39.33:539][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-00.39.33:568][  0]LogCollectionManager: Loaded 0 collections in 0.002097 seconds
+[2019.04.11-00.39.33:590][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Collections/' took 0.01s
+[2019.04.11-00.39.33:590][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Content/Developers/Snowm/Collections/' took 0.00s
+[2019.04.11-00.39.33:590][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Content/Collections/' took 0.00s
+[2019.04.11-00.39.33:590][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.04.11-00.39.33:605][  0]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 2658 classes and 623 folders.
+[2019.04.11-00.39.33:616][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.11-00.39.33:620][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.11-00.39.33:622][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.11-00.39.33:624][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.11-00.39.33:626][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.11-00.39.33:628][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.11-00.39.33:630][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.11-00.39.33:632][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.11-00.39.33:633][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.11-00.39.33:635][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.11-00.39.33:636][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.11-00.39.33:638][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.11-00.39.33:640][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.11-00.39.33:641][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.11-00.39.33:643][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.11-00.39.33:644][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.11-00.39.33:646][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.11-00.39.33:648][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.11-00.39.33:650][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.11-00.39.33:652][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.11-00.39.33:653][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.11-00.39.33:655][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.11-00.39.33:657][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.11-00.39.33:658][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.11-00.39.33:660][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.11-00.39.33:662][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.11-00.39.33:664][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.11-00.39.33:790][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.04.11-00.39.33:812][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.04.11-00.39.33:935][  0]LogSlate: Took 0.002580 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.11-00.39.33:940][  0]LogSlate: Took 0.001971 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.11-00.39.33:947][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.11-00.39.34:054][  0]LogRenderer: Reallocating scene render targets to support 936x448 Format 9 NumSamples 1 (Frame:1).
+[2019.04.11-00.39.34:122][  0]LogSlate: Took 0.001095 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.11-00.39.34:707][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.04.11-00.39.34:707][  0]LogLoad: (Engine Initialization) Total time: 21.39 seconds
+[2019.04.11-00.39.34:707][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.11-00.39.34:731][  0]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.11-00.39.34:812][  0]LogContentStreaming: Texture pool size now 400 MB
+[2019.04.11-00.39.35:428][  3]LogAssetRegistry: Asset discovery search completed in 12.6269 seconds
+[2019.04.11-00.39.35:440][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.04.11-00.39.35:440][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000158 seconds (updated 0 objects)
+[2019.04.11-00.58.23:110][716]Candidate modules for hot reload:
+[2019.04.11-00.58.23:110][716]  Prototype_Combat
+[2019.04.11-00.58.23:110][716]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Prototype_Combat,220 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Snowm/Documents/CombatC-/Prototype_Combat/Prototype_Combat.uproject" -canskiplink "C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Prototype_Combat.uproject" ]
+[2019.04.11-00.58.23:117][716]Warning: Starting HotReload took  0.1s.
+[2019.04.11-00.59.29:492][265]CompilerResultsLog: New page: Compilation - Apr 10, 2019, 4:59:29 PM
+[2019.04.11-00.59.29:493][265]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Snowm\Documents\CombatC-).
+[2019.04.11-00.59.29:493][265]CompilerResultsLog: Creating makefile for hot reloading Prototype_CombatEditor (source directory changed)
+[2019.04.11-00.59.29:493][265]CompilerResultsLog: Compiling game modules for hot reload
+[2019.04.11-00.59.29:493][265]CompilerResultsLog: Using Visual Studio 2017 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.04.11-00.59.29:493][265]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.04.11-00.59.29:493][265]CompilerResultsLog:   [1/3] ReadJSON.cpp
+[2019.04.11-00.59.29:493][265]CompilerResultsLog:   [2/3] UE4Editor-Prototype_Combat-220.lib
+[2019.04.11-00.59.29:493][265]CompilerResultsLog:      Creating library C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\UE4Editor-Prototype_Combat-220.lib and object C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\UE4Editor-Prototype_Combat-220.exp
+[2019.04.11-00.59.29:493][265]CompilerResultsLog:   [3/3] UE4Editor-Prototype_Combat-220.dll
+[2019.04.11-00.59.29:493][265]CompilerResultsLog:      Creating library C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\UE4Editor-Prototype_Combat-220.suppressed.lib and object C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\UE4Editor-Prototype_Combat-220.suppressed.exp
+[2019.04.11-00.59.29:493][265]CompilerResultsLog: Total build time: 65.90 seconds (Parallel executor: 26.98 seconds)
+[2019.04.11-00.59.29:494][265]LogMainFrame: MainFrame: Module compiling took 66.399 seconds
+[2019.04.11-00.59.29:570][265]LogContentBrowser: Native class hierarchy updated for 'Prototype_Combat' in 0.0009 seconds. Added 7 classes and 3 folders.
+[2019.04.11-00.59.29:574][265]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.04.11-00.59.29:740][265]LogContentBrowser: Native class hierarchy populated in 0.0131 seconds. Added 2659 classes and 625 folders.
+[2019.04.11-00.59.29:747][265]Display: HotReload took 66.7s.
+[2019.04.11-01.02.48:568][792]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.11-01.02.48:614][792]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.11-01.02.48:617][792]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.11-01.02.48:617][792]PIE: New page: PIE session: FirstPersonExampleMap (Apr 10, 2019, 5:02:48 PM)
+[2019.04.11-01.02.48:635][792]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.04.11-01.02.48:693][792]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057126s)
+[2019.04.11-01.02.48:694][792]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.04.11-01.02.48:695][792]LogPlayLevel: PIE: World Init took: (0.001668s)
+[2019.04.11-01.02.48:695][792]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.059583s)
+[2019.04.11-01.02.48:748][792]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.11-01.02.48:868][792]LogInit: FAudioDevice initialized.
+[2019.04.11-01.02.48:938][792]LogLoad: Game class is 'FP_FirstPersonGameMode'
+[2019.04.11-01.02.48:960][792]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.04.10-21.02.48
+[2019.04.11-01.02.48:969][792]LogWorld: Bringing up level for play took: 0.015311
+[2019.04.11-01.02.49:079][792]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 20 classes and 0 folders.
+[2019.04.11-01.02.49:084][792]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.181
+[2019.04.11-01.02.49:084][792]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.11-01.02.51:544][882]LogSlate: Took 0.003234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.04.11-01.03.08:725][614]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.11-01.03.08:737][614]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-01.03.08:782][614]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.11-01.03.08:783][614]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.11-01.03.08:820][614]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-01.03.08:841][615]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.04.11-01.03.14:573][824]LogEditor: Attempting to add actor of class 'ReadJSON' to level at 0.00,-190.00,170.00
+[2019.04.11-01.03.14:969][836]LogEditor: Attempting to add actor of class 'ReadJSON' to level at 40.00,-190.00,170.00
+[2019.04.11-01.03.17:138][915]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.11-01.03.19:093][975]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.11-01.03.19:606][990]LogSlate: Took 0.002242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.04.11-01.03.22:015][ 71]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.11-01.03.32:486][404]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.11-01.03.41:061][702]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.04.11-01.03.49:635][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.11-01.03.49:714][ 30]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.11-01.03.49:741][ 30]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.11-01.03.49:742][ 30]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.11-01.03.49:742][ 30]PIE: New page: PIE session: FirstPersonExampleMap (Apr 10, 2019, 5:03:49 PM)
+[2019.04.11-01.03.49:742][ 30]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.04.11-01.03.49:777][ 30]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035257s)
+[2019.04.11-01.03.49:778][ 30]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.04.11-01.03.49:779][ 30]LogPlayLevel: PIE: World Init took: (0.001415s)
+[2019.04.11-01.03.49:779][ 30]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.037588s)
+[2019.04.11-01.03.49:820][ 30]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.11-01.03.49:911][ 30]LogInit: FAudioDevice initialized.
+[2019.04.11-01.03.49:956][ 30]LogLoad: Game class is 'FP_FirstPersonGameMode'
+[2019.04.11-01.03.49:960][ 30]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.04.10-21.03.49
+[2019.04.11-01.03.49:962][ 30]LogWorld: Bringing up level for play took: 0.005316
+[2019.04.11-01.03.49:977][ 30]LogTemp: File has been parsed
+[2019.04.11-01.03.49:977][ 30]LogTemp: READING...
+[2019.04.11-01.03.49:977][ 30]LogTemp: READING...
+[2019.04.11-01.03.49:978][ 30]LogTemp: READING...
+[2019.04.11-01.03.49:978][ 30]LogTemp: READING...
+[2019.04.11-01.03.49:978][ 30]LogTemp: READING...
+[2019.04.11-01.03.49:978][ 30]LogTemp: READING...
+[2019.04.11-01.03.49:978][ 30]LogTemp: READING...
+[2019.04.11-01.03.49:978][ 30]LogTemp: READING...
+[2019.04.11-01.03.49:978][ 30]LogTemp: READING...
+[2019.04.11-01.03.49:978][ 30]LogTemp: READING...
+[2019.04.11-01.03.49:978][ 30]LogTemp: READING...
+[2019.04.11-01.03.49:979][ 30]LogTemp: READING...
+[2019.04.11-01.03.49:979][ 30]LogTemp: READING...
+[2019.04.11-01.03.49:979][ 30]LogTemp: READING...
+[2019.04.11-01.03.49:979][ 30]LogTemp: READING...
+[2019.04.11-01.03.49:979][ 30]LogTemp: READING...
+[2019.04.11-01.03.49:979][ 30]LogTemp: READING...
+[2019.04.11-01.03.49:979][ 30]LogTemp: READING...
+[2019.04.11-01.03.49:979][ 30]LogTemp: READING...
+[2019.04.11-01.03.49:979][ 30]LogTemp: READING...
+[2019.04.11-01.03.49:979][ 30]LogTemp: READING...
+[2019.04.11-01.03.49:980][ 30]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 1.077
+[2019.04.11-01.03.49:981][ 30]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.11-01.03.56:215][221]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.11-01.03.56:217][221]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-01.03.56:276][221]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.11-01.03.56:277][221]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.04.11-01.03.56:309][221]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.11-01.03.56:328][222]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.04.11-01.04.20:649][141]LogSavePackage: Moving '../../../../../../Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/FirstPersonExampleMap_Auto1FA2C6AD54A4B502AAD484492D42EBFFA.tmp' to '../../../../../../Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2019.04.11-01.04.20:663][141]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.211
+[2019.04.11-01.04.20:663][141]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.211
+[2019.04.11-01.36.16:986][986]LogSlate: Took 0.007718 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.04.11-01.46.54:356][472]Running C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Prototype_Combat.uproject" -invalidatemakefilesonly
+[2019.04.11-01.47.00:329][472]Invalidating makefiles only in this run.
+[2019.04.11-01.47.01:443][472]Candidate modules for hot reload:
+[2019.04.11-01.47.01:443][472]  Prototype_Combat
+[2019.04.11-01.47.01:444][472]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Prototype_Combat,1591 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Snowm/Documents/CombatC-/Prototype_Combat/Prototype_Combat.uproject" -canskiplink "C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Prototype_Combat.uproject" ]
+[2019.04.11-01.48.00:339][472]CompilerResultsLog: New page: Compilation - Apr 10, 2019, 5:48:00 PM
+[2019.04.11-01.48.00:339][472]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Snowm\Documents\CombatC-).
+[2019.04.11-01.48.00:340][472]CompilerResultsLog: Creating makefile for hot reloading Prototype_CombatEditor (no existing makefile)
+[2019.04.11-01.48.00:340][472]CompilerResultsLog: Compiling game modules for hot reload
+[2019.04.11-01.48.00:340][472]CompilerResultsLog: Using Visual Studio 2017 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.04.11-01.48.00:340][472]CompilerResultsLog: Parsing headers for Prototype_CombatEditor
+[2019.04.11-01.48.00:341][472]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Prototype_Combat.uproject" "C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\Prototype_CombatEditor\Development\Prototype_CombatEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.04.11-01.48.00:342][472]CompilerResultsLog: Reflection code generated for Prototype_CombatEditor in 24.6446446 seconds
+[2019.04.11-01.48.00:342][472]CompilerResultsLog: Building 5 actions with 8 processes...
+[2019.04.11-01.48.00:342][472]CompilerResultsLog:   [1/5] StatGeneration.cpp
+[2019.04.11-01.48.00:342][472]CompilerResultsLog:   [2/5] Prototype_Combat.init.gen.cpp
+[2019.04.11-01.48.00:343][472]CompilerResultsLog:   [3/5] StatGeneration.gen.cpp
+[2019.04.11-01.48.00:343][472]CompilerResultsLog:   [4/5] UE4Editor-Prototype_Combat-1591.lib
+[2019.04.11-01.48.00:343][472]CompilerResultsLog:      Creating library C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\UE4Editor-Prototype_Combat-1591.lib and object C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\UE4Editor-Prototype_Combat-1591.exp
+[2019.04.11-01.48.00:344][472]CompilerResultsLog:   [5/5] UE4Editor-Prototype_Combat-1591.dll
+[2019.04.11-01.48.00:344][472]CompilerResultsLog:      Creating library C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\UE4Editor-Prototype_Combat-1591.suppressed.lib and object C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\UE4Editor-Prototype_Combat-1591.suppressed.exp
+[2019.04.11-01.48.00:346][472]CompilerResultsLog: Total build time: 55.32 seconds (Parallel executor: 5.87 seconds)
+[2019.04.11-01.48.00:346][472]LogMainFrame: MainFrame: Module compiling took 58.908 seconds
+[2019.04.11-01.48.00:446][472]LogClass: Could not find existing class StatGeneration in package /Script/Prototype_Combat for HotReload, assuming new class
+[2019.04.11-01.48.00:469][472]LogContentBrowser: Native class hierarchy updated for 'Prototype_Combat' in 0.0011 seconds. Added 8 classes and 3 folders.
+[2019.04.11-01.48.00:474][472]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.04.11-01.48.00:633][472]LogContentBrowser: Native class hierarchy populated in 0.0276 seconds. Added 2660 classes and 625 folders.
+[2019.04.11-01.48.00:633][472]Display: HotReload took 60.1s.
+[2019.04.11-01.48.00:635][472]Warning: HotReload operation took 60.1s.
+[2019.04.11-01.48.00:966][472]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Source/Prototype_Combat/StatGeneration.h'
+[2019.04.11-01.48.01:132][472]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Source/Prototype_Combat/StatGeneration.cpp'
+[2019.04.11-01.48.01:156][472]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.04.11-01.48.01:173][472]LogHotReload: New module detected: UE4Editor-Prototype_Combat-1591.dll
+[2019.04.11-01.48.01:352][473]LogHotReload: Starting Hot-Reload from IDE
+[2019.04.11-01.48.01:528][473]LogContentBrowser: Native class hierarchy updated for 'Prototype_Combat' in 0.0012 seconds. Added 8 classes and 3 folders.
+[2019.04.11-01.48.01:533][473]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.04.11-01.48.01:595][473]LogContentBrowser: Native class hierarchy populated in 0.0179 seconds. Added 2660 classes and 625 folders.
+[2019.04.11-01.48.01:600][473]Display: HotReload took  0.2s.
+[2019.04.11-01.48.34:893][637]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (33.284 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.11-02.34.42:859][995]Candidate modules for hot reload:
+[2019.04.11-02.34.42:859][995]  Prototype_Combat
+[2019.04.11-02.34.42:860][995]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Prototype_Combat,8693 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Snowm/Documents/CombatC-/Prototype_Combat/Prototype_Combat.uproject" -canskiplink "C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Prototype_Combat.uproject" ]
+[2019.04.11-02.34.42:866][995]Warning: Starting HotReload took  0.1s.
+[2019.04.11-02.35.21:027][411]CompilerResultsLog: New page: Compilation - Apr 10, 2019, 6:35:21 PM
+[2019.04.11-02.35.21:029][411]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Snowm\Documents\CombatC-).
+[2019.04.11-02.35.21:029][411]CompilerResultsLog: Creating makefile for hot reloading Prototype_CombatEditor (source directory changed)
+[2019.04.11-02.35.21:030][411]CompilerResultsLog: Compiling game modules for hot reload
+[2019.04.11-02.35.21:030][411]CompilerResultsLog: Using Visual Studio 2017 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.04.11-02.35.21:031][411]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.04.11-02.35.21:031][411]CompilerResultsLog:   [1/3] StatGeneration.cpp
+[2019.04.11-02.35.21:031][411]CompilerResultsLog:   [2/3] UE4Editor-Prototype_Combat-8693.lib
+[2019.04.11-02.35.21:031][411]CompilerResultsLog:      Creating library C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\UE4Editor-Prototype_Combat-8693.lib and object C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\UE4Editor-Prototype_Combat-8693.exp
+[2019.04.11-02.35.21:032][411]CompilerResultsLog:   [3/3] UE4Editor-Prototype_Combat-8693.dll
+[2019.04.11-02.35.21:032][411]CompilerResultsLog:      Creating library C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\UE4Editor-Prototype_Combat-8693.suppressed.lib and object C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\UE4Editor-Prototype_Combat-8693.suppressed.exp
+[2019.04.11-02.35.21:033][411]CompilerResultsLog: Total build time: 37.58 seconds (Parallel executor: 15.58 seconds)
+[2019.04.11-02.35.21:034][411]LogMainFrame: MainFrame: Module compiling took 38.189 seconds
+[2019.04.11-02.35.21:142][411]LogContentBrowser: Native class hierarchy updated for 'Prototype_Combat' in 0.0024 seconds. Added 8 classes and 3 folders.
+[2019.04.11-02.35.21:148][411]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.04.11-02.35.21:278][411]LogContentBrowser: Native class hierarchy populated in 0.0165 seconds. Added 2660 classes and 625 folders.
+[2019.04.11-02.35.21:278][411]Display: HotReload took 38.5s.

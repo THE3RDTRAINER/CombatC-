@@ -7,7 +7,13 @@
 "Hilt":
 "Sword_hilt_01",
 "Pommel":
-"Sword_pommel_01"
+"Sword_pommel_01",
+"Price":
+"10",
+"Durablitliy":
+"100",
+"Sharpness":
+"100"
       }
     ],
     "dataTitle":"swordsdata"
