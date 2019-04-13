@@ -6,6 +6,8 @@
 #include "Components/ActorComponent.h"
 #include "StatGeneration.generated.h"
 
+
+
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class PROTOTYPE_COMBAT_API UStatGeneration : public UActorComponent
 {
@@ -26,9 +28,10 @@ public:
 	UPROPERTY(EditAnywhere)
 		int _health = 60;
 	UPROPERTY(EditAnywhere)
-		int _durability;
+		int _durability=100;
 	UPROPERTY(EditAnywhere)
 		int _sharpness;
 	UPROPERTY(EditAnywhere)
 		int _baseDmg;
+
 };
