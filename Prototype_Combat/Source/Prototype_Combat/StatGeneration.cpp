@@ -1,16 +1,17 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #include "StatGeneration.h"
 #include <fstream>
 #include <string>
 #include "Engine.h"
+#include <Runtime/Engine/Classes/GameFramework/Actor.h>
 
-using namespace std; 
+using namespace std;
 //I'm making this reusable. 
 int x = 0;
 FString sworddata;
 string Sworddata;
-FString durability; 
+//FString durability; 
+
+AActor Destory(AActor);
 
 //_sharpness, _durablility, and basedmg all need to be called from the sword JSON 
 
@@ -39,7 +40,7 @@ void UStatGeneration::BeginPlay()
 			//getline(readSwords, Sworddata);
 			FString sworddata(Sworddata.c_str());
 			x++;
-			UE_LOG(LogTemp, Log, TEXT("%s"), *sworddata);
+			//UE_LOG(LogTemp, Log, TEXT("%s"), *sworddata);
 			if (sworddata == "\"Durabilitliy\":") {
 				getline(readSwords, Sworddata);
 
@@ -48,8 +49,8 @@ void UStatGeneration::BeginPlay()
 
 			//UE_LOG(LogTemp, Log, TEXT("Time to read a file"));
 		}
-		FString durability(FString::FromInt(_durability));
-		UE_LOG(LogTemp, Log, TEXT("durablility is %s"), *durability);
+		//FString durability(FString::FromInt(_durability));
+		//UE_LOG(LogTemp, Log, TEXT("durablility is %s"), *durability);
 	}
 }
 
@@ -60,10 +61,12 @@ void UStatGeneration::BeginPlay()
 void UStatGeneration::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-
+	FHitResult Hit;
 	// ...
-	if (_health == 0) {
-		//AActor::Destroy();  
+	_durability = _durability - 5;
+
+	if (_durability == 0) {
+	//	AActor Destroy(AActor);
 	}
 }
 

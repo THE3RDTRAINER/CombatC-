@@ -19,7 +19,7 @@ void EmptyLinkFunctionForGeneratedCodePrototype_Combat_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Prototype_Combat",
 				PKG_CompiledIn | 0x00000000,
-				0xA2AD5A6D,
+				0x8024B27E,
 				0x0DF93F00,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
