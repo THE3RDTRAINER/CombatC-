@@ -4,10 +4,9 @@
 #include <fstream>
 #include <string>
 #include <iostream>
-#include "KismetSystemLibrary.generated.h"
-
-
-
+#include <Runtime/Json/Public/Serialization/JsonReader.h>
+#include <Json/Public/Json.h>
+#include <Runtime/Json/Public/Serialization/JsonSerializerMacros.h>
 #include "CoreUObject.h"
 using namespace std;
 
@@ -18,7 +17,7 @@ string sword1;
 string swordpart;
 string parttofind = "\"Blade\":";
 string _blade="Blade";
-string _Blade;
+FString _Blade;
 string _crossGuard; 
 int8 i=0;
 
@@ -59,6 +58,12 @@ void UJSONReaderComponenent::BeginPlay()
 	else {	UE_LOG(LogTemp, Log, TEXT("File can be read!"));
 		
 	}
+	//FString test;
+	//FSword sword;
+	//if (!FJsonObjectConverter::JsonObjectStringToUStruct(test, &sword, 0, 0))
+	//{
+
+	//}
 
 	//UE_LOG(LogTemp, Log, TEXT("File can be read!"));
 	//while (getline(readSwords, sword1)) {
@@ -76,9 +81,7 @@ void UJSONReaderComponenent::BeginPlay()
 	if (_crossGuard == "\"Sword_Crossguard_01\",") {
 		UE_LOG(LogTemp, Log, TEXT("Found crossguard!"));
 	}*/
-	//ofstream swordsdata;
-	//swordsdata.open("Swordsdata.txt", ios::app); //Not sure if he wants to append or 
-	//swordsdata << "Blade: " << _blade << endl;
+	//bool FromJson (_Blade && "swordsdata.JSON");
 	//swordsdata.close();
 	readSwords.close();
 

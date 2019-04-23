@@ -13,9 +13,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PROTOTYPE_COMBAT_JSONReaderComponenent_generated_h
 
-#define Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_12_RPC_WRAPPERS
-#define Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_12_INCLASS_NO_PURE_DECLS \
+#define Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_39_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FSword_Statics; \
+	PROTOTYPE_COMBAT_API static class UScriptStruct* StaticStruct();
+
+
+#define Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_15_RPC_WRAPPERS
+#define Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUJSONReaderComponenent(); \
 	friend struct Z_Construct_UClass_UJSONReaderComponenent_Statics; \
@@ -24,7 +29,7 @@ public: \
 	DECLARE_SERIALIZER(UJSONReaderComponenent)
 
 
-#define Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_12_INCLASS \
+#define Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesUJSONReaderComponenent(); \
 	friend struct Z_Construct_UClass_UJSONReaderComponenent_Statics; \
@@ -33,7 +38,7 @@ public: \
 	DECLARE_SERIALIZER(UJSONReaderComponenent)
 
 
-#define Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_12_STANDARD_CONSTRUCTORS \
+#define Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UJSONReaderComponenent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UJSONReaderComponenent) \
@@ -46,7 +51,7 @@ private: \
 public:
 
 
-#define Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_12_ENHANCED_CONSTRUCTORS \
+#define Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UJSONReaderComponenent(UJSONReaderComponenent&&); \
@@ -57,26 +62,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UJSONReaderComponenent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UJSONReaderComponenent)
 
 
-#define Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_12_PRIVATE_PROPERTY_OFFSET
-#define Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_9_PROLOG
-#define Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_12_GENERATED_BODY_LEGACY \
+#define Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_15_PRIVATE_PROPERTY_OFFSET
+#define Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_12_PROLOG
+#define Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_12_PRIVATE_PROPERTY_OFFSET \
-	Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_12_RPC_WRAPPERS \
-	Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_12_INCLASS \
-	Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_12_STANDARD_CONSTRUCTORS \
+	Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_15_PRIVATE_PROPERTY_OFFSET \
+	Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_15_RPC_WRAPPERS \
+	Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_15_INCLASS \
+	Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_12_GENERATED_BODY \
+#define Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_12_PRIVATE_PROPERTY_OFFSET \
-	Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_12_INCLASS_NO_PURE_DECLS \
-	Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_12_ENHANCED_CONSTRUCTORS \
+	Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_15_PRIVATE_PROPERTY_OFFSET \
+	Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_15_INCLASS_NO_PURE_DECLS \
+	Prototype_Combat_Source_Prototype_Combat_JSONReaderComponenent_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

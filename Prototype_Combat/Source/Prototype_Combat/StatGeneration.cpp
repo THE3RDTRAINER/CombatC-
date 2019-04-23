@@ -13,7 +13,7 @@ string Sworddata;
 
 AActor Destory(AActor);
 
-//_sharpness, _durablility, and basedmg all need to be called from the sword JSON 
+//_sharpness and _durablility, need to be called from the sword JSON 
 
 // Sets default values for this component's properties
 UStatGeneration::UStatGeneration()
@@ -61,12 +61,16 @@ void UStatGeneration::BeginPlay()
 void UStatGeneration::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+	
 	FHitResult Hit;
+
 	// ...
+	//if () {
 	_durability = _durability - 5;
+	//}
+
 
 	if (_durability == 0) {
-	//	AActor Destroy(AActor);
+		//AActor Destroy(AActor);
 	}
 }
-

@@ -1,19 +1,27 @@
 {"swords": [
       {
-"Blade":
-"Sword_Blade_01",
-"Crossguard":
-"Sword_Crossguard_01",
-"Hilt":
-"Sword_hilt_01",
-"Pommel":
-"Sword_pommel_01",
-"Price":
-10,
-"Durablitliy":
-100,
-"Sharpness":
-100
+        "Blade": [
+          "Sword_Blade_01"
+        ]
+
+        "Crossguard": [
+          "Sword_Crossguard_01"
+        ]
+        "Hilt": [
+          "Sword_hilt_01"
+        ]
+        "Pommel": [
+          "Sword_pommel_01"
+        ]
+        "Price": [
+          10
+        ]
+        "Durablitliy": [
+          100
+        ]
+        "Sharpness": [
+          100
+        ]
       }
     ],
     "dataTitle":"swordsdata"

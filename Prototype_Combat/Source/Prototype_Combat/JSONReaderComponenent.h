@@ -4,7 +4,10 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include <Runtime/Json/Public/Json.h>
 #include "JSONReaderComponenent.generated.h"
+
+
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class PROTOTYPE_COMBAT_API UJSONReaderComponenent : public UActorComponent
@@ -26,4 +29,36 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 		
+};
+
+USTRUCT()
+struct FSword
+{
+
+	
+	GENERATED_BODY()
+
+public:
+	UPROPERTY()
+	FString blade;
+
+	UPROPERTY()
+	FString crossGuard;
+
+	UPROPERTY()
+	FString hilt;
+
+	UPROPERTY()
+	FString pommel;
+
+	UPROPERTY()
+	int16 price;
+
+	UPROPERTY()
+	int16 durability;
+
+	UPROPERTY()
+	int16 sharpness;
+
+
 };
