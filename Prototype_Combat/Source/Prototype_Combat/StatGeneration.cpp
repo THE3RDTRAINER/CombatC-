@@ -1,15 +1,16 @@
+//Copywrite
+
+//Creates and monitors stats
+
 #include "StatGeneration.h"
 #include <fstream>
 #include <string>
 #include "Engine.h"
 #include <Runtime/Engine/Classes/GameFramework/Actor.h>
 
+
 using namespace std;
-//I'm making this reusable. 
-int x = 0;
-FString sworddata;
-string Sworddata;
-//FString durability; 
+
 
 AActor Destory(AActor);
 
@@ -32,26 +33,7 @@ void UStatGeneration::BeginPlay()
 	Super::BeginPlay();
 
 	// ...
-	ifstream readSwords;
-	readSwords.open("swordsdata.json");
-	if (!readSwords.fail())
-	{
-		while (x <= 19) { //Once again using just a while loop because it
-			//getline(readSwords, Sworddata);
-			FString sworddata(Sworddata.c_str());
-			x++;
-			//UE_LOG(LogTemp, Log, TEXT("%s"), *sworddata);
-			if (sworddata == "\"Durabilitliy\":") {
-				getline(readSwords, Sworddata);
-
-				UE_LOG(LogTemp, Log, TEXT("Found durability value!"));
-			}
-
-			//UE_LOG(LogTemp, Log, TEXT("Time to read a file"));
-		}
-		//FString durability(FString::FromInt(_durability));
-		//UE_LOG(LogTemp, Log, TEXT("durablility is %s"), *durability);
-	}
+	
 }
 
 
@@ -66,11 +48,11 @@ void UStatGeneration::TickComponent(float DeltaTime, ELevelTick TickType, FActor
 
 	// ...
 	//if () {
-	_durability = _durability - 5;
+	//_durability = _durability - 5;
 	//}
 
 
-	if (_durability == 0) {
+	if (&USwordStats::_durability == 0) {
 		//AActor Destroy(AActor);
 	}
 }

@@ -16,9 +16,7 @@ ifstream readSwords;
 string sword1;
 string swordpart;
 string parttofind = "\"Blade\":";
-string _blade="Blade";
-FString _Blade;
-string _crossGuard; 
+
 int8 i=0;
 
 // Sets default values for this component's properties

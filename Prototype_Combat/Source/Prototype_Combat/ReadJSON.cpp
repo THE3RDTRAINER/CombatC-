@@ -1,5 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
+//DON'T USE ME! 
+
 #include "ReadJSON.h"
 #include <fstream>
 #include <string>

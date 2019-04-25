@@ -30,6 +30,17 @@ public:
 
 		
 };
+UCLASS()
+class USwordStats : public UJSONReaderComponenent {
+
+	GENERATED_BODY()
+public: 
+	int  _blade;
+
+	int _crossGuard;
+
+	static int _durability; 
+};
 
 USTRUCT()
 struct FSword

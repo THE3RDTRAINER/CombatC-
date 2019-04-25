@@ -18,6 +18,8 @@ void EmptyLinkFunctionForGeneratedCodeJSONReaderComponenent() {}
 	PROTOTYPE_COMBAT_API UClass* Z_Construct_UClass_UJSONReaderComponenent_NoRegister();
 	PROTOTYPE_COMBAT_API UClass* Z_Construct_UClass_UJSONReaderComponenent();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
+	PROTOTYPE_COMBAT_API UClass* Z_Construct_UClass_USwordStats_NoRegister();
+	PROTOTYPE_COMBAT_API UClass* Z_Construct_UClass_USwordStats();
 // End Cross Module References
 class UScriptStruct* FSword::StaticStruct()
 {
@@ -216,6 +218,58 @@ static struct FScriptStruct_Prototype_Combat_StaticRegisterNativesFSword
 	IMPLEMENT_CLASS(UJSONReaderComponenent, 192274830);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UJSONReaderComponenent(Z_Construct_UClass_UJSONReaderComponenent, &UJSONReaderComponenent::StaticClass, TEXT("/Script/Prototype_Combat"), TEXT("UJSONReaderComponenent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UJSONReaderComponenent);
+	void USwordStats::StaticRegisterNativesUSwordStats()
+	{
+	}
+	UClass* Z_Construct_UClass_USwordStats_NoRegister()
+	{
+		return USwordStats::StaticClass();
+	}
+	struct Z_Construct_UClass_USwordStats_Statics
+	{
+		static UObject* (*const DependentSingletons[])();
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
+#endif
+		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
+		static const UE4CodeGen_Private::FClassParams ClassParams;
+	};
+	UObject* (*const Z_Construct_UClass_USwordStats_Statics::DependentSingletons[])() = {
+		(UObject* (*)())Z_Construct_UClass_UJSONReaderComponenent,
+		(UObject* (*)())Z_Construct_UPackage__Script_Prototype_Combat,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USwordStats_Statics::Class_MetaDataParams[] = {
+		{ "IncludePath", "JSONReaderComponenent.h" },
+		{ "ModuleRelativePath", "JSONReaderComponenent.h" },
+	};
+#endif
+	const FCppClassTypeInfoStatic Z_Construct_UClass_USwordStats_Statics::StaticCppClassTypeInfo = {
+		TCppClassTypeTraits<USwordStats>::IsAbstract,
+	};
+	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_USwordStats_Statics::ClassParams = {
+		&USwordStats::StaticClass,
+		DependentSingletons, ARRAY_COUNT(DependentSingletons),
+		0x00A000A4u,
+		nullptr, 0,
+		nullptr, 0,
+		"Engine",
+		&StaticCppClassTypeInfo,
+		nullptr, 0,
+		METADATA_PARAMS(Z_Construct_UClass_USwordStats_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_USwordStats_Statics::Class_MetaDataParams))
+	};
+	UClass* Z_Construct_UClass_USwordStats()
+	{
+		static UClass* OuterClass = nullptr;
+		if (!OuterClass)
+		{
+			UE4CodeGen_Private::ConstructUClass(OuterClass, Z_Construct_UClass_USwordStats_Statics::ClassParams);
+		}
+		return OuterClass;
+	}
+	IMPLEMENT_CLASS(USwordStats, 3199609208);
+	static FCompiledInDefer Z_CompiledInDefer_UClass_USwordStats(Z_Construct_UClass_USwordStats, &USwordStats::StaticClass, TEXT("/Script/Prototype_Combat"), TEXT("USwordStats"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(USwordStats);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER
 #pragma warning (pop)
