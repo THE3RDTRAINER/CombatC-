@@ -4,6 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "GameFramework/Actor.h"
+#include "Components/BoxComponent.h"
+#include "Components/SkeletalMeshComponent.h"
 #include "BasicEnemy.generated.h"
 
 UCLASS()
@@ -14,6 +17,17 @@ class PROTOTYPE_COMBAT_API ABasicEnemy : public ACharacter
 public:
 	// Sets default values for this character's properties
 	ABasicEnemy();
+
+	//UPROPERTY(VisibleAnywhere)
+		//USkeletalMeshComponent* Enemy;
+	UPROPERTY(VisibleAnywhere)
+		UStaticMeshComponent* target;
+	UPROPERTY(EditDefaultsOnly)
+		UBoxComponent* BoxCollider;
+
+	void OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+
+
 
 protected:
 	// Called when the game starts or when spawned

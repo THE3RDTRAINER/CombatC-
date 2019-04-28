@@ -17,7 +17,11 @@ class PROTOTYPE_COMBAT_API UJSONReaderComponenent : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	UJSONReaderComponenent();
+	int  _blade;
 
+	int _crossGuard;
+
+	static int _durability;
 
 
 protected:
@@ -30,17 +34,13 @@ public:
 
 		
 };
-UCLASS()
-class USwordStats : public UJSONReaderComponenent {
+//UCLASS()
+//class USwordStats : public UJSONReaderComponenent {
 
-	GENERATED_BODY()
-public: 
-	int  _blade;
+	//GENERATED_BODY()
+//public: 
 
-	int _crossGuard;
-
-	static int _durability; 
-};
+//};
 
 USTRUCT()
 struct FSword

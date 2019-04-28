@@ -52,7 +52,8 @@ void UStatGeneration::TickComponent(float DeltaTime, ELevelTick TickType, FActor
 	//}
 
 
-	if (&USwordStats::_durability == 0) {
+	if (&UJSONReaderComponenent::_durability == 0) {
 		//AActor Destroy(AActor);
 	}
+
 }
