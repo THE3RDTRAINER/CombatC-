@@ -1,0 +1,812 @@
+﻿Log file open, 04/28/19 10:15:38
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Prototype_Combat
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.273144
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.088s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz, GPU: Intel(R) UHD Graphics 620
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.006s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Engine.ini]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Engine.ini]
+[2019.04.28-14.15.38:740][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Engine.ini]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Engine.ini]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.04.28-14.15.38:740][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Engine.ini]
+[2019.04.28-14.15.38:740][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Engine.ini]
+[2019.04.28-14.15.38:747][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.28-14.15.38:747][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.28-14.15.38:748][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.28-14.15.38:748][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.28-14.15.38:748][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.28-14.15.38:757][  0]LogHAL: Display: Platform has ~ 16 GB [16949690368 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.28-14.15.38:757][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.04.28-14.15.38:757][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.28-14.15.38:758][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:2]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.4]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:0]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:0]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.ShadowQuality:0]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:512]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:512]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.6]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:0]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.CapsuleShadows:0]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:16]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.Streaming.Boost:0.3]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:0]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2019.04.28-14.15.38:758][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:400]]
+[2019.04.28-14.15.38:759][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.28-14.15.38:759][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.28-14.15.38:759][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2019.04.28-14.15.38:759][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2019.04.28-14.15.38:759][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.04.28-14.15.38:759][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2019.04.28-14.15.38:759][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2019.04.28-14.15.38:759][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.04.28-14.15.38:759][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2019.04.28-14.15.38:759][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2019.04.28-14.15.38:759][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2019.04.28-14.15.38:759][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2019.04.28-14.15.38:759][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.28-14.15.38:759][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2019.04.28-14.15.38:759][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2019.04.28-14.15.38:759][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Scalability.ini]
+[2019.04.28-14.15.38:759][  0]LogConfig: Setting CVar [[foliage.DensityScale:0]]
+[2019.04.28-14.15.38:759][  0]LogConfig: Setting CVar [[grass.DensityScale:0]]
+[2019.04.28-14.15.38:759][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.04.28-14.15.38:759][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.04.28-14.15.38:759][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Config/Windows/Engine.ini]
+[2019.04.28-14.15.38:760][  0]LogInit: Computer: DESKTOP-3QPJQ6S
+[2019.04.28-14.15.38:760][  0]LogInit: User: Snowm
+[2019.04.28-14.15.38:760][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.28-14.15.38:760][  0]LogInit: High frequency timer resolution =1.945313 MHz
+[2019.04.28-14.15.38:760][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2019.04.28-14.15.38:760][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.28-14.15.38:760][  0]LogMemory: Process Physical Memory: 102.18 MB used, 102.18 MB peak
+[2019.04.28-14.15.38:760][  0]LogMemory: Process Virtual Memory: 91.54 MB used, 91.54 MB peak
+[2019.04.28-14.15.38:760][  0]LogMemory: Physical Memory: 10401.00 MB used,  5763.48 MB free, 16164.48 MB total
+[2019.04.28-14.15.38:760][  0]LogMemory: Virtual Memory: 4653.13 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2019.04.28-14.15.38:785][  0]LogInit: Using OS detected language (en-US).
+[2019.04.28-14.15.38:785][  0]LogInit: Using OS detected locale (en-US).
+[2019.04.28-14.15.38:786][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.28-14.15.39:163][  0]LogStreaming: Display: Took  0.378s to InitEngineTextLocalization.
+[2019.04.28-14.15.39:163][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.28-14.15.39:203][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.28-14.15.39:203][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.28-14.15.39:449][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.28-14.15.39:449][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.28-14.15.40:175][  0]LogD3D11RHI:    0. 'NVIDIA GeForce MX150' (Feature Level 11_0)
+[2019.04.28-14.15.40:175][  0]LogD3D11RHI:       1983/0/8082 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.28-14.15.40:192][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2019.04.28-14.15.40:192][  0]LogD3D11RHI:       128/0/8082 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.04.28-14.15.40:194][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.28-14.15.40:194][  0]LogD3D11RHI:       0/0/8082 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.28-14.15.40:194][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.28-14.15.40:216][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.28-14.15.40:216][  0]LogD3D11RHI:     GPU DeviceId: 0x1d10 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.28-14.15.40:216][  0]LogWindows: EnumDisplayDevices:
+[2019.04.28-14.15.40:217][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2019.04.28-14.15.40:217][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.04.28-14.15.40:217][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2019.04.28-14.15.40:217][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.28-14.15.40:217][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce MX150
+[2019.04.28-14.15.40:217][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.28-14.15.40:217][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.04.28-14.15.40:217][  0]LogRHI: Texture pool is 1388 MB (70% of 1983 MB)
+[2019.04.28-14.15.40:253][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.28-14.15.40:269][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.04.28-14.15.40:538][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.28-14.15.40:549][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.28-14.15.40:561][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.28-14.15.40:574][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.28-14.15.40:585][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.28-14.15.40:596][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.28-14.15.40:607][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.28-14.15.40:618][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.28-14.15.40:624][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.28-14.15.40:696][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.28-14.15.40:696][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.28-14.15.40:696][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.28-14.15.40:696][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.28-14.15.40:696][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.28-14.15.40:696][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.28-14.15.40:696][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.28-14.15.40:696][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.28-14.15.40:696][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.28-14.15.40:696][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.28-14.15.40:696][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.28-14.15.40:696][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.28-14.15.40:696][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.28-14.15.40:696][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.28-14.15.40:696][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.28-14.15.40:696][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.28-14.15.40:696][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.28-14.15.40:696][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.28-14.15.40:698][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.28-14.15.40:756][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.28-14.15.40:756][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.28-14.15.40:779][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.28-14.15.40:779][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.28-14.15.40:790][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.28-14.15.40:801][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.28-14.15.40:814][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.28-14.15.40:828][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.28-14.15.40:878][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.28-14.15.40:878][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.28-14.15.40:878][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.28-14.15.40:935][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/Snowm/Documents/CombatC-/Prototype_Combat/Intermediate/Shaders/WorkingDirectory/21028/).
+[2019.04.28-14.15.40:935][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Snowm/AppData/Local/Temp/UnrealShaderWorkingDir/3664994D401FE8E30778F7B487995314/'.
+[2019.04.28-14.15.40:937][  0]LogXGEController: Cleaning working directory: C:/Users/Snowm/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.28-14.15.40:938][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.28-14.15.40:938][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.28-14.15.40:938][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.28-14.15.41:423][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.28-14.15.41:472][  0]LogDerivedDataCache: Loaded boot cache 0.05s 72MB C:/Users/Snowm/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.28-14.15.41:472][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Snowm/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.04.28-14.15.41:472][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Snowm/Documents/CombatC-/Prototype_Combat/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.28-14.15.41:472][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.28-14.15.41:472][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Snowm/Documents/CombatC-/Prototype_Combat/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.28-14.15.41:472][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.28-14.15.41:486][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.28-14.15.41:486][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.28-14.15.41:486][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.04.28-14.15.41:500][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Snowm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.28-14.15.41:500][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.28-14.15.41:500][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.28-14.15.41:543][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.28-14.15.41:549][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.28-14.15.41:554][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.28-14.15.41:784][  0]LogAssetRegistry: FAssetRegistry took 0.0509 seconds to start up
+[2019.04.28-14.15.42:152][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.28-14.15.42:307][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.28-14.15.42:310][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.28-14.15.42:310][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.28-14.15.42:310][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.28-14.15.42:310][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.28-14.15.42:322][  0]LogNetVersion: Prototype_Combat 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3546136163)
+[2019.04.28-14.15.42:768][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.074477 seconds
+[2019.04.28-14.15.42:775][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.04.28-14.15.42:775][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.04.28-14.15.42:775][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.28-14.15.43:696][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.28-14.15.43:710][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.28-14.15.44:781][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.403 s
+[2019.04.28-14.15.44:781][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2019.04.28-14.15.44:781][  0]LogOutputDevice: Error: 
+[2019.04.28-14.15.44:781][  0]LogOutputDevice: Error: Ensure condition failed: this->IsBound() [File:C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Core\Public\Delegates/DelegateSignatureImpl.inl] [Line: 1095]
+[2019.04.28-14.15.44:781][  0]LogOutputDevice: Error: Unable to bind delegate to 'OnCompHit' (function might not be marked as a UFUNCTION or object may be pending kill)
+[2019.04.28-14.15.44:781][  0]LogOutputDevice: Error: Stack: 
+[2019.04.28-14.15.44:781][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd7b5021ae UE4Editor-Prototype_Combat-8211.dll!TBaseDynamicMulticastDelegate<FWeakObjectPtr,void,UPrimitiveComponent *,AActor *,UPrimitiveComponent *,FVector,FHitResult const &>::__Internal_AddDynamic<ABasicEnemy>() [C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Core\Public\Delegates\DelegateSignatureImpl.inl:1175]
+[2019.04.28-14.15.44:781][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd7b5025b8 UE4Editor-Prototype_Combat-8211.dll!ABasicEnemy::ABasicEnemy() [C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Source\Prototype_Combat\BasicEnemy.cpp:17]
+[2019.04.28-14.15.44:781][  0]LogOutputDevice: Error: [Callstack] 0x00007ffdba428973 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.28-14.15.44:781][  0]LogOutputDevice: Error: [Callstack] 0x00007ffdba6f20a8 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.28-14.15.44:781][  0]LogOutputDevice: Error: [Callstack] 0x00007ffdba6d819f UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.28-14.15.44:781][  0]LogOutputDevice: Error: [Callstack] 0x00007ffdba42e977 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.28-14.15.44:781][  0]LogOutputDevice: Error: [Callstack] 0x00007ffdb483ca7e UE4Editor-Core.dll!UnknownFunction []
+[2019.04.28-14.15.44:781][  0]LogOutputDevice: Error: [Callstack] 0x00007ffdb49f9e66 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.28-14.15.44:782][  0]LogOutputDevice: Error: [Callstack] 0x00007ffdd02ccfec UE4Editor-Projects.dll!UnknownFunction []
+[2019.04.28-14.15.44:782][  0]LogOutputDevice: Error: [Callstack] 0x00007ffdd02cd2d4 UE4Editor-Projects.dll!UnknownFunction []
+[2019.04.28-14.15.44:782][  0]LogOutputDevice: Error: [Callstack] 0x00007ff78ce883a1 UE4Editor.exe!UnknownFunction []
+[2019.04.28-14.15.44:782][  0]LogOutputDevice: Error: [Callstack] 0x00007ff78ce8dc6b UE4Editor.exe!UnknownFunction []
+[2019.04.28-14.15.44:782][  0]LogOutputDevice: Error: [Callstack] 0x00007ff78ce85783 UE4Editor.exe!UnknownFunction []
+[2019.04.28-14.15.44:782][  0]LogOutputDevice: Error: [Callstack] 0x00007ff78ce859ea UE4Editor.exe!UnknownFunction []
+[2019.04.28-14.15.44:782][  0]LogOutputDevice: Error: [Callstack] 0x00007ff78ce948da UE4Editor.exe!UnknownFunction []
+[2019.04.28-14.15.44:782][  0]LogOutputDevice: Error: [Callstack] 0x00007ff78ce9659a UE4Editor.exe!UnknownFunction []
+[2019.04.28-14.15.44:782][  0]LogOutputDevice: Error: [Callstack] 0x00007ffe001f4034 KERNEL32.DLL!UnknownFunction []
+[2019.04.28-14.15.44:782][  0]LogOutputDevice: Error: [Callstack] 0x00007ffe00dc3691 ntdll.dll!UnknownFunction []
+[2019.04.28-14.15.44:782][  0]LogOutputDevice: Error: 
+[2019.04.28-14.15.44:786][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2019.04.28-14.15.45:168][  0]LogStats:                    SendNewReport -  0.383 s
+[2019.04.28-14.15.45:168][  0]LogStats:             FDebug::EnsureFailed -  0.790 s
+[2019.04.28-14.15.45:376][  0]SourceControl: Source control is disabled
+[2019.04.28-14.15.45:376][  0]SourceControl: Source control is disabled
+[2019.04.28-14.15.45:377][  0]SourceControl: Source control is disabled
+[2019.04.28-14.15.45:378][  0]SourceControl: Source control is disabled
+[2019.04.28-14.15.45:542][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.28-14.15.45:586][  0]LogOcInput: OculusInput pre-init called
+[2019.04.28-14.15.45:750][  0]LogEngine: Initializing Engine...
+[2019.04.28-14.15.45:751][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.28-14.15.45:752][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.28-14.15.45:752][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.28-14.15.45:752][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.28-14.15.45:752][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.28-14.15.46:055][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.28-14.15.46:067][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.28-14.15.46:081][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.28-14.15.46:778][  0]LogInit: FAudioDevice initialized.
+[2019.04.28-14.15.46:778][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.28-14.15.46:892][  0]LogDerivedDataCache: Saved boot cache 0.11s 72MB C:/Users/Snowm/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.04.28-14.15.46:899][  0]LogInit: Texture streaming: Enabled
+[2019.04.28-14.15.46:915][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.28-14.15.46:930][  0]LogInit: Transaction tracking system initialized
+[2019.04.28-14.15.46:952][  0]BlueprintLog: New page: Editor Load
+[2019.04.28-14.15.47:038][  0]LocalizationService: Localization service is disabled
+[2019.04.28-14.15.47:793][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Content/' took 0.02s
+[2019.04.28-14.15.47:793][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.28-14.15.47:793][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.28-14.15.47:793][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.28-14.15.47:793][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.28-14.15.47:793][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.28-14.15.47:793][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.28-14.15.47:793][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.28-14.15.47:906][  0]SourceControl: Source control is disabled
+[2019.04.28-14.15.47:906][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Snowm/Documents/CombatC-/Prototype_Combat/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.28-14.15.47:906][  0]LightingResults: New page: Lighting Build
+[2019.04.28-14.15.47:908][  0]MapCheck: New page: Map Check
+[2019.04.28-14.15.47:908][  0]LightingResults: New page: Lighting Build
+[2019.04.28-14.15.48:089][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.04.28-14.15.48:097][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.28-14.15.48:117][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.28-14.15.48:118][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.191ms to complete.
+[2019.04.28-14.15.48:118][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.212
+[2019.04.28-14.15.48:228][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.28-14.15.48:234][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.28-14.15.48:242][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.28-14.15.48:248][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.28-14.15.48:253][  0]LogCollectionManager: Loaded 0 collections in 0.001288 seconds
+[2019.04.28-14.15.48:276][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Saved/Collections/' took 0.01s
+[2019.04.28-14.15.48:276][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Content/Developers/Snowm/Collections/' took 0.00s
+[2019.04.28-14.15.48:276][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Content/Collections/' took 0.00s
+[2019.04.28-14.15.48:276][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.04.28-14.15.48:289][  0]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 2659 classes and 623 folders.
+[2019.04.28-14.15.48:295][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.28-14.15.48:296][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.28-14.15.48:297][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.28-14.15.48:297][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.28-14.15.48:298][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.28-14.15.48:298][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.28-14.15.48:298][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.28-14.15.48:299][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.28-14.15.48:299][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.28-14.15.48:299][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.28-14.15.48:300][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.28-14.15.48:300][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.28-14.15.48:301][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.28-14.15.48:301][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.28-14.15.48:301][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.28-14.15.48:302][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.28-14.15.48:302][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.28-14.15.48:303][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.28-14.15.48:303][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.28-14.15.48:304][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.28-14.15.48:304][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.28-14.15.48:306][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.28-14.15.48:306][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.28-14.15.48:307][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.28-14.15.48:307][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.28-14.15.48:308][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.28-14.15.48:308][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.28-14.15.48:349][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.28-14.15.48:356][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2019.04.28-14.15.48:433][  0]LogSlate: Took 0.000266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.28-14.15.48:435][  0]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.28-14.15.48:442][  0]LogSlate: Took 0.000367 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.28-14.15.48:443][  0]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.04.28-14.15.48:690][  0]LogRenderer: Reallocating scene render targets to support 936x448 Format 9 NumSamples 1 (Frame:1).
+[2019.04.28-14.15.48:877][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.28-14.15.48:877][  0]LogLoad: (Engine Initialization) Total time: 11.75 seconds
+[2019.04.28-14.15.48:877][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.28-14.15.48:900][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.28-14.15.48:955][  0]LogContentStreaming: Texture pool size now 400 MB
+[2019.04.28-14.15.48:992][  1]LogAssetRegistry: Asset discovery search completed in 7.2363 seconds
+[2019.04.28-14.15.48:994][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.04.28-14.15.48:994][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000188 seconds (updated 0 objects)
+[2019.04.28-14.32.10:922][178]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.32.10:922][178]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.32.10:922][178]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.32.10:923][178]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.32.10:923][178]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.32.10:923][178]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.32.10:925][178]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.32.10:925][178]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.32.10:926][178]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.32.10:926][178]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.53.03:497][272]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.53.03:499][272]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.53.03:499][272]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.53.03:500][272]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.53.03:503][272]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.006 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.53.03:510][272]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.013 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.53.03:523][272]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.026 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.53.03:525][272]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.028 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.53.03:527][272]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.030 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.53.03:531][272]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.034 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.53.03:533][272]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.036 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.53.03:536][272]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.037 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.53.03:537][272]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.040 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.53.03:537][272]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.040 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.53.03:539][272]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.042 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.53.03:542][272]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.045 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.53.03:546][272]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.049 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.53.03:552][272]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.055 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.53.03:553][272]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.056 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.53.03:554][272]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.057 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.53.49:220][407]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (45.722 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.59.03:973][486]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.59.03:974][486]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.59.03:974][486]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-14.59.03:975][486]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:855][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:855][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:855][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:856][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:856][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:856][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.001 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:856][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:856][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:857][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:857][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:857][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.002 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:857][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:858][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:858][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:858][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.003 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:858][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:858][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:859][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:859][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:859][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.004 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:859][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.005 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:860][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.005 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:860][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.005 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:860][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.005 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:860][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.006 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:861][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.006 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:861][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.006 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:861][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.006 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:861][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.007 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.30.34:861][577]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.007 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.33.45:712][601]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.33.45:965][601]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.252 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.33.45:966][601]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.253 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.04.28-15.36.06:704][159]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.28-15.36.06:744][159]LogSlate: Took 0.002164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.28-15.36.55:448][ 22]LogSlate: Took 0.000344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.28-15.36.55:466][ 22]LogAssetEditorManager: Opening Asset editor for Class /Script/Prototype_Combat.BasicEnemy
+[2019.04.28-15.37.07:145][148]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2019.04.28-15.43.28:274][416]Candidate modules for hot reload:
+[2019.04.28-15.43.28:275][416]  Prototype_Combat
+[2019.04.28-15.43.28:276][416]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Prototype_Combat,107 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Snowm/Documents/CombatC-/Prototype_Combat/Prototype_Combat.uproject" -canskiplink "C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Prototype_Combat.uproject" ]
+[2019.04.28-15.43.28:286][416]Warning: Starting HotReload took  0.2s.
+[2019.04.28-15.48.36:267][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.04.28-15.48.51:429][592]CompilerResultsLog: New page: Compilation - Apr 28, 2019, 7:48:51 AM
+[2019.04.28-15.48.51:431][592]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Snowm\Documents\CombatC-).
+[2019.04.28-15.48.51:431][592]CompilerResultsLog: Creating makefile for hot reloading Prototype_CombatEditor (source directory changed)
+[2019.04.28-15.48.51:432][592]CompilerResultsLog: Compiling game modules for hot reload
+[2019.04.28-15.48.51:432][592]CompilerResultsLog: Using Visual Studio 2017 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.04.28-15.48.51:433][592]CompilerResultsLog: Parsing headers for Prototype_CombatEditor
+[2019.04.28-15.48.51:433][592]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Prototype_Combat.uproject" "C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\Prototype_CombatEditor\Development\Prototype_CombatEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.04.28-15.48.51:434][592]CompilerResultsLog: Reflection code generated for Prototype_CombatEditor in 49.3558208 seconds
+[2019.04.28-15.48.51:435][592]CompilerResultsLog: Building 22 actions with 8 processes...
+[2019.04.28-15.48.51:435][592]CompilerResultsLog:   [1/22] SharedPCH.Engine.cpp
+[2019.04.28-15.48.51:435][592]CompilerResultsLog:   Detected compiler newer than Visual Studio 2017, please update min version checking in WindowsPlatformCompilerSetup.h
+[2019.04.28-15.48.51:435][592]CompilerResultsLog:   [2/22] ReadJSON.gen.cpp
+[2019.04.28-15.48.51:436][592]CompilerResultsLog:   [3/22] FP_FirstPersonGameMode.gen.cpp
+[2019.04.28-15.48.51:436][592]CompilerResultsLog:   [4/22] Prototype_CombatGameModeBase.gen.cpp
+[2019.04.28-15.48.51:436][592]CompilerResultsLog:   [5/22] FP_FirstPersonCharacter.gen.cpp
+[2019.04.28-15.48.51:436][592]CompilerResultsLog:   [6/22] FP_FirstPersonHUD.cpp
+[2019.04.28-15.48.51:436][592]CompilerResultsLog:   [7/22] Prototype_Combat.init.gen.cpp
+[2019.04.28-15.48.51:436][592]CompilerResultsLog:   [8/22] FP_FirstPersonHUD.gen.cpp
+[2019.04.28-15.48.51:436][592]CompilerResultsLog:   [9/22] BasicEnemy.gen.cpp
+[2019.04.28-15.48.51:437][592]CompilerResultsLog:   [10/22] JSONReaderComponenent.gen.cpp
+[2019.04.28-15.48.51:437][592]CompilerResultsLog:   [11/22] Prototype_Combat.cpp
+[2019.04.28-15.48.51:437][592]CompilerResultsLog:   [12/22] ReadJSON.cpp
+[2019.04.28-15.48.51:437][592]CompilerResultsLog:   [13/22] FP_FirstPersonCharacter.cpp
+[2019.04.28-15.48.51:438][592]CompilerResultsLog:   [14/22] BasicEnemy.cpp
+[2019.04.28-15.48.51:438][592]CompilerResultsLog:    C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Source\Prototype_Combat\BasicEnemy.cpp(35) : error C2597: illegal reference to non-static member 'UStatGeneration::_Health'
+[2019.04.28-15.48.51:440][592]CompilerResultsLog:   C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Source\Prototype_Combat\BasicEnemy.cpp(35): note: see declaration of 'UStatGeneration::_Health'
+[2019.04.28-15.48.51:440][592]CompilerResultsLog:   [15/22] Prototype_CombatGameModeBase.cpp
+[2019.04.28-15.48.51:441][592]CompilerResultsLog:   [16/22] ReadingJSONs.cpp
+[2019.04.28-15.48.51:441][592]CompilerResultsLog:   [17/22] FP_FirstPersonGameMode.cpp
+[2019.04.28-15.48.51:441][592]CompilerResultsLog:   [18/22] StatGeneration.gen.cpp
+[2019.04.28-15.48.51:441][592]CompilerResultsLog:   [19/22] JSONReaderComponenent.cpp
+[2019.04.28-15.48.51:441][592]CompilerResultsLog:   [20/22] StatGeneration.cpp
+[2019.04.28-15.48.51:442][592]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Binaries\Win64\UE4Editor-Prototype_Combat-107.dll
+[2019.04.28-15.48.51:442][592]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.04.28-15.48.51:443][592]CompilerResultsLog: Total build time: 322.43 seconds (Parallel executor: 0.00 seconds)
+[2019.04.28-15.48.51:444][592]LogMainFrame: MainFrame: Module compiling took 323.214 seconds
+[2019.04.28-15.48.51:445][592]Warning: HotReload failed, recompile failed
+[2019.04.28-15.51.13:129][190]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.28-15.51.31:183][512]Candidate modules for hot reload:
+[2019.04.28-15.51.31:183][512]  Prototype_Combat
+[2019.04.28-15.51.31:183][512]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Prototype_Combat,6541 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Snowm/Documents/CombatC-/Prototype_Combat/Prototype_Combat.uproject" -canskiplink "C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Prototype_Combat.uproject" ]
+[2019.04.28-15.51.31:196][512]Warning: Starting HotReload took  0.1s.
+[2019.04.28-15.53.19:364][297]CompilerResultsLog: New page: Compilation - Apr 28, 2019, 7:53:19 AM
+[2019.04.28-15.53.19:365][297]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Snowm\Documents\CombatC-).
+[2019.04.28-15.53.19:366][297]CompilerResultsLog: Creating makefile for hot reloading Prototype_CombatEditor (source directory changed)
+[2019.04.28-15.53.19:367][297]CompilerResultsLog: Compiling game modules for hot reload
+[2019.04.28-15.53.19:367][297]CompilerResultsLog: Using Visual Studio 2017 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.04.28-15.53.19:369][297]CompilerResultsLog: Parsing headers for Prototype_CombatEditor
+[2019.04.28-15.53.19:370][297]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Prototype_Combat.uproject" "C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\Prototype_CombatEditor\Development\Prototype_CombatEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.04.28-15.53.19:372][297]CompilerResultsLog: Error: C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Source/Prototype_Combat/StatGeneration.h(34)  : Error: Unrecognized type 'static' - type must be a UCLASS, USTRUCT or UENUM
+[2019.04.28-15.53.19:375][297]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'Prototype_CombatEditor' (platform: Win64, module info: C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\Prototype_CombatEditor\Development\Prototype_CombatEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2019.04.28-15.53.19:377][297]LogMainFrame: MainFrame: Module compiling took 108.198 seconds
+[2019.04.28-15.53.19:377][297]Warning: HotReload failed, recompile failed
+[2019.04.28-15.53.50:055][932]Candidate modules for hot reload:
+[2019.04.28-15.53.50:055][932]  Prototype_Combat
+[2019.04.28-15.53.50:056][932]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Prototype_Combat,3079 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Snowm/Documents/CombatC-/Prototype_Combat/Prototype_Combat.uproject" -canskiplink "C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Prototype_Combat.uproject" ]
+[2019.04.28-15.53.50:065][932]Warning: Starting HotReload took  0.1s.
+[2019.04.28-15.54.45:007][135]CompilerResultsLog: New page: Compilation - Apr 28, 2019, 7:54:45 AM
+[2019.04.28-15.54.45:007][135]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Snowm\Documents\CombatC-).
+[2019.04.28-15.54.45:008][135]CompilerResultsLog: Creating makefile for hot reloading Prototype_CombatEditor (source directory changed)
+[2019.04.28-15.54.45:008][135]CompilerResultsLog: Compiling game modules for hot reload
+[2019.04.28-15.54.45:008][135]CompilerResultsLog: Using Visual Studio 2017 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.04.28-15.54.45:009][135]CompilerResultsLog: Parsing headers for Prototype_CombatEditor
+[2019.04.28-15.54.45:009][135]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Prototype_Combat.uproject" "C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\Prototype_CombatEditor\Development\Prototype_CombatEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.04.28-15.54.45:010][135]CompilerResultsLog: Reflection code generated for Prototype_CombatEditor in 14.2336174 seconds
+[2019.04.28-15.54.45:011][135]CompilerResultsLog: Building 7 actions with 8 processes...
+[2019.04.28-15.54.45:011][135]CompilerResultsLog:   [1/7] Prototype_Combat.init.gen.cpp
+[2019.04.28-15.54.45:011][135]CompilerResultsLog:   [2/7] BasicEnemy.cpp
+[2019.04.28-15.54.45:012][135]CompilerResultsLog:    C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Source\Prototype_Combat\BasicEnemy.cpp(35) : error C2597: illegal reference to non-static member 'UStatGeneration::_Health'
+[2019.04.28-15.54.45:012][135]CompilerResultsLog:   C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Source\Prototype_Combat\BasicEnemy.cpp(35): note: see declaration of 'UStatGeneration::_Health'
+[2019.04.28-15.54.45:013][135]CompilerResultsLog:   [3/7] StatGeneration.gen.cpp
+[2019.04.28-15.54.45:013][135]CompilerResultsLog:   [4/7] BasicEnemy.gen.cpp
+[2019.04.28-15.54.45:013][135]CompilerResultsLog:   [5/7] StatGeneration.cpp
+[2019.04.28-15.54.45:013][135]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Binaries\Win64\UE4Editor-Prototype_Combat-3079.dll
+[2019.04.28-15.54.45:014][135]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.04.28-15.54.45:014][135]CompilerResultsLog: Total build time: 53.44 seconds (Parallel executor: 0.00 seconds)
+[2019.04.28-15.54.45:014][135]LogMainFrame: MainFrame: Module compiling took 54.972 seconds
+[2019.04.28-15.54.45:015][135]Warning: HotReload failed, recompile failed
+[2019.04.28-15.57.12:769][772]Candidate modules for hot reload:
+[2019.04.28-15.57.12:771][772]  Prototype_Combat
+[2019.04.28-15.57.12:773][772]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Prototype_Combat,6268 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Snowm/Documents/CombatC-/Prototype_Combat/Prototype_Combat.uproject" -canskiplink "C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Prototype_Combat.uproject" ]
+[2019.04.28-15.57.12:784][772]Warning: Starting HotReload took  0.1s.
+[2019.04.28-15.58.19:369][221]CompilerResultsLog: New page: Compilation - Apr 28, 2019, 7:58:19 AM
+[2019.04.28-15.58.19:370][221]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Snowm\Documents\CombatC-).
+[2019.04.28-15.58.19:371][221]CompilerResultsLog: Creating makefile for hot reloading Prototype_CombatEditor (source directory changed)
+[2019.04.28-15.58.19:372][221]CompilerResultsLog: Compiling game modules for hot reload
+[2019.04.28-15.58.19:372][221]CompilerResultsLog: Using Visual Studio 2017 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.04.28-15.58.19:373][221]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.04.28-15.58.19:374][221]CompilerResultsLog:   [1/3] BasicEnemy.cpp
+[2019.04.28-15.58.19:374][221]CompilerResultsLog:    C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Source\Prototype_Combat\BasicEnemy.cpp(35) : error C2106: '=': left operand must be l-value
+[2019.04.28-15.58.19:375][221]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Binaries\Win64\UE4Editor-Prototype_Combat-6268.dll
+[2019.04.28-15.58.19:376][221]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.04.28-15.58.19:377][221]CompilerResultsLog: Total build time: 65.38 seconds (Parallel executor: 0.00 seconds)
+[2019.04.28-15.58.19:377][221]LogMainFrame: MainFrame: Module compiling took 66.614 seconds
+[2019.04.28-15.58.19:378][221]Warning: HotReload failed, recompile failed
+[2019.04.28-15.59.25:659][865]Candidate modules for hot reload:
+[2019.04.28-15.59.25:659][865]  Prototype_Combat
+[2019.04.28-15.59.25:659][865]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Prototype_Combat,324 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Snowm/Documents/CombatC-/Prototype_Combat/Prototype_Combat.uproject" -canskiplink "C:/Users/Snowm/Documents/CombatC-/Prototype_Combat/Prototype_Combat.uproject" ]
+[2019.04.28-15.59.25:665][865]Warning: Starting HotReload took  0.1s.
+[2019.04.28-16.00.19:896][744]CompilerResultsLog: New page: Compilation - Apr 28, 2019, 8:00:19 AM
+[2019.04.28-16.00.19:896][744]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Snowm\Documents\CombatC-).
+[2019.04.28-16.00.19:897][744]CompilerResultsLog: Creating makefile for hot reloading Prototype_CombatEditor (source directory changed)
+[2019.04.28-16.00.19:898][744]CompilerResultsLog: Compiling game modules for hot reload
+[2019.04.28-16.00.19:898][744]CompilerResultsLog: Using Visual Studio 2017 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.04.28-16.00.19:900][744]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.04.28-16.00.19:901][744]CompilerResultsLog:   [1/3] BasicEnemy.cpp
+[2019.04.28-16.00.19:902][744]CompilerResultsLog:   [2/3] UE4Editor-Prototype_Combat-324.lib
+[2019.04.28-16.00.19:902][744]CompilerResultsLog:      Creating library C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\UE4Editor-Prototype_Combat-324.lib and object C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\UE4Editor-Prototype_Combat-324.exp
+[2019.04.28-16.00.19:904][744]CompilerResultsLog:   [3/3] UE4Editor-Prototype_Combat-324.dll
+[2019.04.28-16.00.19:905][744]CompilerResultsLog:      Creating library C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\UE4Editor-Prototype_Combat-324.suppressed.lib and object C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\UE4Editor-Prototype_Combat-324.suppressed.exp
+[2019.04.28-16.00.19:906][744]CompilerResultsLog: Total build time: 53.37 seconds (Parallel executor: 13.56 seconds)
+[2019.04.28-16.00.19:906][744]LogMainFrame: MainFrame: Module compiling took 54.252 seconds
+[2019.04.28-16.00.20:052][744]LogClass: Could not find existing class StatGeneration in package /Script/Prototype_Combat for HotReload, assuming new class
+[2019.04.28-16.00.20:054][744]LogClass: Sword HotReload.
+[2019.04.28-16.00.20:069][744]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.04.28-16.00.20:518][744]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.449 s
+[2019.04.28-16.00.20:519][744]LogOutputDevice: Error: === Handled ensure: ===
+[2019.04.28-16.00.20:519][744]LogOutputDevice: Error: 
+[2019.04.28-16.00.20:519][744]LogOutputDevice: Error: Ensure condition failed: this->IsBound() [File:C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Core\Public\Delegates/DelegateSignatureImpl.inl] [Line: 1095]
+[2019.04.28-16.00.20:519][744]LogOutputDevice: Error: Unable to bind delegate to 'OnCompHit' (function might not be marked as a UFUNCTION or object may be pending kill)
+[2019.04.28-16.00.20:519][744]LogOutputDevice: Error: Stack: 
+[2019.04.28-16.00.20:520][744]LogOutputDevice: Error: [Callstack] 0x00007ffdcf6021ae UE4Editor-Prototype_Combat-324.dll!TBaseDynamicMulticastDelegate<FWeakObjectPtr,void,UPrimitiveComponent *,AActor *,UPrimitiveComponent *,FVector,FHitResult const &>::__Internal_AddDynamic<ABasicEnemy>() [C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Core\Public\Delegates\DelegateSignatureImpl.inl:1175]
+[2019.04.28-16.00.20:520][744]LogOutputDevice: Error: [Callstack] 0x00007ffdcf6025b8 UE4Editor-Prototype_Combat-324.dll!ABasicEnemy::ABasicEnemy() [C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Source\Prototype_Combat\BasicEnemy.cpp:17]
+[2019.04.28-16.00.20:521][744]LogOutputDevice: Error: [Callstack] 0x00007ffd7ea27e39 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.04.28-16.00.20:521][744]LogOutputDevice: Error: [Callstack] 0x00007ffd7ea16580 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.04.28-16.00.20:521][744]LogOutputDevice: Error: [Callstack] 0x00007ffd7ea1f2ed UE4Editor-HotReload.dll!UnknownFunction []
+[2019.04.28-16.00.20:521][744]LogOutputDevice: Error: [Callstack] 0x00007ffd7ea2aa35 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.04.28-16.00.20:522][744]LogOutputDevice: Error: [Callstack] 0x00007ffd7ea2ae75 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.04.28-16.00.20:522][744]LogOutputDevice: Error: [Callstack] 0x00007ffd7ea22c76 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.04.28-16.00.20:522][744]LogOutputDevice: Error: [Callstack] 0x00007ffdba379234 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.28-16.00.20:522][744]LogOutputDevice: Error: [Callstack] 0x00007ffdba6f0b0d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.28-16.00.20:523][744]LogOutputDevice: Error: [Callstack] 0x00007ffdba6d81a6 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.28-16.00.20:523][744]LogOutputDevice: Error: [Callstack] 0x00007ffdba42e977 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.04.28-16.00.20:523][744]LogOutputDevice: Error: [Callstack] 0x00007ffdb483ca7e UE4Editor-Core.dll!UnknownFunction []
+[2019.04.28-16.00.20:523][744]LogOutputDevice: Error: [Callstack] 0x00007ffdb49f9e66 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.28-16.00.20:523][744]LogOutputDevice: Error: [Callstack] 0x00007ffdb49f9139 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.28-16.00.20:524][744]LogOutputDevice: Error: [Callstack] 0x00007ffd7ea205b3 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.04.28-16.00.20:524][744]LogOutputDevice: Error: [Callstack] 0x00007ffd7ea1dfc7 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.04.28-16.00.20:524][744]LogOutputDevice: Error: [Callstack] 0x00007ffd7ea1a04b UE4Editor-HotReload.dll!UnknownFunction []
+[2019.04.28-16.00.20:524][744]LogOutputDevice: Error: [Callstack] 0x00007ffd7ea1e8ff UE4Editor-HotReload.dll!UnknownFunction []
+[2019.04.28-16.00.20:524][744]LogOutputDevice: Error: [Callstack] 0x00007ffd7ea327c4 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.04.28-16.00.20:525][744]LogOutputDevice: Error: [Callstack] 0x00007ffdb47d2c22 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.28-16.00.20:525][744]LogOutputDevice: Error: [Callstack] 0x00007ff78ce78847 UE4Editor.exe!UnknownFunction []
+[2019.04.28-16.00.20:525][744]LogOutputDevice: Error: [Callstack] 0x00007ff78ce8596c UE4Editor.exe!UnknownFunction []
+[2019.04.28-16.00.20:525][744]LogOutputDevice: Error: [Callstack] 0x00007ff78ce859ea UE4Editor.exe!UnknownFunction []
+[2019.04.28-16.00.20:525][744]LogOutputDevice: Error: [Callstack] 0x00007ff78ce948da UE4Editor.exe!UnknownFunction []
+[2019.04.28-16.00.20:526][744]LogOutputDevice: Error: [Callstack] 0x00007ff78ce9659a UE4Editor.exe!UnknownFunction []
+[2019.04.28-16.00.20:526][744]LogOutputDevice: Error: [Callstack] 0x00007ffe001f4034 KERNEL32.DLL!UnknownFunction []
+[2019.04.28-16.00.20:526][744]LogOutputDevice: Error: [Callstack] 0x00007ffe00dc3691 ntdll.dll!UnknownFunction []
+[2019.04.28-16.00.20:526][744]LogOutputDevice: Error: 
+[2019.04.28-16.00.20:535][744]LogStats:                SubmitErrorReport -  0.000 s

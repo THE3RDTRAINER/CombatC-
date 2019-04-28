@@ -20,12 +20,12 @@ public:
 
 	//UPROPERTY(VisibleAnywhere)
 		//USkeletalMeshComponent* Enemy;
-	UPROPERTY(VisibleAnywhere)
-		UStaticMeshComponent* target;
-	UPROPERTY(EditDefaultsOnly)
-		UBoxComponent* BoxCollider;
+//	UPROPERTY(VisibleAnywhere)
+	//	UStaticMeshComponent* target;
+	//UPROPERTY(EditDefaultsOnly)
+		//UBoxComponent* BoxCollider;
 
-	void OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+	//void OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 
 
 
