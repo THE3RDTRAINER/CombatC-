@@ -7,6 +7,7 @@
 #include "GameFramework/Actor.h"
 #include "Components/BoxComponent.h"
 #include "Components/SkeletalMeshComponent.h"
+#include "Components/StaticMeshComponent.h"
 #include "BasicEnemy.generated.h"
 
 UCLASS()
@@ -18,17 +19,16 @@ public:
 	// Sets default values for this character's properties
 	ABasicEnemy();
 
-	//UPROPERTY(VisibleAnywhere)
-		//USkeletalMeshComponent* Enemy;
-//	UPROPERTY(VisibleAnywhere)
-	//	UStaticMeshComponent* target;
-	//UPROPERTY(EditDefaultsOnly)
-		//UBoxComponent* BoxCollider;
+	/*
+	UPROPERTY(VisibleAnywhere)
+		UStaticMeshComponent* target;
 
-	//void OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+	UPROPERTY(EditDefaultsOnly)
+		UBoxComponent* BoxCollider;
 
-
-
+	UFUNCTION()
+		void OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+		*/
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

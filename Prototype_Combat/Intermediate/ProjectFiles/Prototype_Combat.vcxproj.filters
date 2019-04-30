@@ -97,12 +97,18 @@
     <ClInclude Include="..\..\Source\Prototype_Combat\StatGeneration.h">
       <Filter>Source\Prototype_Combat</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Prototype_Combat\ColliderActor.h">
+      <Filter>Source\Prototype_Combat</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\Prototype_Combat\BasicEnemy.cpp">
       <Filter>Source\Prototype_Combat</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Prototype_Combat\StatGeneration.cpp">
+      <Filter>Source\Prototype_Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype_Combat\ColliderActor.cpp">
       <Filter>Source\Prototype_Combat</Filter>
     </ClCompile>
   </ItemGroup>
