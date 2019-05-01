@@ -5,6 +5,7 @@
 #include "GameFramework/Actor.h"
 #include "Components/StaticMeshComponent.h"
 #include "Components/BoxComponent.h"
+#include "StatGeneration.h"
 #include "ColliderActor.generated.h"
 
 //#include "Components/SkeletalMeshComponent.h"
@@ -26,6 +27,7 @@ public:
 
 	UFUNCTION()
 		void OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+	
 
 protected:
 	// Called when the game starts or when spawned

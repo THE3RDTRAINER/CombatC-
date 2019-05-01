@@ -23,7 +23,6 @@ AColliderActor::AColliderActor()
 	BoxCollider->SetNotifyRigidBodyCollision(true);
 	BoxCollider->BodyInstance.SetCollisionProfileName("PhysicsActor");
 	BoxCollider->OnComponentHit.AddDynamic(this, &AColliderActor::OnCompHit);
-	//why are you breaking this?? 
 }
 
 // Called when the game starts or when spawned
@@ -39,11 +38,12 @@ void AColliderActor::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	
 }
-
+//Make a function with a the damage and health stats
 
 void AColliderActor::OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit) {
 	//if (Health > 0) {
 	UE_LOG(LogTemp, Log, TEXT("HIT!"));
+
 	/*Health = Health - damage;
 }
 if (Health == 0) {

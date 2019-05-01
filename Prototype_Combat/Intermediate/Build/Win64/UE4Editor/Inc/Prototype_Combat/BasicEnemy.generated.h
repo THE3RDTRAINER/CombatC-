@@ -8,13 +8,47 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FVector;
+struct FHitResult;
 #ifdef PROTOTYPE_COMBAT_BasicEnemy_generated_h
 #error "BasicEnemy.generated.h already included, missing '#pragma once' in BasicEnemy.h"
 #endif
 #define PROTOTYPE_COMBAT_BasicEnemy_generated_h
 
-#define Prototype_Combat_Source_Prototype_Combat_BasicEnemy_h_16_RPC_WRAPPERS
-#define Prototype_Combat_Source_Prototype_Combat_BasicEnemy_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define Prototype_Combat_Source_Prototype_Combat_BasicEnemy_h_16_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnCompHit) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComp); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_STRUCT(FVector,Z_Param_NormalImpulse); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnCompHit(Z_Param_HitComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
+		P_NATIVE_END; \
+	}
+
+
+#define Prototype_Combat_Source_Prototype_Combat_BasicEnemy_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnCompHit) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComp); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_STRUCT(FVector,Z_Param_NormalImpulse); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnCompHit(Z_Param_HitComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
+		P_NATIVE_END; \
+	}
+
+
 #define Prototype_Combat_Source_Prototype_Combat_BasicEnemy_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABasicEnemy(); \

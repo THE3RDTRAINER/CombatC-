@@ -18,6 +18,15 @@ public:
 	// Sets default values for this component's properties
 	UStatGeneration();
 
+
+	UPROPERTY(EditAnywhere)
+		int _durability = 20;
+	UPROPERTY(EditAnywhere)
+		int _sharpness=20;
+	UPROPERTY(EditAnywhere)
+		int _health=60;
+
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -25,12 +34,5 @@ protected:
 public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-
-	UPROPERTY(EditAnywhere)
-		int _durability=20;
-	UPROPERTY(EditAnywhere)
-		int _sharpness;
-	UPROPERTY(EditAnywhere)
-		int _Health;
 
 };
