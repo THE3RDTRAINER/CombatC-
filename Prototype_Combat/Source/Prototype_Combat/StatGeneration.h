@@ -25,8 +25,11 @@ public:
 		int _sharpness=20;
 	UPROPERTY(EditAnywhere)
 		int _health=60;
-
-
+	UPROPERTY(EditAnywhere)
+		int damageModifier;
+	UPROPERTY(EditAnywhere)
+		int goldDropped=10;
+	
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;

@@ -48,5 +48,8 @@ void AColliderActor::OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor,
 }
 if (Health == 0) {
 	UE_LOG(LogTemp, Log, TEXT("Should be dead"));
+	playerGold= playerGold + &UStatGeneration::goldDropped; 
+	//Might use a function similar to get message on this 
+	//playerGold is not set yet, I just put it there because i remembered the shop.  
 }*/
 }  
