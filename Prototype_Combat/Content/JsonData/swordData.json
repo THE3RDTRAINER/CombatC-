@@ -1,0 +1,28 @@
+{"swords": [
+      {
+        "Blade": [
+         0
+        ]
+
+        "Crossguard": [
+          1
+        ]
+        "Hilt": [
+          1
+        ]
+        "Pommel": [
+          1
+        ]
+        "Price": [
+          10
+        ]
+        "Durablitliy": [
+          100
+        ]
+        "Sharpness": [
+          100
+        ]
+      }
+    ],
+    "dataTitle":"swordsdata"
+}
