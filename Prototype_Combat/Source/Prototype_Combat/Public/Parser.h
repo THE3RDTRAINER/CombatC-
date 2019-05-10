@@ -21,6 +21,24 @@ class PROTOTYPE_COMBAT_API UParser : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	UParser();
+	UPROPERTY()
+		int _blade;
+	UPROPERTY()
+		int _crossGuard;
+	UPROPERTY()
+		int _hilt;
+	UPROPERTY()
+		int _pommel;
+
+	UPROPERTY()
+		int _price;
+
+	UPROPERTY()
+		int _durability;
+
+	UPROPERTY()
+		int _sharpness;
+
 
 
 protected:
