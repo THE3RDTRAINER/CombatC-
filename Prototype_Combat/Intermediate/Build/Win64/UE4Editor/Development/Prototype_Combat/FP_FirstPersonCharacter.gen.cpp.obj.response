@@ -24,6 +24,7 @@
 /wd4838
 /we4668
 /I .
+/I E:\2019\CppCurrent\CombatCPP\Prototype_Combat\Source\Prototype_Combat\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -412,21 +413,22 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Inc\Prototype_Combat
-/I C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Source
-/I C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Source\Prototype_Combat
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\INCLUDE"
+/I E:\2019\CppCurrent\CombatCPP\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Inc\Prototype_Combat
+/I E:\2019\CppCurrent\CombatCPP\Prototype_Combat\Source
+/I E:\2019\CppCurrent\CombatCPP\Prototype_Combat\Source\Prototype_Combat\Public
+/I E:\2019\CppCurrent\CombatCPP\Prototype_Combat\Source\Prototype_Combat
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/FI"C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\Prototype_CombatEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\Prototype_CombatEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\Prototype_CombatEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Inc\Prototype_Combat\FP_FirstPersonCharacter.gen.cpp"
-/FI"C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\Definitions.Prototype_Combat.h"
-/Fo"C:\Users\Snowm\Documents\CombatC-\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\FP_FirstPersonCharacter.gen.cpp.obj"
+/FI"E:\2019\CppCurrent\CombatCPP\Prototype_Combat\Intermediate\Build\Win64\Prototype_CombatEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"E:\2019\CppCurrent\CombatCPP\Prototype_Combat\Intermediate\Build\Win64\Prototype_CombatEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"E:\2019\CppCurrent\CombatCPP\Prototype_Combat\Intermediate\Build\Win64\Prototype_CombatEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"E:\2019\CppCurrent\CombatCPP\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Inc\Prototype_Combat\FP_FirstPersonCharacter.gen.cpp"
+/FI"E:\2019\CppCurrent\CombatCPP\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\Definitions.Prototype_Combat.h"
+/Fo"E:\2019\CppCurrent\CombatCPP\Prototype_Combat\Intermediate\Build\Win64\UE4Editor\Development\Prototype_Combat\FP_FirstPersonCharacter.gen.cpp.obj"
 /TP
 /GR-
 /W4

@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeFP_FirstPersonCharacter() {}
 	PROTOTYPE_COMBAT_API UClass* Z_Construct_UClass_AFP_FirstPersonCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_Prototype_Combat();
+	ENGINE_API UClass* Z_Construct_UClass_UAnimationAsset_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
@@ -37,6 +38,11 @@ void EmptyLinkFunctionForGeneratedCodeFP_FirstPersonCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isAttacking_MetaData[];
+#endif
+		static void NewProp_isAttacking_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isAttacking;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_WeaponDamage_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_WeaponDamage;
@@ -45,9 +51,13 @@ void EmptyLinkFunctionForGeneratedCodeFP_FirstPersonCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_WeaponRange;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FireAnimation_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SwordAttack_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FireAnimation;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SwordAttack;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Finaly_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Finaly;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FireSound_MetaData[];
 #endif
@@ -92,6 +102,17 @@ void EmptyLinkFunctionForGeneratedCodeFP_FirstPersonCharacter() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_isAttacking_MetaData[] = {
+		{ "Category", "Gameplay" },
+		{ "ModuleRelativePath", "FP_FirstPerson/FP_FirstPersonCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_isAttacking_SetBit(void* Obj)
+	{
+		((AFP_FirstPersonCharacter*)Obj)->isAttacking = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_isAttacking = { UE4CodeGen_Private::EPropertyClass::Bool, "isAttacking", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(AFP_FirstPersonCharacter), &Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_isAttacking_SetBit, METADATA_PARAMS(Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_isAttacking_MetaData, ARRAY_COUNT(Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_isAttacking_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_WeaponDamage_MetaData[] = {
 		{ "Category", "Gameplay" },
 		{ "ModuleRelativePath", "FP_FirstPerson/FP_FirstPersonCharacter.h" },
@@ -108,13 +129,20 @@ void EmptyLinkFunctionForGeneratedCodeFP_FirstPersonCharacter() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_WeaponRange = { UE4CodeGen_Private::EPropertyClass::Float, "WeaponRange", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AFP_FirstPersonCharacter, WeaponRange), METADATA_PARAMS(Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_WeaponRange_MetaData, ARRAY_COUNT(Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_WeaponRange_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_FireAnimation_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_SwordAttack_MetaData[] = {
+		{ "Category", "Gameplay" },
+		{ "ModuleRelativePath", "FP_FirstPerson/FP_FirstPersonCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_SwordAttack = { UE4CodeGen_Private::EPropertyClass::Object, "SwordAttack", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AFP_FirstPersonCharacter, SwordAttack), Z_Construct_UClass_UAnimationAsset_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_SwordAttack_MetaData, ARRAY_COUNT(Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_SwordAttack_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_Finaly_MetaData[] = {
 		{ "Category", "Gameplay" },
 		{ "ModuleRelativePath", "FP_FirstPerson/FP_FirstPersonCharacter.h" },
 		{ "ToolTip", "AnimMontage to play each time we fire" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_FireAnimation = { UE4CodeGen_Private::EPropertyClass::Object, "FireAnimation", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AFP_FirstPersonCharacter, FireAnimation), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_FireAnimation_MetaData, ARRAY_COUNT(Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_FireAnimation_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_Finaly = { UE4CodeGen_Private::EPropertyClass::Object, "Finaly", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AFP_FirstPersonCharacter, Finaly), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_Finaly_MetaData, ARRAY_COUNT(Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_Finaly_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_FireSound_MetaData[] = {
 		{ "Category", "Gameplay" },
@@ -176,9 +204,11 @@ void EmptyLinkFunctionForGeneratedCodeFP_FirstPersonCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_Mesh1P = { UE4CodeGen_Private::EPropertyClass::Object, "Mesh1P", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000b0009, 1, nullptr, STRUCT_OFFSET(AFP_FirstPersonCharacter, Mesh1P), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_Mesh1P_MetaData, ARRAY_COUNT(Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_Mesh1P_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_isAttacking,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_WeaponDamage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_WeaponRange,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_FireAnimation,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_SwordAttack,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_Finaly,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_FireSound,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_GunOffset,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFP_FirstPersonCharacter_Statics::NewProp_BaseLookUpRate,
@@ -210,7 +240,7 @@ void EmptyLinkFunctionForGeneratedCodeFP_FirstPersonCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFP_FirstPersonCharacter, 4039887509);
+	IMPLEMENT_CLASS(AFP_FirstPersonCharacter, 2090570363);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AFP_FirstPersonCharacter(Z_Construct_UClass_AFP_FirstPersonCharacter, &AFP_FirstPersonCharacter::StaticClass, TEXT("/Script/Prototype_Combat"), TEXT("AFP_FirstPersonCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AFP_FirstPersonCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

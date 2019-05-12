@@ -100,6 +100,9 @@
     <ClInclude Include="..\..\Source\Prototype_Combat\ColliderActor.h">
       <Filter>Source\Prototype_Combat</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Prototype_Combat\Public\MyAnimInstance.h">
+      <Filter>Source\Prototype_Combat\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\Prototype_Combat\BasicEnemy.cpp">
@@ -111,5 +114,16 @@
     <ClCompile Include="..\..\Source\Prototype_Combat\ColliderActor.cpp">
       <Filter>Source\Prototype_Combat</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Prototype_Combat\Private\MyAnimInstance.cpp">
+      <Filter>Source\Prototype_Combat\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\Prototype_Combat\Public">
+      <UniqueIdentifier>{a8570be8-a77b-4d91-b616-64fcbacfdd21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Prototype_Combat\Private">
+      <UniqueIdentifier>{26c87ebe-37de-442e-ab92-cd99be1d703a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>

@@ -644,8 +644,10 @@
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\Prototype_Combat\ColliderActor.cpp" />
+    <ClCompile Include="..\..\Source\Prototype_Combat\Private\MyAnimInstance.cpp" />
     <ClCompile Include="..\..\Source\Prototype_Combat\StatGeneration.cpp" />
     <ClInclude Include="..\..\Source\Prototype_Combat\ColliderActor.h" />
+    <ClInclude Include="..\..\Source\Prototype_Combat\Public\MyAnimInstance.h" />
     <ClInclude Include="..\..\Source\Prototype_Combat\StatGeneration.h" />
     <None Include="..\..\Prototype_Combat.uproject" />
     <None Include="..\..\Source\Prototype_Combat.Target.cs" />
