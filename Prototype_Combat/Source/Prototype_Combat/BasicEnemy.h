@@ -7,6 +7,7 @@
 #include "GameFramework/Actor.h"
 #include "Components/BoxComponent.h"
 #include "Components/SkeletalMeshComponent.h"
+#include "StatGeneration.h"
 #include "Components/StaticMeshComponent.h"
 #include "BasicEnemy.generated.h"
 
@@ -28,6 +29,8 @@ public:
 
 	UFUNCTION()
 		void OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+	UPROPERTY(EditDefaultsOnly)
+		UStatGeneration* Stats;
 		
 protected:
 	// Called when the game starts or when spawned

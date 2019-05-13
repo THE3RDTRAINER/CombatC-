@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "BasicEnemy.h"
 #include "Components/SceneComponent.h"
 #include "Components/BoxComponent.h"
 #include "StatGeneration.h"
@@ -15,6 +16,8 @@ class PROTOTYPE_COMBAT_API ULimbSceneComponent : public USceneComponent
 	GENERATED_BODY()
 	UPROPERTY(EditDefaultsOnly, Category = "Enemy")
 		UStatGeneration* EnemyStats;
+	UPROPERTY(EditDefaultsOnly, Category = "Enemy")
+		UBoxComponent* EnemyCollider;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Collider")
 		UBoxComponent* BoxCollider;
