@@ -101,33 +101,33 @@ void UParser::Parsing( ) {
 	GLog->Log(JsonString);
 	FSwordParts parts;
 
-	char& testVal = stringjson.at(50);
+	char& testVal = stringjson.at(40);
 	parts._blade = testVal - 48;
 
-	testVal = stringjson.at(83);
+	testVal = stringjson.at(64);
 	parts._crossGuard = testVal - 48;
 
-	testVal = stringjson.at(111);
+	testVal = stringjson.at(82);
 	parts._hilt = testVal - 48;
 
-	testVal = stringjson.at(141);
+	testVal = stringjson.at(102);
 	parts._pommel = testVal - 48;
 
-	testVal = stringjson.at(170);
+	testVal = stringjson.at(121);
 	parts._price = ((testVal - 48) * 10);
-	testVal = stringjson.at(171);
+	testVal = stringjson.at(122);
 	parts._price = parts._price + (testVal - 48);
 
-	testVal = stringjson.at(204);
+	testVal = stringjson.at(145);
 	parts._sharpness = ((testVal - 48) * 10);
-	testVal = stringjson.at(205);
+	testVal = stringjson.at(146);
 	parts._sharpness =parts._sharpness + (testVal - 48);
 
-	testVal = stringjson.at(240);
+	testVal = stringjson.at(171);
 	parts._durability = ((testVal - 48) * 10);
-	testVal = stringjson.at(241);
+	testVal = stringjson.at(172);
 	parts._durability = parts._durability + (testVal - 48);
-	//FString conversion = FString::FromInt(_price);
-	//UE_LOG(LogTemp, Log, TEXT("converted (Method 2) val: %s"), *conversion);
+	FString conversion = FString::FromInt(parts._price);
+	UE_LOG(LogTemp, Log, TEXT("converted (Method 2) val: %s"), *conversion);
 
 }
