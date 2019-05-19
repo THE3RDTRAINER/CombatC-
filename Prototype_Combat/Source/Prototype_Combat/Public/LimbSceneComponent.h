@@ -16,9 +16,6 @@ class PROTOTYPE_COMBAT_API ULimbSceneComponent : public USceneComponent
 	GENERATED_BODY()
 	UPROPERTY(EditDefaultsOnly, Category = "Enemy")
 		UStatGeneration* EnemyStats;
-	UPROPERTY(EditDefaultsOnly, Category = "Enemy")
-		UBoxComponent* EnemyCollider;
-
 	UPROPERTY(EditDefaultsOnly, Category = "Collider")
 		UBoxComponent* BoxCollider;
 	UPROPERTY(EditDefaultsOnly, Category = "Enemy")
