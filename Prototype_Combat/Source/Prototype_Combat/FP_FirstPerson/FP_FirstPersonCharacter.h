@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "FP_FirstPersonCharacter.generated.h"
 
+
 class UInputComponent;
 class UCameraComponent;
 class USkeletalMeshComponent;
@@ -48,17 +49,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
 	FVector GunOffset;
 
-	/** Sound to play each time we fire */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
-	USoundBase* FireSound;
-
-	/** AnimMontage to play each time we fire */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
-	UAnimMontage* Finaly;
-
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
-		UAnimationAsset* SwordAttack;
 
 	/* This is when calculating the trace to determine what the weapon has hit */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
@@ -75,8 +65,9 @@ public:
 protected:
 
 
-	/** Fires a virtual projectile. */
+	/** Fires a virtual projectile. Should activate sequence to Anim play */
 	void OnFire();
+	//UE_LOG(LogTemp, Warning, TEXT("FP OnFire"));
 
 	/** Handles moving forward/backward */
 	void MoveForward(float Val);

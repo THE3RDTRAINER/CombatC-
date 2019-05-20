@@ -11,6 +11,8 @@
 #include "Kismet/GameplayStatics.h"
 #include "MotionControllerComponent.h"
 #include "Public/MyAnimInstance.h"
+#include "GameFramework/InputSettings.h" //testing includes vvvv
+#include "XRMotionControllerBase.h"
 
 
 #define COLLISION_WEAPON		ECC_GameTraceChannel1
@@ -47,8 +49,7 @@ AFP_FirstPersonCharacter::AFP_FirstPersonCharacter()
 	FP_Gun->SetOnlyOwnerSee(true);			// Only the owning player will see this mesh
 	FP_Gun->bCastDynamicShadow = false;		// Disallow mesh to cast dynamic shadows
 	FP_Gun->CastShadow = false;			// Disallow mesh to cast other shadows
-	FP_Gun->SetupAttachment(Mesh1P, TEXT("GripPoint"));
-
+	FP_Gun->SetupAttachment(Mesh1P, TEXT("GripPoint"));	
 	// Set weapon damage and range
 	WeaponRange = 5000.0f;
 	WeaponDamage = 500000.0f;
@@ -70,13 +71,14 @@ void AFP_FirstPersonCharacter::SetupPlayerInputComponent(class UInputComponent* 
 	check(PlayerInputComponent);
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);	
-	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AFP_FirstPersonCharacter::OnFire);
+	PlayerInputComponent->BindAction("Fire", IE_Released, this, &AFP_FirstPersonCharacter::OnFire);
 	PlayerInputComponent->BindAxis("MoveForward", this, &AFP_FirstPersonCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AFP_FirstPersonCharacter::MoveRight);
 	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
 	PlayerInputComponent->BindAxis("TurnRate", this, &AFP_FirstPersonCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AFP_FirstPersonCharacter::LookUpAtRate);
+
 }
 
 void AFP_FirstPersonCharacter::OnFire()
