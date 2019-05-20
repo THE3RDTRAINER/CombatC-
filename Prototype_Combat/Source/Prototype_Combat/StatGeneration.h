@@ -8,8 +8,8 @@
 #include "StatGeneration.generated.h"
 
 
-
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UCLASS(ClassGroup = "Custom", hidecategories = (Object, LOD, Lighting, TextureStreaming), editinlinenew, meta = (DisplayName = "Stat Generation", BlueprintSpawnableComponent))
+//UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class PROTOTYPE_COMBAT_API UStatGeneration : public UActorComponent
 {
 	GENERATED_BODY()

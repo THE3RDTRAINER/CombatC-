@@ -1,28 +1,14 @@
-{"swords": [
-      {
-        "Blade": [
-         0
-        ]
-
-        "Crossguard": [
-          1
-        ]
-        "Hilt": [
-          1
-        ]
-        "Pommel": [
-          1
-        ]
-        "Price": [
-          10
-        ]
-        "Durablitliy": [
-          40
-        ]
-        "Sharpness": [
-          70
-        ]
-      }
-    ],
-    "dataTitle":"swordsdata"
+{
+  "swords": [
+    {
+      "Blade": 0,
+      "Crossguard": 1,
+      "Hilt": 0,
+      "Pommel": 0,
+      "Price": 50,
+      "Sharpness": 40,
+      "Durablitliy": 60
+    }
+  ],
+  "dataTitle": "swordData"
 }

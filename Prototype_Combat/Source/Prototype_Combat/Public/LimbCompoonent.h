@@ -5,7 +5,9 @@
 #include "CoreMinimal.h"
 #include "StatGeneration.h"
 #include "Components/ActorComponent.h"
+#include "Components/ActorComponent.h"
 #include "Components/BoxComponent.h"
+#include "BasicEnemy.h"
 #include "LimbCompoonent.generated.h"
 
 
@@ -18,11 +20,9 @@ public:
 	// Sets default values for this component's properties
 	ULimbCompoonent();
 
-	UPROPERTY(EditDefaultsOnly, Category = "Enemy")
+	UPROPERTY(EditDefaultsOnly,Category = "Enemy")
 		UStatGeneration* EnemyStats;
 
-	UPROPERTY(EditDefaultsOnly, Category = "Collider")
-		UBoxComponent* BoxCollider;
 	UPROPERTY(EditDefaultsOnly, Category = "Enemy")
 		float damage;
 

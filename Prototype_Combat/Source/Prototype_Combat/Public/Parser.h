@@ -12,6 +12,31 @@
 #include "UnrealString.h"
 #include "Parser.generated.h"
 
+USTRUCT()
+struct FSwordParts : public FTableRowBase {
+	GENERATED_BODY()
+public:
+
+	UPROPERTY()
+		int _blade = 0;
+	UPROPERTY()
+		int _crossGuard = 0;
+	UPROPERTY()
+		int _hilt = 0;
+	UPROPERTY()
+		int _pommel = 0;
+
+	UPROPERTY()
+		int _price = 0;
+
+	UPROPERTY()
+		int _durability = 0;
+
+	UPROPERTY()
+		int _sharpness = 0;
+
+};
+
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class PROTOTYPE_COMBAT_API UParser : public UActorComponent
@@ -21,7 +46,11 @@ class PROTOTYPE_COMBAT_API UParser : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	UParser();
-	UPROPERTY()
+	//UPROPERTY()
+	//	FSwordParts parts;
+	UFUNCTION()
+		void Parsing();
+	/*UPROPERTY()
 		int _blade;
 	UPROPERTY()
 		int _crossGuard;
@@ -38,7 +67,7 @@ public:
 
 	UPROPERTY()
 		int _sharpness;
-
+		*/
 
 
 protected:
