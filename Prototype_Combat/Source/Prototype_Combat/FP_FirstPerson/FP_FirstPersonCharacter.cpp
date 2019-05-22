@@ -12,6 +12,9 @@
 #include "MotionControllerComponent.h"
 #include "Public/MyAnimInstance.h"
 #include "GameFramework/InputSettings.h" //testing includes vvvv
+#include "Interactable.h"
+#include "GameplayController.h"
+#include "Prototype_Combat.h"
 #include "XRMotionControllerBase.h"
 
 
@@ -41,7 +44,7 @@ AFP_FirstPersonCharacter::AFP_FirstPersonCharacter()
 	Mesh1P = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("CharacterMesh1P"));
 	Mesh1P->SetOnlyOwnerSee(true);				// Set so only owner can see mesh
 	Mesh1P->SetupAttachment(FirstPersonCameraComponent);	// Attach mesh to FirstPersonCameraComponent
-	Mesh1P->bCastDynamicShadow = false;			// Disallow mesh to cast dynamic shadows
+	Mesh1P->bCastDynamicShadow = false;			// Disallow mesh to cast dynamic shadows                                                Attatch sword to Mesh1P
 	Mesh1P->CastShadow = false;				// Disallow mesh to cast other shadows
 
 	// Create a gun mesh component
@@ -57,7 +60,12 @@ AFP_FirstPersonCharacter::AFP_FirstPersonCharacter()
 	// Default offset from the character location for projectiles to spawn
 	GunOffset = FVector(100.0f, 30.0f, 10.0f);
 }
+void AFP_FirstPersonCharacter::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
 
+	CheckForInteractables();
+}
 void AFP_FirstPersonCharacter::BeginPlay()
 {
 	Super::BeginPlay();
@@ -110,7 +118,34 @@ void AFP_FirstPersonCharacter::TurnAtRate(float Rate)
 	// Calculate delta for this frame from the rate information
 	AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
 }
+void AFP_FirstPersonCharacter::CheckForInteractables()
+{
+	FHitResult HitResult;
 
+	FVector StartTrace = FirstPersonCameraComponent->GetComponentLocation();
+	FVector EndTrace = (FirstPersonCameraComponent->GetForwardVector() * 300) + StartTrace;
+
+	FCollisionQueryParams QueryParams;
+	QueryParams.AddIgnoredActor(this);
+
+	AGameplayController* Controller = Cast<AGameplayController>(GetController());
+	if (!Controller) {
+		return;
+	}
+	if (GetWorld()->LineTraceSingleByChannel(HitResult, StartTrace, EndTrace, ECC_Visibility, QueryParams) && Controller)
+	{
+		if (AInteractable* Interactable = Cast<AInteractable>(HitResult.GetActor()))
+		{
+			Controller->CurrentInteractable = Interactable;
+			UE_LOG(LogTemp, Warning, TEXT("Weve done it igor! we created... LIFE"));
+			return;
+		}
+	}
+
+	//If we didnt hit anything or the thing we hit was not a interactable set the currentinteractable to nullptr
+	UE_LOG(LogTemp, Warning, TEXT("Believe or Not George isn't at home please leave a message at the beep"));
+	Controller->CurrentInteractable = nullptr;
+}
 void AFP_FirstPersonCharacter::LookUpAtRate(float Rate)
 {
 	// Calculate delta for this frame from the rate information

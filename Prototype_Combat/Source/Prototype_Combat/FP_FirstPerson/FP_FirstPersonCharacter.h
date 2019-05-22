@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Engine/DataTable.h"
 #include "FP_FirstPersonCharacter.generated.h"
 
 
@@ -12,6 +13,90 @@ class UCameraComponent;
 class USkeletalMeshComponent;
 class USoundBase;
 class UAnimMontage;
+
+USTRUCT(BlueprintType)
+struct FShopInfo : public FTableRowBase
+{
+	GENERATED_BODY()
+
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FName ItemID;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TSubclassOf<class AItemActor> ShopItem;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FText ItemName;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int32 PriceValue;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool bItemBought;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool bBoughtItemRemoved;
+
+};
+
+USTRUCT(BlueprintType)
+struct FInventoryItem : public FTableRowBase
+{
+
+	GENERATED_BODY()
+
+public:
+	FInventoryItem()
+	{
+		Name = FText::FromString("item");
+		Action = FText::FromString("Use");
+		Price = FText::FromString("10");
+		Durability = FText::FromString("100");
+		Sharp = FText::FromString("25");
+		Description = FText::FromString("Write description here.");
+	}
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FName ItemID;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TSubclassOf<class APickup> ItemPickup;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FText Name;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FText Action;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		UTexture2D* Thumbnail;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FText Durability;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FText Sharp;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FText Price;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FText Description;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool bCanBeUsed;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool bCanBeBought;
+
+	bool operator==(const FInventoryItem& Item) const
+	{
+		if (ItemID == Item.ItemID)
+			return true;
+		else return false;
+	}
+
+};
 
 UCLASS(config=Game)
 class AFP_FirstPersonCharacter : public ACharacter
@@ -32,6 +117,8 @@ class AFP_FirstPersonCharacter : public ACharacter
 
 public:
 	AFP_FirstPersonCharacter();
+
+	virtual void Tick(float DeltaTime) override;
 
 protected:
 	virtual void BeginPlay();
@@ -63,6 +150,7 @@ public:
 		bool isAttacking;
 
 protected:
+	void CheckForInteractables();
 
 
 	/** Fires a virtual projectile. Should activate sequence to Anim play */
