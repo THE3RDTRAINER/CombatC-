@@ -41,35 +41,3 @@ public:
 //public: 
 
 //};
-
-USTRUCT()
-struct FSword
-{
-
-	
-	GENERATED_BODY()
-
-public:
-	UPROPERTY()
-	FString blade;
-
-	UPROPERTY()
-	FString crossGuard;
-
-	UPROPERTY()
-	FString hilt;
-
-	UPROPERTY()
-	FString pommel;
-
-	UPROPERTY()
-	int16 price;
-
-	UPROPERTY()
-	int16 durability;
-
-	UPROPERTY()
-	int16 sharpness;
-
-
-};

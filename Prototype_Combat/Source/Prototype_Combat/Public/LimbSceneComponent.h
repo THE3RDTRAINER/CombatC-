@@ -7,6 +7,7 @@
 #include "Components/SceneComponent.h"
 #include "Components/BoxComponent.h"
 #include "StatGeneration.h"
+#include "Sword.h"
 #include "LimbSceneComponent.generated.h"
 
 
@@ -14,15 +15,15 @@ UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class PROTOTYPE_COMBAT_API ULimbSceneComponent : public USceneComponent
 {
 	GENERATED_BODY()
-	UPROPERTY(EditDefaultsOnly, Category = "Enemy")
+	UPROPERTY(EditAnywhere, Category = "Limb")
 		UStatGeneration* EnemyStats;
-	UPROPERTY(EditDefaultsOnly, Category = "Collider")
+	UPROPERTY(EditAnywhere, Category = "Limb")
 		UBoxComponent* BoxCollider;
-	UPROPERTY(EditDefaultsOnly, Category = "Enemy")
+	UPROPERTY(EditAnywhere, Category = "Limb")
 		float damage;
 
 	UFUNCTION()
-		void OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+		void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
 public:	
 	// Sets default values for this component's properties
