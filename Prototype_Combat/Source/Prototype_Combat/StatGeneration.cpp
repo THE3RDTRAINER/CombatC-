@@ -12,9 +12,6 @@
 using namespace std;
 
 
-AActor Destory(AActor);
-
-//_sharpness and _durablility, need to be called from the sword JSON 
 
 // Sets default values for this component's properties
 UStatGeneration::UStatGeneration()
@@ -44,16 +41,5 @@ void UStatGeneration::TickComponent(float DeltaTime, ELevelTick TickType, FActor
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 	
-	FHitResult Hit;
-
-	// ...
-	//if () {
-	//_durability = _durability - 5;
-	//}
-
-
-	if (&UJSONReaderComponenent::_durability == 0) {
-		//AActor Destroy(AActor);
-	}
 
 }

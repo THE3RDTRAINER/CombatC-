@@ -18,14 +18,34 @@ UParser::UParser()
 void UParser::BeginPlay()
 {
 	Super::BeginPlay();
-	//FSwordParts parts;
-	 UParser::Parsing();
+
+	  
 	// ...
-//Gets and converts JSON To string
-	//const FString JsonFilePath = FPaths::ProjectContentDir() + "/JsonData/sworddata.json";
-	//FString JsonString; //Converted
-	//FFileHelper::LoadFileToString(JsonString, *JsonFilePath);
-	//TSharedPtr<FJsonObject> JsonParsed;
+  //Gets and converts JSON To string
+	const FString JsonFilePath = FPaths::ProjectContentDir() + "/JsonData/swordData.json";
+	FString JsonString; //Converted
+	FFileHelper::LoadFileToString(JsonString, *JsonFilePath);
+	//Display the JSON 
+	GLog->Log("JSON String: ");
+	GLog->Log(JsonString);  
+	//Nick's Parser (Doesn't work) 
+	
+	 //Create a json object to store the information from the json string
+	//The json reader is used to deserialize the json object later on
+	 //TSharedPtr<FJsonObject> JsonObject = MakeShareable(new FJsonObject());
+	 //TSharedRef<TJsonReader<TCHAR>> JsonReader = TJsonReaderFactory<TCHAR>::Create(JsonString);
+
+	 //if (FJsonSerializer::Deserialize(JsonReader, JsonObject) && JsonObject.IsValid())
+	 //{
+		// //Getting various properties
+		//
+		// GLog->Log("it is:" + JsonObject->GetObjectField("swords")->GetIntegerField("Blade")) ;
+	 //}
+	 //else
+	 //{
+		// GLog->Log("couldn't deserialize");
+	// }
+
 
 	//string stringjson = string(TCHAR_TO_UTF8(*JsonString));
 
@@ -85,21 +105,29 @@ void UParser::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponen
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// ...
+
+	// Continuoisly calls function 
+	UParser::Parsing(); 
+
 }
 
+//Function to parse the JSON 
 void UParser::Parsing( ) {
+
+	//Get the file 
 	const FString JsonFilePath = FPaths::ProjectContentDir() + "/JsonData/sworddata.json";
 	FString JsonString; 
-	//Converted
+	//Convert JSON To FString, and a String  
 	FFileHelper::LoadFileToString(JsonString, *JsonFilePath);
 	
 
 	string stringjson = string(TCHAR_TO_UTF8(*JsonString));
 
-
-	GLog->Log("JSON String: ");
-	GLog->Log(JsonString);
+	
+	//Call the function 
 	FSwordParts parts;
+
+	//Searches the JSON for the values needed 
 
 	char& testVal = stringjson.at(40);
 	parts._blade = testVal - 48;
@@ -127,6 +155,7 @@ void UParser::Parsing( ) {
 	parts._durability = ((testVal - 48) * 10);
 	testVal = stringjson.at(172);
 	parts._durability = parts._durability + (testVal - 48);
+	//checks that the values are correct and displays the price to see if it matches what's expected 
 	FString conversion = FString::FromInt(parts._price);
 	UE_LOG(LogTemp, Log, TEXT("converted (Method 2) val: %s"), *conversion);
 
