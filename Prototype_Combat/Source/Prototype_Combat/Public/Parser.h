@@ -39,7 +39,7 @@ public:
 };
 
 
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UCLASS(ClassGroup = "Custom", hidecategories = (Object, LOD, Lighting, TextureStreaming), editinlinenew, meta = (DisplayName = "Parser", BlueprintSpawnableComponent))
 class PROTOTYPE_COMBAT_API UParser : public UActorComponent
 {
 	GENERATED_BODY()
@@ -47,6 +47,8 @@ class PROTOTYPE_COMBAT_API UParser : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	UParser();
+	UPROPERTY(VisibleAnywhere, Category = "Sword parts")
+		FSwordParts parts;
 	
 	UFUNCTION()
 		void Parsing();

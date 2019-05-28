@@ -125,7 +125,7 @@ void UParser::Parsing( ) {
 
 	
 	//Call the function 
-	FSwordParts parts;
+	//FSwordParts parts;
 
 	//Searches the JSON for the values needed 
 
