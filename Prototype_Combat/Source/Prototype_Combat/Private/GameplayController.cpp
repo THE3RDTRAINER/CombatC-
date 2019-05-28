@@ -3,7 +3,7 @@
 #include "GameplayController.h"
 #include "Interactable.h"
 #include "InventoryGamemode.h"
-#include "FP_FirstPersonCharacter.h"
+#include "../FP_FirstPerson/FP_FirstPersonCharacter.h"
 #include "Prototype_Combat.h"
 
 void AGameplayController::SetupInputComponent()
@@ -30,14 +30,14 @@ void AGameplayController::Interact()
 void AGameplayController::AddItemToInventoryByID(FName ID)
 {
 
-	AInventoryGameMode* GameMode = Cast<AInventoryGameMode>(GetWorld()->GetAuthGameMode());
+	AInventoryGamemode* GameMode = Cast<AInventoryGamemode>(GetWorld()->GetAuthGameMode());
 	UDataTable* ItemTable = GameMode->GetItemDB();
 
-	FInventoryItem* ItemToAdd = ItemTable->FindRow<FInventoryItem>(ID, "");
+	//FInventoryItem* ItemToAdd = ItemTable->FindRow<FInventoryItem>(ID, "");
 
-	if (ItemToAdd)
+	/*if (ItemToAdd)
 	{
 		Inventory.Add(*ItemToAdd);
-	}
+	}*/
 }
 
