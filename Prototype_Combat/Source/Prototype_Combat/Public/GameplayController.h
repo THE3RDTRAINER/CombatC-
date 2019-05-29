@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
-#include "../FP_FirstPerson/FP_FirstPersonCharacter.h"
+#include "FP_FirstPersonCharacter.h"
 #include "GameplayController.generated.h"
 
 /**
